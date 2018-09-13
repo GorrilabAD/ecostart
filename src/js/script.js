@@ -1,5 +1,17 @@
 /* Template	:	ICO Crypto v1.3.1 */
 $(document).ready(function(){
+	// On Scroll Animation
+	// var $aniKey = $('.animated');
+	// if(
+	// 	$('.mypoint').waypoint && $aniKey.length > 0){
+	// 	$win.on('load', function() {
+	// 		$aniKey.each(function(){
+	// 		var aniWay = $(this), typ = aniWay.data("animate"), dur = aniWay.data("duration"), dly = aniWay.data("delay");
+	// 		aniWay.waypoint(function(){
+	// 		});
+	// 	});
+	// }
+
 	var $win = $(window), $body_m = $('body'), $navbar = $('.navbar');
 	var $scroll = $win.scrollTop();
 
@@ -15,19 +27,137 @@ $(document).ready(function(){
 	$win.on('resize', function () {
 		wwCurrent = winwidth();
 	});
-
-	var show = true;
-  $(window).on('scroll', function () {
-
-    if(!show) return false;
-    var window_top = $(window).scrollTop();
-    var rowm = $("#row_card").offset().top;
-		console.log(window_top)
-		if(window_top > 440) {
-			rowm.toggleClass('fadeInUp');
-		}
+	$(window).scroll(function() {
+    $('.movTop').each(function(){
+      var imagePos = $(this).offset().top;
+      var topOfWindow = $(window).scrollTop();
+      if (imagePos < topOfWindow+750) {
+        $(this).addClass('fadeInUp').css("visibility","visible");
+      }
+    });
+  });
+	$(window).scroll(function() {
+    $('.movLeft').each(function(){
+      var imagePos = $(this).offset().top;
+      var topOfWindow = $(window).scrollTop();
+      if (imagePos < topOfWindow+750) {
+        $(this).addClass('fadeInLeft').css("visibility","visible");
+      }
+    });
+  });
+	$(window).scroll(function() {
+    $('.movDown').each(function(){
+      var imagePos = $(this).offset().top;
+      var topOfWindow = $(window).scrollTop();
+      if (imagePos < topOfWindow+750) {
+        $(this).addClass('fadeInDown').css("visibility","visible");
+      }
+    });
+  });
+	$(window).scroll(function() {
+    $('.movRight').each(function(){
+      var imagePos = $(this).offset().top;
+      var topOfWindow = $(window).scrollTop();
+      if (imagePos < topOfWindow+750) {
+        $(this).addClass('fadeInRight').css("visibility","visible");
+      }
+    });
   });
 
+	// var show = true;
+	// $(window).on('scroll', function () {
+	// var aniWay = $(this),
+	// typ = aniWay.data("animate"),
+	// dur = aniWay.data("duration"),
+	// dly = aniWay.data("delay");
+	// var $aniKey = $('.animated');
+	// if(!show) return false;
+	// 	var wt = $(window).scrollTop();
+	// 	var rowm = $(".heading-sm").offset();
+	// 	var cardt = $(".rating-item").offset().top;
+	// 	var $card = $(".rating-item");
+	// 	var abt = 700;
+	//
+	// 	var $p1 = $('#mp1').offset().top;
+	// 	var $p2 = $('#mp2').offset().top;
+	// 	var $p3 = $('#mp3').offset().top;
+	// 	var $p4 = $('#mp4').offset().top;
+	// 	var $p5 = $('#mp5').offset().top;
+	// 	var $p6 = $('#mp6').offset().top;
+	// 	var $p7 = $('#mp7').offset().top;
+	// 	var $p8 = $('#mp8').offset().top;
+	// 	var $p9 = $('#mp9').offset().top;
+	// 	var $p10 = $('#mp10').offset().top;
+	// 	console.log($p1 - wt )
+	// 	if (($p1 - wt ) - abt <= 0) {
+	// 		$('#mp1').animate({
+  //   	visibility: 'visible',
+  // }, 5000, function() {
+  //   // Animation complete.
+  // });
+	// 	};
+	// 	if (($p2 - wt ) - abt <= 0) {
+	// 		$('#mp2').animate({
+  //   	visibility: 'visible',
+  // }, 5000, function() {
+  //   // Animation complete.
+  // }).css("visibility","visible");
+	// 	};
+	// 	if (($p3 - wt ) - abt <= 0) {
+	// 		$('#mp3').animate({
+  //   	visibility: 'visible',
+  // }, 5000, function() {
+  //   // Animation complete.
+  // }).css("visibility","visible");
+	// 	};
+	// 	if (($p4 - wt ) - abt <= 0) {
+	// 		$('#mp4').animate({
+  //   	visibility: 'visible',
+  // }, 5000, function() {
+  //   // Animation complete.
+  // }).css("visibility","visible");
+	// 	};
+	// 	if (($p5 - wt ) - abt <= 0) {
+	// 		$('#mp5').animate({
+  //   	visibility: 'visible',
+  // }, 5000, function() {
+  //   // Animation complete.
+  // }).css("visibility","visible");
+	// 	};
+	// 	if (($p6 - wt ) - abt <= 0) {
+	// 		$('#mp6').animate({
+  //   	visibility: 'visible',
+  // }, 5000, function() {
+  //   // Animation complete.
+  // }).css("visibility","visible");
+	// 	};
+	// 	if (($p7 - wt ) - abt <= 0) {
+	// 		$('#mp7').animate({
+	// 		visibility: 'visible',
+	// }, 5000, function() {
+	// 	// Animation complete.
+	// }).css("visibility","visible");
+	//
+	// 	};
+	// 	if (($p8 - wt ) - abt <= 0) {
+	// 			$('#mp8').animate({
+	//     	visibility: 'visible',
+	//   }, 5000, function() {
+	//     // Animation complete.
+	//   }).css("visibility","visible");
+	//
+	// 	};
+	// 	if (($p9 - wt ) - abt <= 0) {
+	// 			$('#mp9').addClass('fadeInUp');
+	// 	};
+	// 	if (($p10 - wt ) - abt <= 0) {
+	// 			$('#mp10').addClass('fadeInUp');
+	// 	};
+	// 	// if (($p11 - wt ) - abt <= 0) {
+	// 	// 		$('#mp11').removeClass('animated');
+	// 	// };
+	//
+	// });
 	// Sticky
 	var $is_sticky = $('.is-sticky');
 	if ($is_sticky.length > 0 ) {
@@ -395,24 +525,7 @@ $(document).ready(function(){
 		});
 	}
 
-	// On Scroll Animation
-	var $aniKey = $('.animated');
-	if($().waypoint && $aniKey.length > 0){
-		$win.on('load', function() {
-			$aniKey.each(function(){
-			var aniWay = $(this), typ = aniWay.data("animate"), dur = aniWay.data("duration"), dly = aniWay.data("delay");
-			aniWay.waypoint(function(){
-				aniWay.addClass("animated "+typ).css("visibility", "visible");
-				if(dur){
-					aniWay.css('animation-duration', dur+'s');
-				}
-				if(dly){
-					aniWay.css('animation-delay', dly+'s');
-				}
-				}, { offset: '93%' });
-			});
-		});
-	}
+
 
 	// Preloader
 	var $preload = $('#preloader'), $loader = $('#loader');

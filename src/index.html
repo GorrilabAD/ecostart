@@ -1,1449 +1,1257 @@
 <!DOCTYPE html>
+
 <html>
-   <head>
-      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width,initial-scale=1">
-      <title>EcoStart - Crypto currency for our planet.</title>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/webfont/1.6.28/webfontloader.js">
 
-      </script>
-      <link rel="stylesheet" href="./css/vendor.bundle.css">
-      <link rel="stylesheet" href="./css/style.css">
-      <link rel="stylesheet" href="./css/theme.css">
-      <link rel="stylesheet" href="./css/animate.css">
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>EcoStart - Crypto currency for our planet.</title>
+  <link rel="stylesheet" href="./css/vendor.bundle.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/theme.css">
 
-   </head>
-   <body class="theme-light io-jasmine no-touch" data-spy="scroll" data-target="#mainnav" data-offset="80">
-      <div id="app">
-         <div>
-            <div>
-               <header class="site-header is-sticky has-fixed">
-                  <div id="mainnav" class="navbar navbar-expand-lg is-transparent">
-                     <nav class="container">
-                        <a
-                           data-delay=".65"
-                           href="http://eco-start.com/"
-                           class="navbar-brand animated fadeInDown"
-                           style="visibility: visible; animation-delay: 0.65s;">
-                        <images alt="logo" src="./images/logo.png" class="logo logo-dark">
-                        <img alt="logo" src="./images/logo-white.png" class="logo logo-light">
-                        </a>
-                        <button
-                           type="button"
-                           data-toggle="collapse"
-                           data-target="#navbarToggle"
-                           class="navbar-toggler collapsed"
-                           aria-expanded="false">
-                        <span class="navbar-toggler-icon">
-                        <span class="ti ti-align-justify">
-                        </span>
-                        </span>
-                        </button>
-                        <div id="navbarToggle" class="collapse navbar-collapse justify-content-end">
-                           <ul
-                              data-delay=".9"
-                              class="navbar-nav animated remove-animation fadeInUp"
-                              style="visibility: visible; animation-delay: 0.9s;">
-                              <li class="nav-item fadeInUp" style="box-sizing: unset; animation-delay: 0.2s;">
-                                 <a href="http://eco-start.com/#about" class="nav-link menu-link"> Информация </a>
-                              </li>
-                              <li class="nav-item fadeInUp" style="box-sizing: unset; animation-delay: 0.3s;">
-                                 <a href="http://eco-start.com/#why" class="nav-link menu-link"> Возможности </a>
-                              </li>
-                              <li class="nav-item fadeInUp" style="box-sizing: unset; animation-delay: 0.4s;">
-                                 <a href="http://eco-start.com/#roadmap" class="nav-link menu-link"> Карта</a>
-                              </li>
-                              <li class="nav-item fadeInUp" style="box-sizing: unset; animation-delay: 0.5s;">
-                                 <a href="http://eco-start.com/#tokenSale" class="nav-link menu-link active"> Продажа </a>
-                              </li>
-                              <li class="nav-item fadeInUp" style="box-sizing: unset; animation-delay: 0.6s;">
-                                 <a href="http://eco-start.com/#team" class="nav-link menu-link"> Команда </a>
-                              </li>
-                              <li class="nav-item fadeInUp" style="box-sizing: unset; animation-delay: 0.7s;">
-                                 <a href="http://eco-start.com/#docs" class="nav-link menu-link"> Документы </a>
-                              </li>
-                              <li class="nav-item fadeInUp" style="box-sizing: unset; animation-delay: 0.8s;">
-                                 <a href="http://eco-start.com/#faq" class="nav-link menu-link"> FAQ </a>
-                              </li>
-                              <li class="nav-item fadeInUp" style="box-sizing: unset; animation-delay: 0.9s;">
-                                 <a href="http://eco-start.com/#contact" class="nav-link menu-link"> Контакты </a>
-                              </li>
-                           </ul>
-                           <ul
-                              data-delay="1.15"
-                              class="navbar-btns animated remove-animation fadeInDown"
-                              style="visibility: visible; animation-delay: 1.15s;">
-                              <li class="nav-item lang-switch">
-                                 <!---->
-                                 <a href="http://eco-start.com/#" data-toggle="dropdown">
-                                 Русский
-                                 <em class="ti ti-angle-down"></em>
-                                 </a>
-                                 <div class="dropdown-menu">
-                                    <a href="" class="dropdown-item">Русский</a>
-                                    <a href="" class="dropdown-item">English</a>
-                                 </div>
-                              </li>
-                              <li class="nav-item">
-                                 <a href="http://sale.eco-start.com/" class="nav-link btn btn-sm btn-outline menu-link">Присоединиться</a>
-                              </li>
-                           </ul>
-                        </div>
-                     </nav>
+  </script>
+</head>
+
+<body class="theme-light io-jasmine no-touch" data-spy="scroll" data-target="#mainnav" data-offset="80">
+  <div id="app">
+    <div>
+      <div>
+        <header class="site-header is-sticky has-fixed">
+          <div id="mainnav" class="navbar navbar-expand-lg is-transparent">
+            <nav class="container">
+              <a data-animate="fadeInDown" data-delay=".65" href="http://eco-start.com/" class="navbar-brand animated fadeInDown" style="visibility: visible; animation-delay: 0.65s;"><img alt="logo" src="./images//logo.png" srcset="/static/images/logo2x.png 2x" class="logo logo-dark"> <img alt="logo" src="./images/logo-white.png" srcset="/static/images/logo-white2x.png 2x" class="logo logo-light"></a>
+              <button type="button" data-toggle="collapse" data-target="#navbarToggle" class="navbar-toggler"><span class="navbar-toggler-icon"><span class="ti ti-align-justify"></span></span>
+              </button>
+              <div id="navbarToggle" class="collapse navbar-collapse justify-content-end">
+                <ul data-animate="fadeInDown" data-delay=".9" class="navbar-nav animated remove-animation fadeInDown" style="visibility: visible; animation-delay: 0.9s;">
+                  <li class="nav-item" style="box-sizing: unset;"><a href="#about" class="nav-link menu-link"> Информация </a></li>
+                  <li class="nav-item" style="box-sizing: unset;"><a href="#why" class="nav-link menu-link"> Возможности </a></li>
+                  <li class="nav-item" style="box-sizing: unset;"><a href="#roadmap" class="nav-link menu-link"> Карта</a></li>
+                  <li class="nav-item" style="box-sizing: unset;"><a href="#tokenSale" class="nav-link menu-link"> Продажа </a></li>
+                  <li class="nav-item" style="box-sizing: unset;"><a href="#team" class="nav-link menu-link"> Команда </a></li>
+                  <li class="nav-item" style="box-sizing: unset;"><a href="#docs" class="nav-link menu-link"> Документы </a></li>
+                  <li class="nav-item" style="box-sizing: unset;"><a href="#faq" class="nav-link menu-link"> FAQ </a></li>
+                  <li class="nav-item" style="box-sizing: unset;"><a href="#contact" class="nav-link menu-link"> Контакты </a></li>
+                </ul>
+                <ul data-animate="fadeInDown" data-delay="1.15" class="navbar-btns animated remove-animation fadeInDown" style="visibility: visible; animation-delay: 1.15s;">
+                  <li class="nav-item lang-switch">
+                    <!----><a href="#" data-toggle="dropdown">Русский <em class="ti ti-angle-down"></em></a>
+                    <div class="dropdown-menu"><a href="javascript:void(0)" class="dropdown-item">Русский</a> <a href="javascript:void(0)" class="dropdown-item">English</a></div>
+                  </li>
+                  <li class="nav-item"><a href="http://sale.eco-start.com/" class="nav-link btn btn-sm btn-outline menu-link">Присоединиться</a></li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+          <div id="header" class="banner banner-full d-flex flex-column banner-jasmine">
+            <div class="background-shape"></div>
+            <div class="container zi6">
+              <div class="banner-content">
+                <div class="row justify-content-center">
+                  <div class="col-lg-8 text-center">
+                    <div class="header-txt tab-center mobile-center">
+                      <h1 data-animate="fadeInUp" data-delay="1.35" class="animated fadeInUp" style="visibility: visible; animation-delay: 1.35s;"> Мы создаем криптовалюту для нашей планеты. <br> TerraEcoCoin </h1>
+                      <p data-animate="fadeInUp" data-delay="1.45" class="lead animated fadeInUp" style="visibility: visible; animation-delay: 1.45s;">Новый подход по финансированию экологических проектов
+                        <br> с использованием технологии Blockchain.</p>
+                      <ul data-animate="fadeInUp" data-delay="1.55" class="btns no-space animated fadeInUp" style="visibility: visible; animation-delay: 1.55s;">
+                        <li><a target="_blank" href="http://eco-start.com/static/docs/whitepaper.pdf" class="btn btn-icon-s2"><em class="ti ti-files"></em> White Paper</a></li>
+                        <li><a target="_blank" href="http://eco-start.com/static/docs/onepager_en.pdf" class="btn btn-icon-s2"><em class="ti ti-file"></em> One Pager</a></li>
+                        <li><a href="https://www.youtube.com/watch?v=SSo_EIwHSd4" class="btn btn-icon-s2 video-play"><em class="ti ti-control-play"></em> How it works</a></li>
+                      </ul>
+                    </div>
                   </div>
-                  <div id="header" class="banner banner-full d-flex flex-column banner-jasmine">
-                     <div class="background-shape">
-                     </div>
-                     <div class="container zi6 fadeInLeft justify-content-center">
-                        <div class="banner-content fadeInLeft">
-                           <div class="row justify-content-center">
-                              <div class="col-lg-8 text-center">
-                                 <div class="header-txt tab-center mobile-center">
-                                    <h1 data-animate="fadeInLeft" data-delay="1.35" class="animated fadeInUp" style="visibility: visible; animation-delay: 1.35s;">
-                                       Мы создаем криптовалюту для нашей планеты.
-                                       <br> TerraEcoCoin
-                                    </h1>
-                                    <p
-                                       data-animate="fadeInUp"
-                                       data-delay="1.45"
-                                       class="lead animated fadeInLeft"
-                                       style="visibility: visible; animation-delay: 1.45s;">Новый подход по финансированию экологических проектов <br>
-                                       с использованием технологии Blockchain.
-                                    </p>
-                                    <ul
-                                       data-animate="fadeInUp"
-                                       data-delay="1.55"
-                                       class="btns no-space animated fadeInLeft"
-                                       style="visibility: visible; animation-delay: 1.55s;">
-                                       <li>
-                                          <a target="_blank" href="http://eco-start.com/static/docs/whitepaper.pdf" class="btn btn-icon-s2">
-                                          <em class="ti ti-files">
-                                          </em> White Paper</a>
-                                       </li>
-                                       <li>
-                                          <a target="_blank" href="http://eco-start.com/static/docs/onepager_en.pdf" class="btn btn-icon-s2">
-                                          <em class="ti ti-file"></em> One Pager</a>
-                                       </li>
-                                       <li>
-                                          <a href="https://www.youtube.com/watch?v=SSo_EIwHSd4" class="btn btn-icon-s2 video-play">
-                                          <em class="ti ti-control-play"></em> How it works</a>
-                                       </li>
-                                    </ul>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="container mt-auto justify-content-center">
-                        <div class="banner-content ">
-                           <div class="row justify-content-center">
-                              <div class="col-lg-8 text-center">
-                                 <div class="countdown-box text-center">
-                                    <div data-animate="fadeIn" data-delay="1.65" class="circle-animation animated fadeIn" style="visibility: visible; animation-delay: 1.65s;">
-                                       <div class="circle-animation-l1 ca">
-                                          <span class="circle-animation-l1-d1 ca-dot ca-color-1">
-                                          </span>
-                                          <span class="circle-animation-l1-d2 ca-dot ca-color-2">
-                                          </span>
-                                          <span class="circle-animation-l1-d3 ca-dot ca-color-3">
-                                          </span>
-                                          <span class="circle-animation-l1-d4 ca-dot ca-color-1">
-                                          </span>
-                                          <span class="circle-animation-l1-d5 ca-dot ca-color-2">
-                                          </span>
-                                          <span class="circle-animation-l1-d6 ca-dot ca-color-3">
-                                          </span>
-                                       </div>
-                                       <div class="circle-animation-l2 ca">
-                                          <span class="circle-animation-l2-d1 ca-dot ca-color-1">
-                                          </span>
-                                          <span class="circle-animation-l2-d2 ca-dot ca-color-3">
-                                          </span>
-                                          <span class="circle-animation-l2-d3 ca-dot ca-color-2">
-                                          </span>
-                                          <span class="circle-animation-l2-d4 ca-dot ca-color-1">
-                                          </span>
-                                          <span class="circle-animation-l2-d5 ca-dot ca-color-2">
-                                          </span>
-                                       </div>
-                                       <div class="circle-animation-l3 ca">
-                                          <span class="circle-animation-l3-d1 ca-dot ca-color-1">
-                                          </span>
-                                          <span class="circle-animation-l3-d2 ca-dot ca-color-3">
-                                          </span>
-                                          <span class="circle-animation-l3-d3 ca-dot ca-color-2">
-                                          </span>
-                                          <span class="circle-animation-l3-d4 ca-dot ca-color-1">
-                                          </span>
-                                          <span class="circle-animation-l3-d5 ca-dot ca-color-2">
-                                          </span>
-                                       </div>
-                                    </div>
-                                    <div class="row justify-content-center">
-                                       <div class="col-md-6">
-                                          <h6
-                                             data-animate="fadeInUp"
-                                             data-delay="1.75"
-                                             class="animated fadeInUp"
-                                             style="visibility: visible; animation-delay: 1.75s;">
-                                             Продажа начнется через
-                                          </h6>
-                                          <div data-animate="fadeInUp" data-delay="1.85" data-date="2018/09/14" class="token-countdown d-flex align-content-stretch animated fadeInUp" style="visibility: visible; animation-delay: 1.85s;">
-                                             <div class="col">
-                                               <span class="countdown-time countdown-time-first">02</span>
-                                               <span class="countdown-text">Days</span>
-                                             </div>
-                                             <div class="col">
-                                               <span class="countdown-time">07</span>
-                                               <span class="countdown-text">Hours</span>
-                                             </div>
-                                             <div class="col">
-                                               <span class="countdown-time">03</span>
-                                                <span class="countdown-text">Minutes</span>
-                                             </div>
-                                             <div class="col">
-                                                <span class="countdown-time countdown-time-last">55</span>
-                                                <span class="countdown-text">Seconds</span>
-                                             </div>
-                                          </div>
-                                          <div data-animate="fadeInUp" data-delay="1.95" class="animated fadeInUp" style="visibility: visible; animation-delay: 1.95s;"><a href="http://sale.eco-start.com/" class="btn btn-sm"> Присоединиться </a></div>
-                                          <ul class="icon-list">
-                                             <li data-animate="fadeInUp" data-delay="2.0" class="animated fadeInUp" style="visibility: visible; animation-delay: 2s;"><em class="fab fa-bitcoin"></em></li>
-                                             <li data-animate="fadeInUp" data-delay="2.05" class="animated fadeInUp" style="visibility: visible; animation-delay: 2.05s;">
-                                                <em class="fas fa-won-sign">
-                                                </em>
-                                             </li>
-                                             <li data-animate="fadeInUp" data-delay="2.1" class="animated fadeInUp" style="visibility: visible; animation-delay: 2.1s;"><em class="fab fa-cc-visa"></em></li>
-                                             <li data-animate="fadeInUp" data-delay="2.15" class="animated fadeInUp" style="visibility: visible; animation-delay: 2.15s;"><em class="fab fa-cc-mastercard"></em></li>
-                                          </ul>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </header>
-               <div class="section section-pad-sm no-pb section-bg">
-                  <div class="container">
-                     <div class="row justify-content-center">
-                        <div class="col-lg-10">
-                           <h6 data-animate="fadeInUp" data-delay=".1" class="heading-sm text-center animated fadeInUp" style="visibility: visible; animation-delay: 0.1s;">Our ratings</h6>
-                           <div class="gaps">
-                           </div>
-                           <div class="row rating-list" id="row_card">
-                              <div class="col-sm col-4">
-                                 <div data-animate="fadeInUp" data-delay=".2" class="rating-item animated fadeInUp" style="visibility: visible; animation-delay: 0.2s;">
-                                    <div class="rating-info">
-                                       4.7
-                                       <span>/5</span>
-                                    </div>
-                                    <div class="rating-title">ICO Bench</div>
-                                 </div>
-                              </div>
-                              <div class="col-sm col-4">
-                                 <div
-                                    data-animate="fadeInUp"
-                                    data-delay=".3"
-                                    class="rating-item animated fadeInUp"
-                                    style="visibility: visible; animation-delay: 0.3s;">
-                                    <div class="rating-info">
-                                       A
-                                    </div>
-                                    <div class="rating-title">ICObazaar</div>
-                                 </div>
-                              </div>
-                              <div class="col-sm col-4">
-                                 <div
-                                    data-animate="fadeInUp"
-                                    data-delay=".4"
-                                    class="rating-item animated fadeInUp"
-                                    style="visibility: visible; animation-delay: 0.4s;">
-                                    <div class="rating-info">
-                                       9.4
-                                       <span>/10</span>
-                                    </div>
-                                    <div
-                                       class="rating-title">ICORanker</div>
-                                 </div>
-                              </div>
-                              <div class="col-sm col-4">
-                                 <div
-                                    data-animate="fadeInUp"
-                                    data-delay=".5"
-                                    class="rating-item animated fadeInUp"
-                                    style="visibility: visible; animation-delay: 0.5s;">
-                                    <div class="rating-info">
-                                       4.9
-                                       <span>/5</span>
-                                    </div>
-                                    <div class="rating-title">Trackico</div>
-                                 </div>
-                              </div>
-                              <div class="col-sm col-4">
-                                 <div data-animate="fadeInUp" data-delay=".6" class="rating-item animated fadeInUp" style="visibility: visible; animation-delay: 0.6s;">
-                                    <div class="rating-info">
-                                       5
-                                       <span>/5</span>
-                                    </div>
-                                    <div class="rating-title">WiserICO</div>
-                                 </div>
-                              </div>
-                              <div class="col-sm col-4">
-                                 <div data-animate="fadeInUp" data-delay=".7" class="rating-item animated fadeInUp" style="visibility: visible; animation-delay: 0.7s;">
-                                    <div class="rating-info">
-                                       9.1
-                                       <span>/10</span>
-                                    </div>
-                                    <div class="rating-title">Fundico</div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
+                </div>
+              </div>
             </div>
-            <div>
-               <div id="about" class="section section-pad section-bg-atob">
-                  <div class="container">
-                     <div class="row align-items-center">
+            <div class="container mt-auto">
+              <div class="banner-content">
+                <div class="row justify-content-center">
+                  <div class="col-lg-8 text-center">
+                    <div class="countdown-box text-center">
+                      <div data-delay="1.65" class="circle-animation animated fadeIn" style="visibility: visible; animation-delay: 1.65s;">
+                        <div class="circle-animation-l1 ca"><span class="circle-animation-l1-d1 ca-dot ca-color-1"></span> <span class="circle-animation-l1-d2 ca-dot ca-color-2"></span> <span class="circle-animation-l1-d3 ca-dot ca-color-3"></span> <span class="circle-animation-l1-d4 ca-dot ca-color-1"></span> <span class="circle-animation-l1-d5 ca-dot ca-color-2"></span> <span class="circle-animation-l1-d6 ca-dot ca-color-3"></span></div>
+                        <div class="circle-animation-l2 ca"><span class="circle-animation-l2-d1 ca-dot ca-color-1"></span> <span class="circle-animation-l2-d2 ca-dot ca-color-3"></span> <span class="circle-animation-l2-d3 ca-dot ca-color-2"></span> <span class="circle-animation-l2-d4 ca-dot ca-color-1"></span> <span class="circle-animation-l2-d5 ca-dot ca-color-2"></span></div>
+                        <div class="circle-animation-l3 ca"><span class="circle-animation-l3-d1 ca-dot ca-color-1"></span> <span class="circle-animation-l3-d2 ca-dot ca-color-3"></span> <span class="circle-animation-l3-d3 ca-dot ca-color-2"></span> <span class="circle-animation-l3-d4 ca-dot ca-color-1"></span> <span class="circle-animation-l3-d5 ca-dot ca-color-2"></span></div>
+                      </div>
+                      <div class="row justify-content-center">
                         <div class="col-md-6">
-                           <div data-animate="fadeInUp" data-delay=".1" class="res-m-btm text-center animated fadeInUp" style="visibility: visible; animation-delay: 0.1s;">
-                              <img src="./images/graph-jasmine-a.png" alt="graph">
-                           </div>
+                          <h6 data-animate="fadeInUp" data-delay="1.75" class="animated fadeInUp" style="visibility: visible; animation-delay: 1.75s;"> Продажа начнется через</h6>
+                          <div data-animate="fadeInUp" data-delay="1.85" data-date="2018/09/14" class="token-countdown d-flex align-content-stretch animated fadeInUp" style="visibility: visible; animation-delay: 1.85s;">
+                            <div class="col">
+                              <span class="countdown-time countdown-time-first">01</span>
+                              <span class="countdown-text">Days</span>
+                            </div>
+                            <div class="col">
+                              <span class="countdown-time">09</span>
+                              <span class="countdown-text">Hours</span>
+                            </div>
+                            <div class="col">
+                              <span class="countdown-time">57</span>
+                              <span class="countdown-text">Minutes</span>
+                            </div>
+                            <div class="col">
+                              <span class="countdown-time countdown-time-last">55</span><span class="countdown-text">Seconds</span></div>
+                          </div>
+                          <div data-animate="fadeInUp" data-delay="1.95" class="animated fadeInUp" style="visibility: visible; animation-delay: 1.95s;"><a href="http://sale.eco-start.com/" class="btn btn-sm"> Присоединиться </a></div>
+                          <ul class="icon-list">
+                            <li data-animate="fadeInUp" data-delay="2.0" class="animated fadeInUp" style="visibility: visible; animation-delay: 2s;"><em class="fab fa-bitcoin"></em></li>
+                            <li data-animate="fadeInUp" data-delay="2.05" class="animated fadeInUp" style="visibility: visible; animation-delay: 2.05s;"><em class="fas fa-won-sign"></em></li>
+                            <li data-animate="fadeInUp" data-delay="2.1" class="animated fadeInUp" style="visibility: visible; animation-delay: 2.1s;"><em class="fab fa-cc-visa"></em></li>
+                            <li data-animate="fadeInUp" data-delay="2.15" class="animated fadeInUp" style="visibility: visible; animation-delay: 2.15s;"><em class="fab fa-cc-mastercard"></em></li>
+                          </ul>
                         </div>
-                        <div class="col-md-6">
-                           <div class="text-block">
-                              <h6
-                                 data-animate="fadeInUp"
-                                 data-delay=".2"
-                                 class="heading-sm-s2 animated fadeInUp"
-                                 style="visibility: visible; animation-delay: 0.2s;"> СУТЬ ПРОЕКТА</h6>
-                              <h2
-                                 data-animate="fadeInUp"
-                                 data-delay=".3"
-                                 class="animated fadeInUp"
-                                 style="visibility: visible; animation-delay: 0.3s;"> Мы создаем EcoStart - это публичная распределённая криптографическая платформа,</h2>
-                              <p
-                                 data-animate="fadeInUp"
-                                 data-delay=".4"
-                                 class="lead animated fadeInUp"
-                                 style="visibility: visible; animation-delay: 0.4s;">
-                                 которая послужит для создания приложений и программных решений на открытом блокчейне по финансированию экологических и природоохранных проектов, с собственной криптовалютой TECO, при генерации которой используется алгоритм Proof-of-Importance.
-                              </p>
-                              <p data-animate="fadeInUp" data-delay=".5" class="animated fadeInUp" style="visibility: visible; animation-delay: 0.5s;">
-                                 Проект Ecostart направлен на решение одной из острых проблем всего человечества – экологической, используя современные информационные технологии для создания и функционирования системы финансирования и реализации экологических мероприятий.
-                              </p>
-                           </div>
-                        </div>
-                     </div>
+                      </div>
+                    </div>
                   </div>
-               </div>
+                </div>
+              </div>
             </div>
-            <div>
-               <div class="section section-pad no-pb section-bg">
-                  <div class="container">
-                     <div class="row align-items-center justify-content-between">
-                        <div class="col-md-6">
-                           <div data-animate="fadeInUp" data-delay=".1" class="res-m-btm animated fadeInUp" style="visibility: visible; animation-delay: 0.1s;">
-                              <img src="./images/graph-jasmine-b.png" alt="graph">
-                           </div>
-                        </div>
-                        <div class="col-md-6 order-md-first order-last">
-                           <div class="text-block">
-                              <h6 data-animate="fadeInUp" data-delay=".2" class="heading-sm-s2 animated fadeInUp" style="visibility: visible; animation-delay: 0.2s;"> TECO BLOCKCHAIN </h6>
-                              <h2 data-animate="fadeInUp" data-delay=".3" class="animated fadeInUp" style="visibility: visible; animation-delay: 0.3s;"> Инвестиции в жизнь</h2>
-                              <p data-animate="fadeInUp" data-delay=".4" class="animated fadeInUp" style="visibility: visible; animation-delay: 0.4s;">Мы создаем экосистему основанную на собственной Blockchain технологии, которая обеспечит полную прозрачность сбора и контроля расходовывания средств для экологических проектов, отсутствие посредников, зависимость от органов государственной власти и глобальных финансовых групп.</p>
-                              <p data-animate="fadeInUp" data-delay=".6" class="animated fadeInUp" style="visibility: visible; animation-delay: 0.6s;"> Благодаря TECO будут решаться острые экологические проблемы по всему миру, путем финансирования стартапов держателями токенов, а также с помощью собственной технологии Blockchain, где комиссия с каждой транзакции отправляется в фонд по защите огружающей среды. </p>
-                           </div>
-                        </div>
-                     </div>
+          </div>
+        </header>
+        <div class="section section-pad-sm no-pb section-bg">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-10">
+                <h6
+                class="heading-sm movTop text-center animated mywaypoint"
+                style="animation-delay: .4s"
+                >
+                Our ratings
+              </h6>
+                <div class="gaps"></div>
+                <div class="row rating-list">
+
+                  <div class="col-sm col-4">
+                    <div
+                    style="animation-delay: .6s"
+                    class="rating-item animated movTop">
+                      <div class="rating-info">
+                        4.7
+                        <span>/5</span></div>
+                      <div class="rating-title">ICO Bench</div>
+                    </div>
                   </div>
-               </div>
-               <div class="section section-pad no-pb section-bg">
-                  <div class="container">
-                     <div class="row align-items-center justify-content-between">
-                        <div class="col-md-6">
-                           <div data-animate="fadeInUp" data-delay=".1" class="res-m-btm animated fadeInUp" style="visibility: visible; animation-delay: 0.1s;">
-                              <img src="./images/graph-jasmine-c.png" alt="graph">
-                           </div>
-                        </div>
-                        <div class="col-md-6">
-                           <div class="text-block">
-                              <h6 data-animate="fadeInUp" data-delay=".2" class="heading-sm-s2 animated fadeInUp" style="visibility: visible; animation-delay: 0.2s;"> TECO COMMUNITY </h6>
-                              <h2 data-animate="fadeInUp" data-delay=".3" class="animated fadeInUp" style="visibility: visible; animation-delay: 0.3s;"> Экологическое сообщество</h2>
-                              <p data-animate="fadeInUp" data-delay=".4" class="animated fadeInUp" style="visibility: visible; animation-delay: 0.4s;">Встроенный в экосистему криптографический мессенджер позволит обмениваться сообщениями между всеми участниками, обсуждать экологические проблемы и формировать идеи по их устронению.</p>
-                              <p data-animate="fadeInUp" data-delay=".6" class="animated fadeInUp" style="visibility: visible; animation-delay: 0.6s;"> Любой участник сообщества может принимать участие в сервисе по экспертизе проектов, где выявляются неэкологические проекты, формируется список рекомендаций, рейтинг доверия и репутации. </p>
-                           </div>
-                        </div>
-                     </div>
+
+                  <div class="col-sm col-4">
+                    <div
+                    style="animation-delay: .8s"
+                    class="rating-item animated movTop">
+                      <div class="rating-info">
+                        A
+                      </div>
+                      <div class="rating-title">ICObazaar</div>
+                    </div>
                   </div>
-               </div>
-               <div class="section section-pad section-bg">
-                  <div class="container">
-                     <div class="row align-items-center justify-content-between">
-                        <div class="col-md-5">
-                           <div data-animate="fadeInUp" data-delay=".1" class="res-m-btm animated fadeInUp" style="visibility: visible; animation-delay: 0.1s;">
-                              <img src="./images/graph-jasmine-d.png" alt="graph">
-                           </div>
-                        </div>
-                        <div class="col-md-6 order-md-first order-last">
-                           <div class="text-block">
-                              <h6 data-animate="fadeInUp" data-delay=".2" class="heading-sm-s2 animated fadeInUp" style="visibility: visible; animation-delay: 0.2s;"> TECO APPS </h6>
-                              <h2 data-animate="fadeInUp" data-delay=".3" class="animated fadeInUp" style="visibility: visible; animation-delay: 0.3s;"> Экологичские приложения</h2>
-                              <p data-animate="fadeInUp" data-delay=".4" class="animated fadeInUp" style="visibility: visible; animation-delay: 0.4s;">На базе TECO Blockchain любой участник экосистемы может создавать собственные приложения для решения экологических проблем.</p>
-                              <p data-animate="fadeInUp" data-delay=".6" class="animated fadeInUp" style="visibility: visible; animation-delay: 0.6s;"> Логику работы приложений будут обеспечивать смарт контракты, а интеграцию со сторонними ресурсами открытое API для разработчиков. </p>
-                           </div>
-                        </div>
-                     </div>
+
+                  <div class="col-sm col-4">
+                    <div
+                    style="animation-delay: 1s"
+                    class="rating-item animated movTop">
+                      <div class="rating-info">
+                        9.4
+                        <span>/10</span></div>
+                      <div class="rating-title">ICORanker</div>
+                    </div>
                   </div>
-               </div>
+
+                  <div class="col-sm col-4">
+                    <div
+                    style="animation-delay: 1.2s"
+                    class="rating-item animated movTop">
+                      <div class="rating-info">
+                        4.9
+                        <span>/5</span></div>
+                      <div class="rating-title">Trackico</div>
+                    </div>
+                  </div>
+
+                  <div class="col-sm col-4">
+                    <div
+                    style="animation-delay: 1.4s"
+                    class="rating-item animated movTop">
+                      <div class="rating-info">
+                        5
+                        <span>/5</span></div>
+                      <div class="rating-title">WiserICO</div>
+                    </div>
+                  </div>
+
+                  <div class="col-sm col-4">
+                    <div
+                    style="animation-delay: 1.6s"
+                    class="rating-item animated movTop">
+                      <div class="rating-info">
+                        9.1
+                        <span>/10</span></div>
+                      <div class="rating-title">Fundico</div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
             </div>
-            <div>
-               <div id="why" class="section section-pad section-bg-alt pb-no" style="background-color: rgb(249, 250, 255);">
-                  <div class="container">
-                     <div class="row text-center">
-                        <div class="col-md-12">
-                           <div class="gaps size-2x">
-                           </div>
-                           <h3 data-animate="fadeInUp" data-delay=".8" class="sub-heading ucap text-left animated fadeInUp" style="visibility: visible; animation-delay: 0.8s;"> Основные возможности</h3>
-                           <div class="gaps size-2x"></div>
-                        </div>
-                     </div>
-                     <div class="row">
-                        <div class="col-md-4 res-m-bttm ">
-                           <div data-animate="fadeInUp" data-delay=".0" class="features-box-s3 animated fadeInUp" style="visibility: visible; animation-delay: 0s;">
-                              <div class="features-icon-s3"><img alt="icon" src="./images/icon-a.png"></div>
-                              <h5 class="features-title-s3"> IEF</h5>
-                              <span class="features-subtitle-s3">Увиличивается с комиссии транзакций в TECO Blockchain.</span>
-                              <p>Децентрализованный инвестиционный экологический фонд .</p>
-                           </div>
-                        </div>
-                        <div class="col-md-4 res-m-bttm ">
-                           <div data-animate="fadeInUp" data-delay=".1" class="features-box-s3 animated fadeInUp" style="visibility: visible; animation-delay: 0.1s;">
-                              <div class="features-icon-s3"><img src="./images/icon-b.png" alt="icon"></div>
-                              <h5 class="features-title-s3"> Fundraising Apps</h5>
-                              <span class="features-subtitle-s3">Простой сбор средств на экологические проблемы.</span>
-                              <p>Cервис по созданию именных цифровых токенов инициаторами экологических проектов .</p>
-                           </div>
-                        </div>
-                        <div class="col-md-4 res-m-bttm ">
-                           <div data-animate="fadeInUp" data-delay=".2" class="features-box-s3 animated fadeInUp" style="visibility: visible; animation-delay: 0.2s;">
-                              <div class="features-icon-s3"><img src="./images/icon-c.png" alt="icon"></div>
-                              <h5 class="features-title-s3"> Space App</h5>
-                              <span class="features-subtitle-s3">Наблюдение за экологией из любой точки земного шара.</span>
-                              <p>Приложение по космическому мониторингу поверхности земли.</p>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="gaps size-2x">
-                     </div>
-                     <div class="gaps size-2x d-none d-md-block">
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <div>
-               <div id="benifits" class="section section-pad section-bg">
-                  <div class="container">
-                     <div class="row text-center">
-                        <div class="col-md-12">
-                           <div class="gaps size-2x"></div>
-                           <h3 data-animate="fadeInUp" data-delay=".8" class="sub-heading ucap text-left animated fadeInUp" style="visibility: visible; animation-delay: 0.8s;"> Другие возможности</h3>
-                           <div class="gaps size-2x"></div>
-                        </div>
-                     </div>
-                     <div class="row mb--x8">
-                        <div class="col-lg-6">
-                           <div data-animate="fadeInUp" data-delay=".0" class="benefits-item animated fadeInUp" style="visibility: visible; animation-delay: 0s;">
-                              <div class="benefits-icon text-center">
-                                 <h1> 01.</h1>
-                              </div>
-                              <div class="benefits-txt">
-                                 <p>НКО и инициаторам экологических проектов Ecostart предоставит набор инструментов для создания собственных токенов . Продажа выпущенных токенов позволит собирать деньги на реализацию экологических проектов.</p>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="col-lg-6">
-                           <div data-animate="fadeInUp" data-delay=".1" class="benefits-item animated fadeInUp" style="visibility: visible; animation-delay: 0.1s;">
-                              <div class="benefits-icon text-center">
-                                 <h1> 02.</h1>
-                              </div>
-                              <div class="benefits-txt">
-                                 <p>Волонтеры – смогут получить информацию о месте и времени проведения экологических акций.</p>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="col-lg-6">
-                           <div data-animate="fadeInUp" data-delay=".2" class="benefits-item animated fadeInUp" style="visibility: visible; animation-delay: 0.2s;">
-                              <div class="benefits-icon text-center">
-                                 <h1> 03.</h1>
-                              </div>
-                              <div class="benefits-txt">
-                                 <p>Инвесторы, спонсоры (социально-ответственный бизнес) за финансирование экологических проектов создадут себе положительный имидж и PR, а в случае вложений в «зелёные»коммерческие проекты получат ещё и прибыль.</p>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="col-lg-6">
-                           <div data-animate="fadeInUp" data-delay=".3" class="benefits-item animated fadeInUp" style="visibility: visible; animation-delay: 0.3s;">
-                              <div class="benefits-icon text-center">
-                                 <h1> 04.</h1>
-                              </div>
-                              <div class="benefits-txt">
-                                 <p>Владельцы криптовалюты TerraEcocoin, получат возможность инвестировать без посредников в «зелёные» стартапы и создавать мастерноды для подтверждения транзакций TECO, получая стабильный доход.</p>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="col-lg-6">
-                           <div data-animate="fadeInUp" data-delay=".4" class="benefits-item animated fadeInUp" style="visibility: visible; animation-delay: 0.4s;">
-                              <div class="benefits-icon text-center">
-                                 <h1> 05.</h1>
-                              </div>
-                              <div class="benefits-txt">
-                                 <p>Для стартапов появляется возможность обратиться в инвестиционный экологический фонд, который ориентирован на финансирование предприятий и стартапов, реализующих экологические проекты.</p>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <div>
-               <div id="roadmap" class="section section-pad section-bg" style="background-color: rgb(249, 250, 255);">
-                  <div class="container">
-                     <div class="row">
-                        <div class="col-lg-6">
-                           <div class="section-head-s6">
-                              <h6 data-animate="fadeInUp" data-delay=".1" class="heading-sm-s2 animated fadeInUp" style="visibility: visible; animation-delay: 0.1s;">TECO UPDATES</h6>
-                              <h2 data-animate="fadeInUp" data-delay=".3" class="section-title-s6 animated fadeInUp" style="visibility: visible; animation-delay: 0.3s;">Road Map</h2>
-                           </div>
-                           <div class="gaps size-1x"></div>
-                           <div class="gaps size-2x d-none d-md-block"></div>
-                        </div>
-                     </div>
-                     <div data-animate="fadeInUp" data-delay=".4" class="timeline-row timeline-row-odd animated fadeInUp" style="visibility: visible; animation-delay: 0.4s;">
-                        <div class="row no-gutters text-left text-lg-center justify-content-center">
-                           <div class="col-lg">
-                              <div class="timeline-item ">
-                                 <span class="timeline-date">SEPTEMBER  2018</span>
-                                 <h6 class="timeline-title">ICO</h6>
-                                 <ul class="timeline-info">
-                                    <li>Start PRE-ICO</li>
-                                 </ul>
-                              </div>
-                           </div>
-                           <div class="col-lg">
-                              <div class="timeline-item ">
-                                 <span class="timeline-date">October 2018</span>
-                                 <h6 class="timeline-title">ICO</h6>
-                                 <ul class="timeline-info">
-                                    <li>Start ICO</li>
-                                 </ul>
-                              </div>
-                           </div>
-                           <div class="col-lg">
-                              <div class="timeline-item ">
-                                 <span class="timeline-date">December 2018</span>
-                                 <h6 class="timeline-title">Listing</h6>
-                                 <ul class="timeline-info">
-                                    <li>Listing of tokens on the exchange</li>
-                                 </ul>
-                              </div>
-                           </div>
-                           <div class="col-lg">
-                              <div class="timeline-item ">
-                                 <span class="timeline-date">January 2019</span>
-                                 <h6 class="timeline-title">PLATFORM</h6>
-                                 <ul class="timeline-info">
-                                    <li>Alpha version</li>
-                                 </ul>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                     <div data-animate="fadeInUp" data-delay=".4" class="timeline-row timeline-row-even animated fadeInUp" style="visibility: visible; animation-delay: 0.4s;">
-                        <div class="row no-gutters text-left text-lg-center justify-content-center flex-row-reverse">
-                           <div class="col-lg">
-                              <div class="timeline-item ">
-                                 <span class="timeline-date">March 2019</span>
-                                 <h6 class="timeline-title">PLATFORM</h6>
-                                 <ul class="timeline-info">
-                                    <li>Beta testing platform</li>
-                                 </ul>
-                              </div>
-                           </div>
-                           <div class="col-lg">
-                              <div class="timeline-item">
-                                 <span class="timeline-date">April 2019</span>
-                                 <h6 class="timeline-title">TECO</h6>
-                                 <ul class="timeline-info">
-                                    <li>Release of TECO Blockchain</li>
-                                 </ul>
-                              </div>
-                           </div>
-                           <div class="col-lg">
-                              <div class="timeline-item">
-                                 <span class="timeline-date">June 2019</span>
-                                 <h6 class="timeline-title">PLATFORM</h6>
-                                 <ul class="timeline-info">
-                                    <li>Launching a mobile application</li>
-                                 </ul>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                     <div data-animate="fadeInUp" data-delay=".4" class="timeline-row timeline-row-odd timeline-row-last mb--x5 animated fadeInUp" style="visibility: visible; animation-delay: 0.4s;">
-                        <div class="row no-gutters text-left text-lg-center justify-content-center">
-                           <div class="col-lg">
-                              <div class="timeline-item">
-                                 <span class="timeline-date">July 2019</span>
-                                 <h6 class="timeline-title">PLATFORM</h6>
-                                 <ul class="timeline-info">
-                                    <li>Open API for developers</li>
-                                 </ul>
-                              </div>
-                           </div>
-                           <div class="col-lg">
-                              <div class="timeline-item">
-                                 <span class="timeline-date">October 2019</span>
-                                 <h6 class="timeline-title">PLATFORM</h6>
-                                 <ul class="timeline-info">
-                                    <li>Finish of the project</li>
-                                 </ul>
-                              </div>
-                           </div>
-                           <div class="col-lg">
-                              <div class="timeline-item">
-                                 <span class="timeline-date">December 2019</span>
-                                 <h6 class="timeline-title">COMMUNITY</h6>
-                                 <ul class="timeline-info">
-                                    <li>Formation of an ecological community on a platform</li>
-                                 </ul>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="gaps size-2x d-lg-none"></div>
-                  </div>
-               </div>
-            </div>
-            <div>
-               <div id="tokenSale" class="section section-pad section-bg">
-                  <div class="container">
-                     <div class="row">
-                        <div class="col-lg-6">
-                           <div class="section-head-s6">
-                              <h6 data-animate="fadeInUp" data-delay=".1" class="heading-sm-s2 animated fadeInUp" style="visibility: visible; animation-delay: 0.1s;">TECO Token</h6>
-                              <h2 data-animate="fadeInUp" data-delay=".2" class="section-title-s6 animated fadeInUp" style="visibility: visible; animation-delay: 0.2s;">Token Sale</h2>
-                              <p data-animate="fadeInUp" data-delay=".3" class="animated fadeInUp" style="visibility: visible; animation-delay: 0.3s;">TECO token is complitable with ERC20 Standart.</p>
-                           </div>
-                           <div class="gaps size-2x"></div>
-                        </div>
-                     </div>
-                     <div class="row">
-                        <div class="col-lg-7 text-center">
-                           <div class="row">
-                              <div class="col-sm-4">
-                                 <div data-animate="fadeInUp" data-delay=".4" class="token-stage animated fadeInUp" style="visibility: visible; animation-delay: 0.4s;">
-                                    <div class="token-stage-title token-stage-pre">PRE SALE</div>
-                                    <div class="token-stage-date">
-                                       <h6>25 August 2018</h6>
-                                       <span>1 Month</span>
-                                    </div>
-                                    <div class="token-stage-info"><span class="token-stage-bonus">45% Bonus</span></div>
-                                 </div>
-                              </div>
-                              <div class="col-sm-4">
-                                 <div data-animate="fadeInUp" data-delay=".5" class="token-stage animated fadeInUp" style="visibility: visible; animation-delay: 0.5s;">
-                                    <div class="token-stage-title">PRE ICO</div>
-                                    <div class="token-stage-date">
-                                       <h6>24 September 2018</h6>
-                                       <span>15 Days</span>
-                                    </div>
-                                    <div class="token-stage-info"><span class="token-stage-bonus">30% Bonus</span> <span class="token-stage-cap">Soft Cap</span> <span class="token-stage-amount">500 000 USD</span></div>
-                                 </div>
-                              </div>
-                              <div class="col-sm-4">
-                                 <div data-animate="fadeInUp" data-delay=".6" class="token-stage animated fadeInUp" style="visibility: visible; animation-delay: 0.6s;">
-                                    <div class="token-stage-title">ICO</div>
-                                    <div class="token-stage-date">
-                                       <h6>15 October 2018</h6>
-                                       <span>30 Days</span>
-                                    </div>
-                                    <div class="token-stage-info"><span class="token-stage-bonus">15% Bonus</span> <span class="token-stage-cap">Soft Cap</span> <span class="token-stage-amount">1 500 000 USD</span></div>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="gaps size-2x d-none d-lg-block"></div>
-                           <div data-animate="fadeInUp" data-delay=".7" class="token-action-box res-m-bttm animated fadeInUp" style="visibility: visible; animation-delay: 0.7s;">
-                              <div class="token-action-title">Join Our <br> Pre-Sale List</div>
-                              <div class="token-action-date">Pre-Sale Start at <span>03 July 2018</span></div>
-                              <div class="token-action-btn"><a href="http://sale.eco-start.com/" class="btn btn-lg">Signup &amp; Join</a></div>
-                           </div>
-                        </div>
-                        <div class="col-lg-5">
-                           <ul data-animate="fadeInUp" data-delay=".8" class="token-details-list animated fadeInUp" style="visibility: visible; animation-delay: 0.8s;">
-                              <li><span class="token-details-title">Token Symbol</span> <span class="token-details-info">TECO</span></li>
-                              <li><span class="token-details-title">Token Sale Start</span> <span class="token-details-info">25 August 2018</span></li>
-                              <li><span class="token-details-title">Token Sale End</span> <span class="token-details-info">15 November 2018</span></li>
-                              <li><span class="token-details-title">Tokens for sale</span> <span class="token-details-info">200,000,000</span></li>
-                              <li><span class="token-details-title">Token Price</span> <span class="token-details-info">$0.1 USD</span></li>
-                              <li><span class="token-details-title">Specifications</span> <span class="token-details-info">TECO token</span></li>
-                              <li><span class="token-details-title">Max circulating supply</span> <span class="token-details-info">130,000,000</span></li>
-                           </ul>
-                        </div>
-                     </div>
-                     <div class="gaps size-2x d-none d-md-block"></div>
-                     <div class="gaps size-2x"></div>
-                     <div class="row">
-                        <div class="col-lg-12">
-                           <h3 data-animate="fadeInUp" data-delay=".1" class="sub-heading-s2 animated fadeInUp" style="visibility: visible; animation-delay: 0.1s;">Token Allocation</h3>
-                           <div data-animate="fadeInUp" data-delay=".2" class="token-bar-chart animated fadeInUp" style="visibility: visible; animation-delay: 0.2s;">
-                              <div class="token-bar-item tbic1" style="width: 7%;">
-                                 <div class="token-bar-txt"><span>2%</span> <span>Bounty</span></div>
-                              </div>
-                              <div class="token-bar-item tbic2" style="width: 58%;">
-                                 <div class="token-bar-txt"><span>65%</span> <span>For sale</span></div>
-                              </div>
-                              <div class="token-bar-item tbic3" style="width: 22%;">
-                                 <div class="token-bar-txt"><span>22%</span> <span>Team &amp; Partners</span></div>
-                              </div>
-                              <div class="token-bar-item tbic4" style="width: 3%;">
-                                 <div class="token-bar-txt"><span>1%</span> <span>Reserve Fund</span></div>
-                              </div>
-                              <div class="token-bar-item tbic5" style="width: 7%;">
-                                 <div class="token-bar-txt"><span>10%</span> <span>Miners</span></div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="gaps size-2x d-none d-md-block"></div>
-                     <div class="gaps size-2x"></div>
-                     <div class="row">
-                        <div class="col-lg-12">
-                           <h3 data-animate="fadeInUp" data-delay=".3" class="sub-heading-s2 animated fadeInUp" style="visibility: visible; animation-delay: 0.3s;">Operating Allocation</h3>
-                           <div data-animate="fadeInUp" data-delay=".4" class="token-bar-chart animated fadeInUp" style="visibility: visible; animation-delay: 0.4s;">
-                              <div class="token-bar-item tbic5" style="width: 55%;">
-                                 <div class="token-bar-txt"><span>55%</span> <span>Marketing &amp; Advertising</span></div>
-                              </div>
-                              <div class="token-bar-item tbic4" style="width: 20%;">
-                                 <div class="token-bar-txt"><span>20%</span> <span>Software development</span></div>
-                              </div>
-                              <div class="token-bar-item tbic3" style="width: 15%;">
-                                 <div class="token-bar-txt"><span>15%</span> <span>Operating</span></div>
-                              </div>
-                              <div class="token-bar-item tbic2" style="width: 5%;">
-                                 <div class="token-bar-txt"><span>5%</span> <span>Legal</span></div>
-                              </div>
-                              <div class="token-bar-item tbic5" style="width: 5%;">
-                                 <div class="token-bar-txt"><span>5%</span> <span>Insurance Fund</span></div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <div>
-               <div id="team" class="section section-pad section-bg-alt section-fix">
-                  <div class="background-shape bs-reverse"></div>
-                  <div class="container">
-                     <div class="row">
-                        <div class="col-md-12">
-                           <div class="gaps size-2x"></div>
-                           <h3 data-animate="fadeInUp" data-delay=".8" class="sub-heading ucap text-left animated fadeInUp" style="visibility: visible; animation-delay: 0.8s;"> Наша команда</h3>
-                           <div class="gaps size-2x"></div>
-                        </div>
-                     </div>
-                     <div class="row">
-                        <div data-animate="fadeInUp" data-delay=".0" class="col-md-6 col-lg-4 offset-lg-2 offset-xl-0 col-xl-3 d-inline-flex justify-content-center animated fadeInUp" style="visibility: visible; animation-delay: 0s;">
-                           <div class="team-member">
-                              <div class="team-photo"><img alt="team" src="./images/olga.jpg"> <a href="http://eco-start.com/#team-profile-0" class="expand-trigger content-popup"></a></div>
-                              <div class="team-info">
-                                 <h5 class="team-name">Olga <br> Bergen</h5>
-                                 <span class="team-title"> CEO and Co-founder </span>
-                                 <ul class="team-social">
-                                    <li><a target="_blank" href="https://www.linkedin.com/in/olga-bergen-663493163/"><em class="fab fa-linkedin-in"></em></a></li>
-                                 </ul>
-                              </div>
-                              <div id="team-profile-0" class="team-profile mfp-hide">
-                                 <button title="Close (Esc)" type="button" class="mfp-close">×</button>
-                                 <div class="container-fluid">
-                                    <div class="row no-mg">
-                                       <div class="col-md-6">
-                                          <div class="team-profile-photo"><img alt="team" src="./images/olga.jpg"></div>
-                                       </div>
-                                       <div class="col-md-6">
-                                          <div class="team-profile-info">
-                                             <h3 class="name">Olga <br> Bergen</h3>
-                                             <p class="sub-title">CEO and Co-founder</p>
-                                             <ul class="tpi-social">
-                                                <li><a target="_blank" href="https://www.linkedin.com/in/olga-bergen-663493163/"><em class="fab fa-linkedin-in"></em></a></li>
-                                             </ul>
-                                             <p>A corporate strategist with many years of experience in the advertising and information technology industry. In recent years, is engaged in accelerating startups.  «I have been engaged in accelerating the startup projects for several years. EcoStart is definitely a powerful project with great potential. There are many enterprising young people in the world who really need our help. Together with you we will do a very important and necessary thing!»</p>
-                                          </div>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                        <div data-animate="fadeInUp" data-delay=".1" class="col-md-6 col-lg-4 offset-lg-2 offset-xl-0 col-xl-3 d-inline-flex justify-content-center animated fadeInUp" style="visibility: visible; animation-delay: 0.1s;">
-                           <div class="team-member">
-                              <div class="team-photo"><img alt="team" src="./images/Michael.jpg"> <a href="http://eco-start.com/#team-profile-1" class="expand-trigger content-popup"></a></div>
-                              <div class="team-info">
-                                 <h5 class="team-name">Michael McKee</h5>
-                                 <span class="team-title"> Chief Visionary Officer </span>
-                                 <ul class="team-social">
-                                    <li><a target="_blank" href="https://www.linkedin.com/in/michael-mckee-74b20634/"><em class="fab fa-linkedin-in"></em></a></li>
-                                 </ul>
-                              </div>
-                              <div id="team-profile-1" class="team-profile mfp-hide">
-                                 <button title="Close (Esc)" type="button" class="mfp-close">×</button>
-                                 <div class="container-fluid">
-                                    <div class="row no-mg">
-                                       <div class="col-md-6">
-                                          <div class="team-profile-photo"><img alt="team" src="./images/Michael.jpg"></div>
-                                       </div>
-                                       <div class="col-md-6">
-                                          <div class="team-profile-info">
-                                             <h3 class="name">Michael McKee</h3>
-                                             <p class="sub-title">Chief Visionary Officer</p>
-                                             <ul class="tpi-social">
-                                                <li><a target="_blank" href="https://www.linkedin.com/in/michael-mckee-74b20634/"><em class="fab fa-linkedin-in"></em></a></li>
-                                             </ul>
-                                             <p>Before starting out into ICO Advisory, Michael spent 13 years as Social Media Influencer and Digital Marketer for several dot com startups. After a successful career helping various clothing companies and aspiring musicians, Michael now advises ICOs and Startups on how to market their projects on social media and through SEO. Michael has been a serial ICO investor since 2016 and one of the fastest growing Blockchain Influencers with over 350,000 followers in total.</p>
-                                          </div>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                        <div data-animate="fadeInUp" data-delay=".2" class="col-md-6 col-lg-4 offset-lg-2 offset-xl-0 col-xl-3 d-inline-flex justify-content-center animated fadeInUp" style="visibility: visible; animation-delay: 0.2s;">
-                           <div class="team-member">
-                              <div class="team-photo"><img alt="team" src="./images/timur.jpg"> <a href="http://eco-start.com/#team-profile-2" class="expand-trigger content-popup"></a></div>
-                              <div class="team-info">
-                                 <h5 class="team-name">Teymur Nurullaev</h5>
-                                 <span class="team-title"> COO (Chief Operating Officer) </span>
-                                 <ul class="team-social">
-                                    <li><a target="_blank" href="https://www.facebook.com/TeymurNur"><em class="fab fa-facebook-f"></em></a></li>
-                                 </ul>
-                              </div>
-                              <div id="team-profile-2" class="team-profile mfp-hide">
-                                 <button title="Close (Esc)" type="button" class="mfp-close">×</button>
-                                 <div class="container-fluid">
-                                    <div class="row no-mg">
-                                       <div class="col-md-6">
-                                          <div class="team-profile-photo"><img alt="team" src="./images/timur.jpg"></div>
-                                       </div>
-                                       <div class="col-md-6">
-                                          <div class="team-profile-info">
-                                             <h3 class="name">Teymur Nurullaev</h3>
-                                             <p class="sub-title">COO (Chief Operating Officer)</p>
-                                             <ul class="tpi-social">
-                                                <li><a target="_blank" href="https://www.facebook.com/TeymurNur"><em class="fab fa-facebook-f"></em></a></li>
-                                             </ul>
-                                             <p>Chief Operating Officer, a successful businessman, a programmer, one of the first adepts of the blockchain “I support the project EcoStart because the Cryptocurrency will gain momentum in the event that we start creating as many projects as possible on blockchain. I manage a whole army of bots - they will help us in this project too!”</p>
-                                          </div>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                        <div data-animate="fadeInUp" data-delay=".3" class="col-md-6 col-lg-4 offset-lg-2 offset-xl-0 col-xl-3 d-inline-flex justify-content-center animated fadeInUp" style="visibility: visible; animation-delay: 0.3s;">
-                           <div class="team-member">
-                              <div class="team-photo"><img alt="team" src="./images/Natalia.jpg"> <a href="http://eco-start.com/#team-profile-3" class="expand-trigger content-popup"></a></div>
-                              <div class="team-info">
-                                 <h5 class="team-name">Nataly Nurullaeva</h5>
-                                 <span class="team-title"> СМО (Сhief marketing officer) </span>
-                                 <ul class="team-social">
-                                    <li><a target="_blank" href="https://www.facebook.com/profile.php?id=%20100001662803799"><em class="fab fa-facebook-f"></em></a></li>
-                                 </ul>
-                              </div>
-                              <div id="team-profile-3" class="team-profile mfp-hide">
-                                 <button title="Close (Esc)" type="button" class="mfp-close">×</button>
-                                 <div class="container-fluid">
-                                    <div class="row no-mg">
-                                       <div class="col-md-6">
-                                          <div class="team-profile-photo"><img alt="team" src="./images/Natalia.jpg"></div>
-                                       </div>
-                                       <div class="col-md-6">
-                                          <div class="team-profile-info">
-                                             <h3 class="name">Nataly Nurullaeva</h3>
-                                             <p class="sub-title">СМО (Сhief marketing officer)</p>
-                                             <ul class="tpi-social">
-                                                <li><a target="_blank" href="https://www.facebook.com/profile.php?id=%20100001662803799"><em class="fab fa-facebook-f"></em></a></li>
-                                             </ul>
-                                             <p>«My element is marketing communications and project management. In EcoStart I see global opportunities - the project will help to unite not indifferent people around the world around a great idea. It's just a marketer's dream!»</p>
-                                          </div>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                        <div data-animate="fadeInUp" data-delay=".4" class="col-md-6 col-lg-4 offset-lg-2 offset-xl-0 col-xl-3 d-inline-flex justify-content-center animated fadeInUp" style="visibility: visible; animation-delay: 0.4s;">
-                           <div class="team-member">
-                              <div class="team-photo"><img alt="team" src="./images/alexander.jpg"> <a href="http://eco-start.com/#team-profile-4" class="expand-trigger content-popup"></a></div>
-                              <div class="team-info">
-                                 <h5 class="team-name">Aleksandr Goldobin</h5>
-                                 <span class="team-title"> CFO (Chief Financial Officer)&nbsp; </span>
-                                 <ul class="team-social">
-                                    <li><a target="_blank" href="https://www.linkedin.com/in/aleksandr-goldobin-2ab883162/"><em class="fab fa-linkedin-in"></em></a></li>
-                                 </ul>
-                              </div>
-                              <div id="team-profile-4" class="team-profile mfp-hide">
-                                 <button title="Close (Esc)" type="button" class="mfp-close">×</button>
-                                 <div class="container-fluid">
-                                    <div class="row no-mg">
-                                       <div class="col-md-6">
-                                          <div class="team-profile-photo"><img alt="team" src="./images/alexander.jpg"></div>
-                                       </div>
-                                       <div class="col-md-6">
-                                          <div class="team-profile-info">
-                                             <h3 class="name">Aleksandr Goldobin</h3>
-                                             <p class="sub-title">CFO (Chief Financial Officer)&nbsp;</p>
-                                             <ul class="tpi-social">
-                                                <li><a target="_blank" href="https://www.linkedin.com/in/aleksandr-goldobin-2ab883162/"><em class="fab fa-linkedin-in"></em></a></li>
-                                             </ul>
-                                             <p>The financial director responsible for managing the financial flows of the business with vast managerial experience in a wide range of industries. <br> “My motto is think globally-act locally! That is why I proposed to bring the project Ecostart to the international level. I believe such initiatives are important for the world community. Our financial support is needed by many ecological projects!”</p>
-                                          </div>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                        <div data-animate="fadeInUp" data-delay=".5" class="col-md-6 col-lg-4 offset-lg-2 offset-xl-0 col-xl-3 d-inline-flex justify-content-center animated fadeInUp" style="visibility: visible; animation-delay: 0.5s;">
-                           <div class="team-member">
-                              <div class="team-photo"><img src="./images/olga-g.jpg" alt="team"> <a href="http://eco-start.com/#team-profile-5" class="expand-trigger content-popup"></a></div>
-                              <div class="team-info">
-                                 <h5 class="team-name">Olga Gershenzon</h5>
-                                 <span class="team-title"> Head of Aerospace Monitoring </span>
-                                 <ul class="team-social">
-                                    <li><a target="_blank" href="https://www.linkedin.com/in/olgagershenzon/"><em class="fab fa-linkedin-in"></em></a></li>
-                                 </ul>
-                              </div>
-                              <div id="team-profile-5" class="team-profile mfp-hide">
-                                 <button title="Close (Esc)" type="button" class="mfp-close">×</button>
-                                 <div class="container-fluid">
-                                    <div class="row no-mg">
-                                       <div class="col-md-6">
-                                          <div class="team-profile-photo"><img src="./images/olga-g.jpg" alt="team"></div>
-                                       </div>
-                                       <div class="col-md-6">
-                                          <div class="team-profile-info">
-                                             <h3 class="name">Olga Gershenzon</h3>
-                                             <p class="sub-title">Head of Aerospace Monitoring</p>
-                                             <ul class="tpi-social">
-                                                <li><a target="_blank" href="https://www.linkedin.com/in/olgagershenzon/"><em class="fab fa-linkedin-in"></em></a></li>
-                                             </ul>
-                                             <p>Co-Founder, Chief Strategy Officer at RBCSignals <br> «From the solar system, we still cannot get out for a long time. Therefore, one must learn to live on earth and better on ecologically friendly»</p>
-                                          </div>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                        <div data-animate="fadeInUp" data-delay=".6" class="col-md-6 col-lg-4 offset-lg-2 offset-xl-0 col-xl-3 d-inline-flex justify-content-center animated fadeInUp" style="visibility: visible; animation-delay: 0.6s;">
-                           <div class="team-member">
-                              <div class="team-photo"><img src="./images/dina.jpg" alt="team"> <a href="http://eco-start.com/#team-profile-6" class="expand-trigger content-popup"></a></div>
-                              <div class="team-info">
-                                 <h5 class="team-name">Dina <br> Korn</h5>
-                                 <span class="team-title"> PR manager </span>
-                                 <ul class="team-social">
-                                    <li><a target="_blank" href="https://www.facebook.com/dina.korn"><em class="fab fa-facebook-f"></em></a></li>
-                                 </ul>
-                              </div>
-                              <div id="team-profile-6" class="team-profile mfp-hide">
-                                 <button title="Close (Esc)" type="button" class="mfp-close">×</button>
-                                 <div class="container-fluid">
-                                    <div class="row no-mg">
-                                       <div class="col-md-6">
-                                          <div class="team-profile-photo"><img src="./images/dina.jpg" alt="team"></div>
-                                       </div>
-                                       <div class="col-md-6">
-                                          <div class="team-profile-info">
-                                             <h3 class="name">Dina <br> Korn</h3>
-                                             <p class="sub-title">PR manager</p>
-                                             <ul class="tpi-social">
-                                                <li><a target="_blank" href="https://www.facebook.com/dina.korn"><em class="fab fa-facebook-f"></em></a></li>
-                                             </ul>
-                                             <p>The Idea of this project was inspired by Champion of the Earth Afros Shah from Indian Mumbai, who in his home town cleared a beach more than 2 km from garbage weighing 5,500 tons. Such initiatives deserve our common support!</p>
-                                          </div>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="row">
-                        <div class="col-md-12">
-                           <div class="gaps size-2x"></div>
-                           <h3 data-animate="fadeInUp" data-delay=".8" class="sub-heading ucap text-left animated fadeInUp" style="visibility: visible; animation-delay: 0.8s;"> Консультанты </h3>
-                           <div class="gaps size-2x"></div>
-                        </div>
-                     </div>
-                     <div class="row">
-                        <div data-animate="fadeInUp" data-delay=".8" class="col-md-6 col-lg-4 offset-lg-2 offset-xl-0 col-xl-3 d-inline-flex justify-content-center animated fadeInUp" style="visibility: visible; animation-delay: 0.8s;">
-                           <div class="team-member">
-                              <div class="team-photo"><img alt="team" src="./images/advisor-2.jpg"> <a href="http://eco-start.com/#advisor-profile-0" class="expand-trigger content-popup"></a></div>
-                              <div class="team-info">
-                                 <h5 class="team-name">Dr Mohamed Karim</h5>
-                                 <span class="team-title"> Leader of advisors &amp; CEO of Mirak AS </span>
-                                 <ul class="team-social">
-                                    <li><a target="_blank" href="https://www.linkedin.com/in/drkarim/"><em class="fab fa-linkedin-in"></em></a></li>
-                                 </ul>
-                              </div>
-                              <div id="advisor-profile-0" class="team-profile mfp-hide">
-                                 <button title="Close (Esc)" type="button" class="mfp-close">×</button>
-                                 <div class="container-fluid">
-                                    <div class="row no-mg">
-                                       <div class="col-md-6">
-                                          <div class="team-profile-photo"><img alt="team" src="./images/advisor-2.jpg"></div>
-                                       </div>
-                                       <div class="col-md-6">
-                                          <div class="team-profile-info">
-                                             <h3 class="name">Dr Mohamed Karim</h3>
-                                             <p class="sub-title">Leader of advisors &amp; CEO of Mirak AS</p>
-                                             <ul class="tpi-social">
-                                                <li><a target="_blank" href="https://www.linkedin.com/in/drkarim/"><em class="fab fa-linkedin-in"></em></a></li>
-                                             </ul>
-                                             <p>When we started with distributed computing 15 years ago, we never could dream that the whole world will be where we are today. Thanks to the Blockchain technology, we can now build projects and concepts beyond all imaginations</p>
-                                          </div>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                        <div data-animate="fadeInUp" data-delay=".8" class="col-md-6 col-lg-4 offset-lg-2 offset-xl-0 col-xl-3 d-inline-flex justify-content-center animated fadeInUp" style="visibility: visible; animation-delay: 0.8s;">
-                           <div class="team-member">
-                              <div class="team-photo"><img alt="team" src="./images/advisor-1.jpg"> <a href="http://eco-start.com/#advisor-profile-1" class="expand-trigger content-popup"></a></div>
-                              <div class="team-info">
-                                 <h5 class="team-name">Vladimir  Gershenzon </h5>
-                                 <span class="team-title"> Expert in Earth remote sensing systems </span>
-                                 <ul class="team-social">
-                                    <li><a target="_blank" href="https://www.facebook.com/profile.php?id=%20100023895310247"><em class="fab fa-facebook-f"></em></a></li>
-                                 </ul>
-                              </div>
-                              <div id="advisor-profile-1" class="team-profile mfp-hide">
-                                 <button title="Close (Esc)" type="button" class="mfp-close">×</button>
-                                 <div class="container-fluid">
-                                    <div class="row no-mg">
-                                       <div class="col-md-6">
-                                          <div class="team-profile-photo"><img alt="team" src="./images/advisor-1.jpg"></div>
-                                       </div>
-                                       <div class="col-md-6">
-                                          <div class="team-profile-info">
-                                             <h3 class="name">Vladimir  Gershenzon </h3>
-                                             <p class="sub-title">Expert in Earth remote sensing systems</p>
-                                             <ul class="tpi-social">
-                                                <li><a target="_blank" href="https://www.facebook.com/profile.php?id=%20100023895310247"><em class="fab fa-facebook-f"></em></a></li>
-                                             </ul>
-                                             <p>Leading Research Scientist Center for Computational and Data-Intensive Science and Engineering</p>
-                                          </div>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <div>
-               <div id="docs" class="section section-pad section-bg-alt">
-                  <div class="container">
-                     <div class="row">
-                        <div class="col-lg-6">
-                           <div class="section-head-s6">
-                              <h6 data-animate="fadeInUp" data-delay=".1" class="heading-sm-s2 animated fadeInUp" style="visibility: visible; animation-delay: 0.1s;">Download DOCUMENTS</h6>
-                              <h2 data-animate="fadeInUp" data-delay=".2" class="section-title-s6 animated fadeInUp" style="visibility: visible; animation-delay: 0.2s;">Read Our Documents</h2>
-                              <p data-animate="fadeInUp" data-delay=".3" class="animated fadeInUp" style="visibility: visible; animation-delay: 0.3s;">Here is our full documents that help you to understand about us.</p>
-                           </div>
-                           <div class="gaps size-2x"></div>
-                        </div>
-                     </div>
-                     <div class="row">
-                        <div data-animate="fadeInUp" data-delay=".4" class="col-lg-3 col-md-6 res-m-bttm animated fadeInUp" style="visibility: visible; animation-delay: 0.4s;">
-                           <div class="document-item">
-                              <div class="document-img"><img src="./images/doc-a.png" alt="doc"></div>
-                              <h6 class="document-title">Whitepaper</h6>
-                              <ul class="document-links">
-                                 <li><a href="http://eco-start.com/static/docs/whitepaper.pdf" target="_blank">ENG</a></li>
-                              </ul>
-                           </div>
-                        </div>
-                        <div data-animate="fadeInUp" data-delay=".5" class="col-lg-3 col-md-6 res-m-bttm animated fadeInUp" style="visibility: visible; animation-delay: 0.5s;">
-                           <div class="document-item">
-                              <div class="document-img"><img src="./images/doc-b.png" alt="doc"></div>
-                              <h6 class="document-title">Onepager</h6>
-                              <ul class="document-links">
-                                 <li><a href="http://eco-start.com/static/docs/onepager_en.pdf" target="_blank">ENG</a></li>
-                                 <li><a href="http://eco-start.com/static/docs/onepager_ru.pdf" target="_blank">RUS</a></li>
-                              </ul>
-                           </div>
-                        </div>
-                        <div data-animate="fadeInUp" data-delay=".6" class="col-lg-3 col-md-6 res-m-bttm animated fadeInUp" style="visibility: visible; animation-delay: 0.6s;">
-                           <div class="document-item">
-                              <div class="document-img"><img src="./images/doc-c.png" alt="doc"></div>
-                              <h6 class="document-title">Privacy Policy</h6>
-                              <ul class="document-links">
-                                 <li><a href="http://eco-start.com/#">ENG</a></li>
-                              </ul>
-                           </div>
-                        </div>
-                        <div data-animate="fadeInUp" data-delay=".7" class="col-lg-3 col-md-6 animated fadeInUp" style="visibility: visible; animation-delay: 0.7s;">
-                           <div class="document-item">
-                              <div class="document-img"><img src="./images/doc-d.png" alt="doc"></div>
-                              <h6 class="document-title">Terms of Sales</h6>
-                              <ul class="document-links">
-                                 <li><a href="http://eco-start.com/static/docs/terms.pdf" target="_blank">ENG</a></li>
-                              </ul>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <div>
-               <div id="faq" class="section section-pad section-bg-alt">
-                  <div class="container">
-                     <div class="row">
-                        <div class="col-lg-7">
-                           <div class="section-head-s6">
-                              <h6 data-animate="fadeInUp" data-delay=".1" class="heading-sm-s2 animated fadeInUp" style="visibility: visible; animation-delay: 0.1s;">Faq</h6>
-                              <h2 data-animate="fadeInUp" data-delay=".2" class="section-title-s6 animated fadeInUp" style="visibility: visible; animation-delay: 0.2s;">Frequently asked questions</h2>
-                              <p data-animate="fadeInUp" data-delay=".3" class="animated fadeInUp" style="visibility: visible; animation-delay: 0.3s;">Below we’ve provided a bit of ICO, ICO Token, cryptocurrencies, and few others. If you have any other questions, please get in touch using the contact form below.</p>
-                           </div>
-                           <div class="gaps size-1x"></div>
-                        </div>
-                     </div>
-                     <div class="row align-items-center">
-                        <div class="col-lg-8 res-m-bttm">
-                           <div class="tab-custom-s3">
-                              <ul class="nav nav-tabs text-center">
-                                 <li data-animate="fadeInUp" data-delay=".4" class="nav-item animated fadeInUp" style="visibility: visible; animation-delay: 0.4s;"><a data-toggle="tab" href="http://eco-start.com/#tab-1" class="nav-link active">General</a></li>
-                                 <li data-animate="fadeInUp" data-delay=".5" class="nav-item animated fadeInUp" style="visibility: visible; animation-delay: 0.5s;"><a data-toggle="tab" href="http://eco-start.com/#tab-2" class="nav-link">Pre-ICO &amp; ICO</a></li>
-                                 <li data-animate="fadeInUp" data-delay=".6" class="nav-item animated fadeInUp" style="visibility: visible; animation-delay: 0.6s;"><a data-toggle="tab" href="http://eco-start.com/#tab-3" class="nav-link">Tokens</a></li>
-                              </ul>
-                              <div class="tab-content">
-                                 <div id="tab-1" class="tab-pane fade show active">
-                                    <div id="accordion-1" class="accordion-s2">
-                                       <div data-animate="fadeInUp" data-delay=".1" class="card active animated fadeInUp" style="visibility: visible; animation-delay: 0.1s;">
-                                          <div class="card-header">
-                                             <h5><a data-toggle="collapse" data-target="#collapse-1-1">
-                                                What is the EcoStart Ecosystem?<span class="plus-minus"><span class="ti ti-angle-up"></span></span></a>
-                                             </h5>
-                                          </div>
-                                          <div id="collapse-1-1" data-parent="#accordion-1" class="collapse show">
-                                             <div class="card-body">
-                                                <p>Ecostart is an innovative solution for the global market for environmental projects. Ecostart is implemented in the form of a public
-                                                   distributed cryptographic platform for creating applications and software solutions on an open block system to support
-                                                   environmental and nature protection projects. Issue of EcoCoin crypto currency will be the first step towards our goal. It will be
-                                                   followed decentralized investment environmental fund (тикер IEF), fundraising application - service for creating a personal digital token
-                                                   and more.
-                                                </p>
-                                             </div>
-                                          </div>
-                                       </div>
-                                       <div data-animate="fadeInUp" data-delay=".2" class="card animated fadeInUp" style="visibility: visible; animation-delay: 0.2s;">
-                                          <div class="card-header">
-                                             <h5><a data-toggle="collapse" data-target="#collapse-1-2" class="collapsed">
-                                                What is our mission?<span class="plus-minus"><span class="ti ti-angle-up"></span></span></a>
-                                             </h5>
-                                          </div>
-                                          <div id="collapse-1-2" data-parent="#accordion-1" class="collapse">
-                                             <div class="card-body">
-                                                <p>
-                                                   Our mission is to completely democratize process of investment of environmental projects by eliminating intermediaries and
-                                                   placing the power and control where it belongs - entirely into the hands of investors and ECN crypto currency holders.
-                                                </p>
-                                             </div>
-                                          </div>
-                                       </div>
-                                       <div data-animate="fadeInUp" data-delay=".3" class="card animated fadeInUp" style="visibility: visible; animation-delay: 0.3s;">
-                                          <div class="card-header">
-                                             <h5><a data-toggle="collapse" data-target="#collapse-1-3" class="collapsed">
-                                                How is a IEF Fund different from a traditional investment fund?<span class="plus-minus"><span class="ti ti-angle-up"></span></span></a>
-                                             </h5>
-                                          </div>
-                                          <div id="collapse-1-3" data-parent="#accordion-1" class="collapse">
-                                             <div class="card-body">
-                                                <p>
-                                                   A IEF Fund invests in crypto assets only and does not have a central power of authority. There is no fund manager to make
-                                                   decision on behalf of investors. This is where you can feel the power of the wisdom of the crowd. All participants are given the
-                                                   chance to vote and to decide the future of the next investment.
-                                                </p>
-                                             </div>
-                                          </div>
-                                       </div>
-                                       <div data-animate="fadeInUp" data-delay=".4" class="card animated fadeInUp" style="visibility: visible; animation-delay: 0.4s;">
-                                          <div class="card-header">
-                                             <h5><a data-toggle="collapse" data-target="#collapse-1-4" class="collapsed">
-                                                When will the EcoStart platform be launched?<span class="plus-minus"><span class="ti ti-angle-up"></span></span></a>
-                                             </h5>
-                                          </div>
-                                          <div id="collapse-1-4" data-parent="#accordion-1" class="collapse">
-                                             <div class="card-body">
-                                                <p>EcoStart Beta will be launched in Q4 2018 The official launch of the EcoStart Platform will follow in Q2 2019</p>
-                                             </div>
-                                          </div>
-                                       </div>
-                                       <div data-animate="fadeInUp" data-delay=".4" class="card animated fadeInUp" style="visibility: visible; animation-delay: 0.4s;">
-                                          <div class="card-header">
-                                             <h5><a data-toggle="collapse" data-target="#collapse-1-5" class="collapsed">
-                                                Do you have a prototype?<span class="plus-minus"><span class="ti ti-angle-up"></span></span></a>
-                                             </h5>
-                                          </div>
-                                          <div id="collapse-1-5" data-parent="#accordion-1" class="collapse">
-                                             <div class="card-body">
-                                                <p>Our platform unites a number of serious tech solutions in a single system. Some parts of the technology already exist and are being employed.
-                                                   As of now we have aerospace monitoring application of the earth's surface.
-                                                </p>
-                                             </div>
-                                          </div>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div id="tab-2" class="tab-pane fade">
-                                    <div id="accordion-2" class="accordion-s2">
-                                       <div data-animate="fadeInUp" data-delay=".2" class="card animated fadeInUp" style="visibility: visible; animation-delay: 0.2s;">
-                                          <div class="card-header">
-                                             <h5><a data-toggle="collapse" data-target="#collapse-2-2" class="collapsed">
-                                                What currencies are accepted for payment?<span class="plus-minus"><span class="ti ti-angle-up"></span></span></a>
-                                             </h5>
-                                          </div>
-                                          <div id="collapse-2-2" data-parent="#accordion-2" class="collapse">
-                                             <div class="card-body">
-                                                <p>The following currencies are accepted for payment: Ethereum (тикер ETH), Bitcoin (тикер BTC) Litecoin (тикер LTC) and US Dollar (тикер USD).</p>
-                                             </div>
-                                          </div>
-                                       </div>
-                                       <div data-animate="fadeInUp" data-delay=".3" class="card animated fadeInUp" style="visibility: visible; animation-delay: 0.3s;">
-                                          <div class="card-header">
-                                             <h5><a data-toggle="collapse" data-target="#collapse-2-4" class="collapsed">
-                                                Which countries or nationalities are eligible to purchase ECT tokens?<span class="plus-minus"><span class="ti ti-angle-up"></span></span></a>
-                                             </h5>
-                                          </div>
-                                          <div id="collapse-2-4" data-parent="#accordion-2" class="collapse">
-                                             <div class="card-body">
-                                                <p>Citizens of any country except USA may take part in the project.</p>
-                                             </div>
-                                          </div>
-                                       </div>
-                                       <div data-animate="fadeInUp" data-delay=".4" class="card animated fadeInUp" style="visibility: visible; animation-delay: 0.4s;">
-                                          <div class="card-header">
-                                             <h5><a data-toggle="collapse" data-target="#collapse-2-3" class="collapsed">
-                                                I transferred ETH to your account, but while the transaction was being processed, ICO ended. What will happen to my ETH?<span class="plus-minus"><span class="ti ti-angle-up"></span></span></a>
-                                             </h5>
-                                          </div>
-                                          <div id="collapse-2-3" data-parent="#accordion-2" class="collapse">
-                                             <div class="card-body">
-                                                <p>If the ETH is transferred to the project's wallet after the ICO is finished, it is returned to the sender's wallet according to the current exchange
-                                                   rate with no conversion. For example, after the ICO is completed, if the project wallet is funded with 1 ETH, the same amount will be returned to
-                                                   the sender's wallet, disregarding the ETH quote at the moment the ETH was sent. To prevent such situations, we recommend setting the
-                                                   appropriate transaction commission for timely processing and considering the ICO timeframe. The same process will be activated for any other
-                                                   cryptocurrency.
-                                                </p>
-                                             </div>
-                                          </div>
-                                       </div>
-                                       <div data-animate="fadeInUp" data-delay=".4" class="card animated fadeInUp" style="visibility: visible; animation-delay: 0.4s;">
-                                          <div class="card-header">
-                                             <h5><a data-toggle="collapse" data-target="#collapse-2-4" class="collapsed">
-                                                What is the minimum target? What happens if the required amount is not raised?<span class="plus-minus"><span class="ti ti-angle-up"></span></span></a>
-                                             </h5>
-                                          </div>
-                                          <div id="collapse-2-4" data-parent="#accordion-2" class="collapse">
-                                             <div class="card-body">
-                                                <p>Minimum target equals $1 million. If the amount is not raised, we will return all the raised funds back to the wallets of the crowdsale participants.
-                                                   cryptocurrency.
-                                                </p>
-                                             </div>
-                                          </div>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div id="tab-3" class="tab-pane fade">
-                                    <div id="accordion-3" class="accordion-s2">
-                                       <div data-animate="fadeInUp" data-delay=".1" class="card active animated fadeInUp" style="visibility: visible; animation-delay: 0.1s;">
-                                          <div class="card-header">
-                                             <h5><a data-toggle="collapse" data-target="#collapse-3-1">
-                                                When will the bounty payouts take place?<span class="plus-minus">
-                                                <span class="ti ti-angle-up">
-                                                </span>
-                                                </span>
-                                                </a>
-                                             </h5>
-                                          </div>
-                                          <div id="collapse-3-1" data-parent="#accordion-3" class="collapse show">
-                                             <div class="card-body">
-                                                <p>Bounty payouts will be paid to the participants within one week after the ICO.</p>
-                                             </div>
-                                          </div>
-                                       </div>
-                                       <div data-animate="fadeInUp" data-delay=".2" class="card animated fadeInUp" style="visibility: visible; animation-delay: 0.2s;">
-                                          <div class="card-header">
-                                             <h5><a data-toggle="collapse" data-target="#collapse-3-2" class="collapsed">
-                                                When will your tokens be listed on exchanges?<span class="plus-minus">
-                                                <span class="ti ti-angle-up">
-                                                </span>
-                                                </span>
-                                                </a>
-                                             </h5>
-                                          </div>
-                                          <div id="collapse-3-2" data-parent="#accordion-3" class="collapse">
-                                             <div class="card-body">
-                                                <p>We plan to list ECT tokens on several major exchanges within one month after the ICO.</p>
-                                             </div>
-                                          </div>
-                                       </div>
-                                       <div data-animate="fadeInUp" data-delay=".3" class="card animated fadeInUp" style="visibility: visible; animation-delay: 0.3s;">
-                                          <div class="card-header">
-                                             <h5><a data-toggle="collapse" data-target="#collapse-3-3" class="collapsed">
-                                                Which blockchain will you use?<span class="plus-minus"><span class="ti ti-angle-up">
-                                                </span>
-                                                </span>
-                                                </a>
-                                             </h5>
-                                          </div>
-                                          <div id="collapse-3-3" data-parent="#accordion-3" class="collapse">
-                                             <div class="card-body">
-                                                <p>
-                                                   At the current stage, we will use Ethereum smart contracts. Additionally, we are not platform or instrument dependent (we are not tied to a
-                                                   particular platform or instrument in the blockchain). We will create our own blockbuster platform that will match that best meets our requirements
-                                                   for speed, reliability, and cost.
-                                                </p>
-                                             </div>
-                                          </div>
-                                       </div>
-                                       <div data-animate="fadeInUp" data-delay=".1" class="card active animated fadeInUp" style="visibility: visible; animation-delay: 0.1s;">
-                                          <div class="card-header">
-                                             <h5><a data-toggle="collapse" data-target="#collapse-3-4">
-                                                What is the service of creating a personal digital token?<span class="plus-minus">
-                                                <span class="ti ti-angle-up"></span></span></a>
-                                             </h5>
-                                          </div>
-                                          <div id="collapse-3-4" data-parent="#accordion-3" class="collapse show">
-                                             <div class="card-body">
-                                                <p>The service for creating personal digital tokens and ICO will provide an opportunity for environmental project initiators to create
-                                                   their own token using the easy-to-use interface of the EcoStart platform. The initial offer of coins will allow to participate in
-                                                   financing the project literally to all comers. The issue of own tokens will be carried out on the basis of the EchoCoin crypto
-                                                   currency protocol. ECT Tokens can serve as a product token, electronic cryptovexel, share in the project and participation
-                                                   certificates. For each token, you can specify your own name, output volume, number of decimal places and other parameters
-                                                   and
-                                                   properties.
-                                                </p>
-                                             </div>
-                                          </div>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="col-lg-4">
-                           <div data-animate="fadeInUp" data-delay=".5" class="fake-class animated fadeInUp" style="visibility: visible; animation-delay: 0.5s;"><img src="./images/graph-jasmine-e.png" alt="graph"></div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <div>
-               <div id="contact" class="section section-pad-md section-bg">
-                  <div class="container">
-                     <div class="row">
-                        <div class="col-lg-3 col-md-5">
-                           <div class="section-head-s6">
-                              <h6 data-animate="fadeInUp" data-delay=".1" class="heading-sm-s2 animated fadeInUp" style="visibility: visible; animation-delay: 0.1s;">Contact</h6>
-                              <h2 data-animate="fadeInUp" data-delay=".2" class="section-title-s6 animated fadeInUp" style="visibility: visible; animation-delay: 0.2s;">Get In Touch</h2>
-                              <p data-animate="fadeInUp" data-delay=".3" class="animated fadeInUp" style="visibility: visible; animation-delay: 0.3s;">Any question? Reach out to us and we’ll get back to you shortly.</p>
-                           </div>
-                           <ul class="contact-info-alt">
-                              <li data-animate="fadeInUp" data-delay=".4" class="animated fadeInUp" style="visibility: visible; animation-delay: 0.4s;"><em class="fa fa-phone"></em><span>+44 0123 4567</span></li>
-                              <li data-animate="fadeInUp" data-delay=".5" class="animated fadeInUp" style="visibility: visible; animation-delay: 0.5s;"><em class="fa fa-envelope"></em><span>info@yourcompany.com</span></li>
-                              <li data-animate="fadeInUp" data-delay=".6" class="animated fadeInUp" style="visibility: visible; animation-delay: 0.6s;"><em class="fa fa-paper-plane"></em><span>Join us on Telegram</span></li>
-                           </ul>
-                        </div>
-                        <div class="col-lg-4 col-md-7 offset-lg-1 offset-md-0 res-m-bttm">
-                           <div class="gaps size-3x d-none d-md-block"></div>
-                           <div class="gaps size-2x"></div>
-                           <form id="contact-form" action="http://eco-start.com/form/contact.php" method="post" class="form-message form-message-s2 text-left" novalidate="novalidate">
-                              <div class="form-results"></div>
-                              <div data-animate="fadeInUp" data-delay=".7" class="input-field animated fadeInUp" style="visibility: visible; animation-delay: 0.7s;"><input name="contact-name" type="text" placeholder="Your Name" class="input-border required" aria-required="true"></div>
-                              <div data-animate="fadeInUp" data-delay=".8" class="input-field animated fadeInUp" style="visibility: visible; animation-delay: 0.8s;"><input name="contact-email" type="email" placeholder="Your Email" class="input-border required email" aria-required="true"></div>
-                              <div data-animate="fadeInUp" data-delay=".9" class="input-field animated fadeInUp" style="visibility: visible; animation-delay: 0.9s;"><textarea name="contact-message" placeholder="Your Message" class="txtarea input-border required" aria-required="true"></textarea></div>
-                              <input type="text" name="form-anti-honeypot" value="" class="d-none">
-                              <div data-animate="fadeInUp" data-delay="1.0" class="input-field animated fadeInUp" style="visibility: visible; animation-delay: 1s;"><button type="submit" class="btn">Submit</button></div>
-                           </form>
-                        </div>
-                        <div class="col-lg-4 align-self-center">
-                           <div data-animate="fadeInUp" data-delay="1.1" class="fake-class animated fadeInUp" style="visibility: visible; animation-delay: 1.1s;"><img src="./images/graph-jasmine-f.png" alt="graph"></div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div id="join" class="section subscribe-section-s2 section-bg section-dark">
-                  <div class="container">
-                     <div data-animate="fadeInUp" data-delay=".2" class="subscribe-box animated fadeInUp" style="visibility: visible; animation-delay: 0.2s;">
-                        <div class="row">
-                           <div class="col-lg-6">
-                              <div class="heading-sm-s3">
-                                 <h5>Don't miss out, Stay updated</h5>
-                              </div>
-                           </div>
-                           <div class="col-lg-6">
-                              <div class="gaps size-2x"></div>
-                              <form id="subscribe-form" action="http://eco-start.com/form/subscribe.php" method="post" class="subscription-form inline-form-s2" novalidate="novalidate">
-                                 <input type="text" name="youremail" placeholder="Enter your email address" class="input-round-s2 required email" aria-required="true"> <input type="text" name="form-anti-honeypot" value="" class="d-none"> <button type="submit" class="btn btn-plane">Subscribe</button>
-                                 <div class="subscribe-results"></div>
-                              </form>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <div>
-               <div class="section footer-scetion footer-jasmine">
-                  <div class="container">
-                     <div class="row text-center">
-                        <div class="col-md-12">
-                           <ul class="social">
-                              <li data-animate="fadeInUp" data-delay=".1" class="animated fadeInUp" style="visibility: visible; animation-delay: 0.1s;"><a href="http://eco-start.com/#"><em class="fab fa-facebook-f"></em></a></li>
-                              <li data-animate="fadeInUp" data-delay=".2" class="animated fadeInUp" style="visibility: visible; animation-delay: 0.2s;"><a href="http://eco-start.com/#"><em class="fab fa-twitter"></em></a></li>
-                              <li data-animate="fadeInUp" data-delay=".3" class="animated fadeInUp" style="visibility: visible; animation-delay: 0.3s;"><a href="http://eco-start.com/#"><em class="fab fa-youtube"></em></a></li>
-                              <li data-animate="fadeInUp" data-delay=".4" class="animated fadeInUp" style="visibility: visible; animation-delay: 0.4s;"><a href="http://eco-start.com/#"><em class="fab fa-github"></em></a></li>
-                              <li data-animate="fadeInUp" data-delay=".5" class="animated fadeInUp" style="visibility: visible; animation-delay: 0.5s;"><a href="http://eco-start.com/#"><em class="fab fa-bitcoin"></em></a></li>
-                              <li data-animate="fadeInUp" data-delay=".6" class="animated fadeInUp" style="visibility: visible; animation-delay: 0.6s;"><a href="http://eco-start.com/#"><em class="fab fa-medium-m"></em></a></li>
-                           </ul>
-                           <a href="http://eco-start.com/#" class="footer-logo">
-                           <img src="./images/logo.png" alt="logo2x" srcset="/static/images/logo2x.png 2x">
-                           </a>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
+          </div>
+        </div>
       </div>
+      <div>
+        <div id="about" class="section section-pad section-bg-atob">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-md-6">
+                <div class="res-m-btm text-center movTop animated mywaypoint" >
+                <img  class="animated movRight" src="./images/graph-jasmine-a.png" alt="graph"></div>
+              </div>
+              <div class="col-md-6">
+                <div class="text-block">
+                  <h6 class="heading-sm-s2 animated movRight mywaypoint " > СУТЬ ПРОЕКТА</h6>
+                  <h2 class="animated movRight" > Мы создаем EcoStart - это публичная распределённая криптографическая платформа,</h2>
+                  <p class="lead animated movRight" >
+                    которая послужит для создания приложений и программных решений на открытом блокчейне по финансированию экологических и природоохранных проектов, с собственной криптовалютой TECO, при генерации которой используется алгоритм Proof-of-Importance.
+                  </p>
+                  <p data-animate="fadeInUp" data-delay=".5" class="animated movRight">
+                    Проект Ecostart направлен на решение одной из острых проблем всего человечества – экологической, используя современные информационные технологии для создания и функционирования системы финансирования и реализации экологических мероприятий.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="section section-pad no-pb section-bg">
+          <div class="container">
+            <div class="row align-items-center justify-content-between">
+              <div class="col-md-6">
+                <div data-animate="fadeInUp" data-delay=".1" class="res-m-btm movLeft animated"><img src="./images/graph-jasmine-b.png" alt="graph"></div>
+              </div>
+              <div class="col-md-6 order-md-first order-last">
+                <div class="text-block">
+                  <h6 data-animate="fadeInUp" data-delay=".2" class="movLeft heading-sm-s2 animated"> TECO BLOCKCHAIN </h6>
+                  <h2 data-animate="fadeInUp" data-delay=".3" class="movLeft animated"> Инвестиции в жизнь</h2>
+                  <p data-animate="fadeInUp" data-delay=".4" class="movLeft animated">Мы создаем экосистему основанную на собственной Blockchain технологии, которая обеспечит полную прозрачность сбора и контроля расходовывания средств для экологических проектов, отсутствие посредников, зависимость от органов государственной власти и глобальных финансовых групп.</p>
+                  <p data-animate="fadeInUp" data-delay=".6" class=" movleft animated"> Благодаря TECO будут решаться острые экологические проблемы по всему миру, путем финансирования стартапов держателями токенов, а также с помощью собственной технологии Blockchain, где комиссия с каждой транзакции отправляется в фонд по защите огружающей среды. </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section section-pad no-pb section-bg">
+          <div class="container">
+            <div class="row align-items-center justify-content-between">
+              <div class="col-md-6">
+                <div data-animate="fadeInUp" data-delay=".1" class="movTop res-m-btm animated">
+                <img class="movTop" src="./images/graph-jasmine-c.png" alt="graph"></div>
+              </div>
+              <div class="col-md-6">
+                <div class="text-block">
+                  <h6 data-animate="fadeInUp" data-delay=".2" class="movTop heading-sm-s2 animated"> TECO COMMUNITY </h6>
+                  <h2 data-animate="fadeInUp" data-delay=".3" class="movTop animated"> Экологическое сообщество</h2>
+                  <p data-animate="fadeInUp" data-delay=".4" class="movTop animated">Встроенный в экосистему криптографический мессенджер позволит обмениваться сообщениями между всеми участниками, обсуждать экологические проблемы и формировать идеи по их устронению.</p>
+                  <p data-animate="fadeInUp" data-delay=".6" class="movTop animated"> Любой участник сообщества может принимать участие в сервисе по экспертизе проектов, где выявляются неэкологические проекты, формируется список рекомендаций, рейтинг доверия и репутации. </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section section-pad section-bg">
+          <div class="container">
+            <div class="row align-items-center justify-content-between">
+              <div class="col-md-5">
+                <div data-animate="fadeInUp" data-delay=".1" class=" movTop movLeft res-m-btm animated">
+                  <img class="movTop" src="./images/graph-jasmine-d.png" alt="graph"></div>
+              </div>
+              <div class="col-md-6 order-md-first order-last">
+                <div class="text-block">
+                  <h6 data-animate="fadeInUp" data-delay=".2" class="movLeft heading-sm-s2 animated"> TECO APPS </h6>
+                  <h2 data-animate="fadeInUp" data-delay=".3" class="movLeft animated"> Экологичские приложения</h2>
+                  <p data-animate="fadeInUp" data-delay=".4" class="movLeft animated">На базе TECO Blockchain любой участник экосистемы может создавать собственные приложения для решения экологических проблем.</p>
+                  <p data-animate="fadeInUp" data-delay=".6" class="movLeft animated"> Логику работы приложений будут обеспечивать смарт контракты, а интеграцию со сторонними ресурсами открытое API для разработчиков. </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div id="why" class="section section-pad section-bg-alt pb-no" style="background-color: rgb(249, 250, 255);">
+          <div class="container">
+            <div class="row text-center">
+              <div class="col-md-12">
+                <div class="gaps size-2x"></div>
+                <h3 data-animate="fadeInUp" data-delay=".8" class="movTop sub-heading ucap text-left animated"> Основные возможности</h3>
+                <div class="gaps size-2x"></div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-4 res-m-bttm ">
+                <div data-animate="fadeInUp" data-delay=".0" class="features-box-s3 animated movTop">
+                  <div class="features-icon-s3"><img class="movTop" alt="icon" src="./images/icon-a.png"></div>
+                  <h5 class="features-title-s3"> IEF</h5> <span  class="features-subtitle-s3">Увиличивается с комиссии транзакций в TECO Blockchain.</span>
+                  <p>Децентрализованный инвестиционный экологический фонд .</p>
+                </div>
+              </div>
+              <div class="col-md-4 res-m-bttm ">
+                <div data-animate="fadeInUp" data-delay=".1" class="features-box-s3 animated movTop">
+                  <div class="features-icon-s3"><img class="movTop" src="./images/icon-b.png" alt="icon"></div>
+                  <h5 class="features-title-s3"> Fundraising Apps</h5> <span class="features-subtitle-s3">Простой сбор средств на экологические проблемы.</span>
+                  <p>Cервис по созданию именных цифровых токенов инициаторами экологических проектов .</p>
+                </div>
+              </div>
+              <div class="col-md-4 res-m-bttm ">
+                <div data-animate="fadeInUp" data-delay=".2" class="features-box-s3 animated movTop">
+                  <div class="features-icon-s3"><img class="movTop" src="./images/icon-c.png" alt="icon"></div>
+                  <h5 class="features-title-s3"> Space App</h5> <span class="features-subtitle-s3">Наблюдение за экологией из любой точки земного шара.</span>
+                  <p>Приложение по космическому мониторингу поверхности земли.</p>
+                </div>
+              </div>
+            </div>
+            <div class="gaps size-2x"></div>
+            <div class="gaps size-2x d-none d-md-block"></div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div id="benifits" class="section section-pad section-bg">
+          <div class="container">
+            <div class="row text-center">
+              <div class="col-md-12">
+                <div class="gaps size-2x"></div>
+                <h3 data-animate="fadeInUp" data-delay=".8" class="sub-heading ucap text-left animated movTop"> Другие возможности</h3>
+                <div class="gaps size-2x"></div>
+              </div>
+            </div>
+            <div class="row mb--x8">
+              <div class="col-lg-6">
+                <div data-animate="fadeInUp" data-delay=".0" class="benefits-item animated movLeft">
+                  <div class="benefits-icon text-center">
+                    <h1> 01.</h1></div>
+                  <div class="benefits-txt">
+                    <p>НКО и инициаторам экологических проектов Ecostart предоставит набор инструментов для создания собственных токенов . Продажа выпущенных токенов позволит собирать деньги на реализацию экологических проектов.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div data-animate="fadeInUp" data-delay=".1" class="benefits-item animated movRight movTop">
+                  <div class="benefits-icon text-center">
+                    <h1> 02.</h1></div>
+                  <div class="benefits-txt">
+                    <p>Волонтеры – смогут получить информацию о месте и времени проведения экологических акций.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div data-animate="fadeInUp" data-delay=".2" class="benefits-item animated movLeft">
+                  <div class="benefits-icon text-center">
+                    <h1> 03.</h1></div>
+                  <div class="benefits-txt">
+                    <p>Инвесторы, спонсоры (социально-ответственный бизнес) за финансирование экологических проектов создадут себе положительный имидж и PR, а в случае вложений в «зелёные»коммерческие проекты получат ещё и прибыль.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div data-animate="fadeInUp" data-delay=".3" class="benefits-item animated movRight movTop">
+                  <div class="benefits-icon text-center">
+                    <h1> 04.</h1></div>
+                  <div class="benefits-txt">
+                    <p>Владельцы криптовалюты TerraEcocoin, получат возможность инвестировать без посредников в «зелёные» стартапы и создавать мастерноды для подтверждения транзакций TECO, получая стабильный доход.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div data-animate="fadeInUp" data-delay=".4" class="benefits-item animated movLeft">
+                  <div class="benefits-icon text-center">
+                    <h1> 05.</h1></div>
+                  <div class="benefits-txt">
+                    <p>Для стартапов появляется возможность обратиться в инвестиционный экологический фонд, который ориентирован на финансирование предприятий и стартапов, реализующих экологические проекты.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div id="roadmap" class="section section-pad section-bg" style="background-color: rgb(249, 250, 255);">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="section-head-s6">
+                  <h6 data-animate="fadeInUp" data-delay=".1" class="heading-sm-s2 animated movTop">TECO UPDATES</h6>
+                  <h2 data-animate="fadeInUp" data-delay=".3" class="section-title-s6 animated movTop">Road Map</h2></div>
+                <div class="gaps size-1x"></div>
+                <div class="gaps size-2x d-none d-md-block"></div>
+              </div>
+            </div>
+            <div data-animate="fadeInUp" data-delay=".4" class="timeline-row timeline-row-odd  animated movTop">
+              <div class="row no-gutters text-left text-lg-center justify-content-center">
+                <div class="col-lg">
+                  <div class="timeline-item  movTop"><span class="timeline-date">SEPTEMBER  2018</span>
+                    <h6 class="timeline-title movTop">ICO</h6>
+                    <ul class="timeline-info movTop">
+                      <li>Start PRE-ICO</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-lg">
+                  <div class="timeline-item "><span class="timeline-date movTop">October 2018</span>
+                    <h6 class="timeline-title movTop">ICO</h6>
+                    <ul class="timeline-info movTop">
+                      <li>Start ICO</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-lg">
+                  <div class="timeline-item "><span class="timeline-date movTop">December 2018</span>
+                    <h6 class="timeline-title movTop">Listing</h6>
+                    <ul class="timeline-info movTop">
+                      <li>Listing of tokens on the exchange</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-lg">
+                  <div class="timeline-item "><span class="timeline-date" movTop>January 2019</span>
+                    <h6 class="timeline-title movTop">PLATFORM</h6>
+                    <ul class="timeline-info movTop">
+                      <li>Alpha version</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div data-animate="fadeInUp" data-delay=".4" class="timeline-row timeline-row-even animated movTop">
+              <div class="row no-gutters text-left text-lg-center justify-content-center flex-row-reverse">
+                <div class="col-lg">
+                  <div class="timeline-item  movTop"><span class="timeline-date movTop">March 2019</span>
+                    <h6 class="timeline-title movTop">PLATFORM</h6>
+                    <ul class="timeline-info">
+                      <li>Beta testing platform</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-lg">
+                  <div class="timeline-item movTop"><span class="timeline-date">April 2019</span>
+                    <h6 class="timeline-title movTop">TECO</h6>
+                    <ul class="timeline-info movTop">
+                      <li>Release of TECO Blockchain</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-lg">
+                  <div class="timeline-item movTop"><span class="timeline-date">June 2019</span>
+                    <h6 class="timeline-title movTop">PLATFORM</h6>
+                    <ul class="timeline-info">
+                      <li>Launching a mobile application</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div data-animate="fadeInUp" data-delay=".4" class="timeline-row timeline-row-odd movTop timeline-row-last mb--x5 animated">
+              <div class="row no-gutters text-left text-lg-center justify-content-center">
+                <div class="col-lg">
+                  <div class="timeline-item movTop"><span class="timeline-date">July 2019</span>
+                    <h6 class="timeline-title movTop">PLATFORM</h6>
+                    <ul class="timeline-info movTop">
+                      <li>Open API for developers</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-lg">
+                  <div class="timeline-item movTop"><span class="timeline-date">October 2019</span>
+                    <h6 class="timeline-title">PLATFORM</h6>
+                    <ul class="timeline-info movTop">
+                      <li>Finish of the project</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-lg">
+                  <div class="timeline-item movTop"><span class="timeline-date">December 2019</span>
+                    <h6 class="timeline-title movTop">COMMUNITY</h6>
+                    <ul class="timeline-info movTop">
+                      <li>Formation of an ecological community on a platform</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="gaps size-2x d-lg-none"></div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div id="tokenSale" class="section section-pad section-bg">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="section-head-s6">
+                  <h6 data-animate="fadeInUp" data-delay=".1" class="heading-sm-s2 animated movTop">TECO Token</h6>
+                  <h2 data-animate="fadeInUp" data-delay=".2" class="section-title-s6 animated movTop">Token Sale</h2>
+                  <p data-animate="fadeInUp" data-delay=".3" class="animated movTop">TECO token is complitable with ERC20 Standart.</p>
+                </div>
+                <div class="gaps size-2x"></div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-7 text-center">
+                <div class="row">
+                  <div class="col-sm-4">
+                    <div data-animate="fadeInUp" data-delay=".4" class="token-stage animated movTop">
+                      <div class="token-stage-title token-stage-pre">PRE SALE</div>
+                      <div class="token-stage-date">
+                        <h6>25 August 2018</h6> <span>1 Month</span></div>
+                      <div class="token-stage-info"><span class="token-stage-bonus">45% Bonus</span></div>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div data-animate="fadeInUp" data-delay=".5" class="token-stage animated movTop">
+                      <div class="token-stage-title">PRE ICO</div>
+                      <div class="token-stage-date">
+                        <h6>24 September 2018</h6> <span>15 Days</span></div>
+                      <div class="token-stage-info"><span class="token-stage-bonus">30% Bonus</span> <span class="token-stage-cap">Soft Cap</span> <span class="token-stage-amount">500 000 USD</span></div>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div data-animate="fadeInUp" data-delay=".6" class="token-stage animated movTop">
+                      <div class="token-stage-title">ICO</div>
+                      <div class="token-stage-date">
+                        <h6>15 October 2018</h6> <span>30 Days</span></div>
+                      <div class="token-stage-info"><span class="token-stage-bonus">15% Bonus</span> <span class="token-stage-cap">Soft Cap</span> <span class="token-stage-amount">1 500 000 USD</span></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="gaps size-2x d-none d-lg-block"></div>
+                <div data-animate="fadeInUp" data-delay=".7" class="token-action-box res-m-bttm animated movTop">
+                  <div class="token-action-title">Join Our
+                    <br> Pre-Sale List</div>
+                  <div class="token-action-date">Pre-Sale Start at <span>03 July 2018</span></div>
+                  <div class="token-action-btn"><a href="http://sale.eco-start.com/" class="btn btn-lg">Signup &amp; Join</a></div>
+                </div>
+              </div>
+              <div class="col-lg-5">
+                <ul data-animate="fadeInUp" data-delay=".8" class="token-details-list animated movRight">
+                  <li><span class="token-details-title">Token Symbol</span> <span class="token-details-info">TECO</span></li>
+                  <li><span class="token-details-title">Token Sale Start</span> <span class="token-details-info">25 August 2018</span></li>
+                  <li><span class="token-details-title">Token Sale End</span> <span class="token-details-info">15 November 2018</span></li>
+                  <li><span class="token-details-title">Tokens for sale</span> <span class="token-details-info">200,000,000</span></li>
+                  <li><span class="token-details-title">Token Price</span> <span class="token-details-info">$0.1 USD</span></li>
+                  <li><span class="token-details-title">Specifications</span> <span class="token-details-info">TECO token</span></li>
+                  <li><span class="token-details-title">Max circulating supply</span> <span class="token-details-info">130,000,000</span></li>
+                </ul>
+              </div>
+            </div>
+            <div class="gaps size-2x d-none d-md-block"></div>
+            <div class="gaps size-2x"></div>
+            <div class="row">
+              <div class="col-lg-12">
+                <h3 data-animate="fadeInUp" data-delay=".1" class="sub-heading-s2 animated movTop">Token Allocation</h3>
+                <div data-animate="fadeInUp" data-delay=".2" class="token-bar-chart animated movLeft">
+                  <div class="token-bar-item tbic1" style="width: 7%;">
+                    <div class="token-bar-txt"><span>2%</span> <span>Bounty</span></div>
+                  </div>
+                  <div class="token-bar-item tbic2" style="width: 58%;">
+                    <div class="token-bar-txt"><span>65%</span> <span>For sale</span></div>
+                  </div>
+                  <div class="token-bar-item tbic3" style="width: 22%;">
+                    <div class="token-bar-txt"><span>22%</span> <span>Team &amp; Partners</span></div>
+                  </div>
+                  <div class="token-bar-item tbic4" style="width: 3%;">
+                    <div class="token-bar-txt"><span>1%</span> <span>Reserve Fund</span></div>
+                  </div>
+                  <div class="token-bar-item tbic5" style="width: 7%;">
+                    <div class="token-bar-txt"><span>10%</span> <span>Miners</span></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="gaps size-2x d-none d-md-block"></div>
+            <div class="gaps size-2x"></div>
+            <div class="row">
+              <div class="col-lg-12">
+                <h3 data-animate="fadeInUp" data-delay=".3" class="sub-heading-s2 animated movTop">Operating Allocation</h3>
+                <div data-animate="fadeInUp" data-delay=".4" class="token-bar-chart animated movLeft">
+                  <div class="token-bar-item tbic5" style="width: 55%;">
+                    <div class="token-bar-txt"><span>55%</span> <span>Marketing &amp; Advertising</span></div>
+                  </div>
+                  <div class="token-bar-item tbic4" style="width: 20%;">
+                    <div class="token-bar-txt"><span>20%</span> <span>Software development</span></div>
+                  </div>
+                  <div class="token-bar-item tbic3" style="width: 15%;">
+                    <div class="token-bar-txt"><span>15%</span> <span>Operating</span></div>
+                  </div>
+                  <div class="token-bar-item tbic2" style="width: 5%;">
+                    <div class="token-bar-txt"><span>5%</span> <span>Legal</span></div>
+                  </div>
+                  <div class="token-bar-item tbic5" style="width: 5%;">
+                    <div class="token-bar-txt"><span>5%</span> <span>Insurance Fund</span></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div id="team" class="section section-pad section-bg-alt section-fix">
+          <div class="background-shape bs-reverse"></div>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="gaps size-2x"></div>
+                <h3 data-animate="fadeInUp" data-delay=".8" class="sub-heading ucap text-left animated movTop"> Наша команда</h3>
+                <div class="gaps size-2x"></div>
+              </div>
+            </div>
+            <div class="row">
+              <div data-animate="fadeInUp" data-delay=".0" class=" movTop movTop col-md-6 col-lg-4 offset-lg-2 offset-xl-0 col-xl-3 d-inline-flex justify-content-center animated">
+                <div class="team-member">
+                  <div class="team-photo"><img alt="team" src="./images/olga.jpg">
+                    <a href="http://eco-start.com/#team-profile-0" class="expand-trigger content-popup"></a>
+                  </div>
+                  <div class="team-info">
+                    <h5 class="team-name">Olga <br> Bergen</h5> <span class="team-title"> CEO and Co-founder </span>
+                    <ul class="team-social">
+                      <li><a target="_blank" href="https://www.linkedin.com/in/olga-bergen-663493163/"><em class="fab fa-linkedin-in"></em></a></li>
+                    </ul>
+                  </div>
+                  <div id="team-profile-0" class="team-profile mfp-hide">
+                    <button title="Close (Esc)" type="button" class="mfp-close">×</button>
+                    <div class="container-fluid">
+                      <div class="row no-mg">
+                        <div class="col-md-6">
+                          <div class="team-profile-photo"><img alt="team" src="./images/olga.jpg"></div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="team-profile-info">
+                            <h3 class="name">Olga <br> Bergen</h3>
+                            <p class="sub-title">CEO and Co-founder</p>
+                            <ul class="tpi-social">
+                              <li><a target="_blank" href="https://www.linkedin.com/in/olga-bergen-663493163/"><em class="fab fa-linkedin-in"></em></a></li>
+                            </ul>
+                            <p>A corporate strategist with many years of experience in the advertising and information technology industry. In recent years, is engaged in accelerating startups. «I have been engaged in accelerating the startup projects for several years. EcoStart is definitely a powerful project with great potential. There are many enterprising young people in the world who really need our help. Together with you we will do a very important and necessary thing!»</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div data-animate="fadeInUp" data-delay=".1" class="movTop col-md-6 col-lg-4 offset-lg-2 offset-xl-0 col-xl-3 d-inline-flex justify-content-center animated">
+                <div class="team-member">
+                  <div class="team-photo"><img alt="team" src="./images/Michael.jpg">
+                    <a href="http://eco-start.com/#team-profile-1" class="expand-trigger content-popup"></a>
+                  </div>
+                  <div class="team-info">
+                    <h5 class="team-name">Michael McKee</h5> <span class="team-title"> Chief Visionary Officer </span>
+                    <ul class="team-social">
+                      <li><a target="_blank" href="https://www.linkedin.com/in/michael-mckee-74b20634/"><em class="fab fa-linkedin-in"></em></a></li>
+                    </ul>
+                  </div>
+                  <div id="team-profile-1" class="team-profile mfp-hide">
+                    <button title="Close (Esc)" type="button" class="mfp-close">×</button>
+                    <div class="container-fluid">
+                      <div class="row no-mg">
+                        <div class="col-md-6">
+                          <div class="team-profile-photo"><img alt="team" src="./images/Michael.jpg"></div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="team-profile-info">
+                            <h3 class="name">Michael McKee</h3>
+                            <p class="sub-title">Chief Visionary Officer</p>
+                            <ul class="tpi-social">
+                              <li><a target="_blank" href="https://www.linkedin.com/in/michael-mckee-74b20634/"><em class="fab fa-linkedin-in"></em></a></li>
+                            </ul>
+                            <p>Before starting out into ICO Advisory, Michael spent 13 years as Social Media Influencer and Digital Marketer for several dot com startups. After a successful career helping various clothing companies and aspiring musicians, Michael now advises ICOs and Startups on how to market their projects on social media and through SEO. Michael has been a serial ICO investor since 2016 and one of the fastest growing Blockchain Influencers with over 350,000 followers in total.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div data-animate="fadeInUp" data-delay=".2" class="movTop col-md-6 col-lg-4 offset-lg-2 offset-xl-0 col-xl-3 d-inline-flex justify-content-center animated">
+                <div class="team-member">
+                  <div class="team-photo"><img alt="team" src="./images/timur.jpg">
+                    <a href="http://eco-start.com/#team-profile-2" class="expand-trigger content-popup"></a>
+                  </div>
+                  <div class="team-info">
+                    <h5 class="team-name">Teymur Nurullaev</h5> <span class="team-title"> COO (Chief Operating Officer) </span>
+                    <ul class="team-social">
+                      <li><a target="_blank" href="https://www.facebook.com/TeymurNur"><em class="fab fa-facebook-f"></em></a></li>
+                    </ul>
+                  </div>
+                  <div id="team-profile-2" class="team-profile mfp-hide">
+                    <button title="Close (Esc)" type="button" class="mfp-close">×</button>
+                    <div class="container-fluid">
+                      <div class="row no-mg">
+                        <div class="col-md-6">
+                          <div class="team-profile-photo"><img alt="team" src="./images/timur.jpg"></div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="team-profile-info">
+                            <h3 class="name">Teymur Nurullaev</h3>
+                            <p class="sub-title">COO (Chief Operating Officer)</p>
+                            <ul class="tpi-social">
+                              <li><a target="_blank" href="https://www.facebook.com/TeymurNur"><em class="fab fa-facebook-f"></em></a></li>
+                            </ul>
+                            <p>Chief Operating Officer, a successful businessman, a programmer, one of the first adepts of the blockchain “I support the project EcoStart because the Cryptocurrency will gain momentum in the event that we start creating as many projects as possible on blockchain. I manage a whole army of bots - they will help us in this project too!”</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div data-animate="fadeInUp" data-delay=".3" class="movTop col-md-6 col-lg-4 offset-lg-2 offset-xl-0 col-xl-3 d-inline-flex justify-content-center animated">
+                <div class="team-member">
+                  <div class="team-photo"><img alt="team" src="./images/Natalia.jpg">
+                    <a href="http://eco-start.com/#team-profile-3" class="expand-trigger content-popup"></a>
+                  </div>
+                  <div class="team-info">
+                    <h5 class="team-name">Nataly Nurullaeva</h5> <span class="team-title"> СМО (Сhief marketing officer) </span>
+                    <ul class="team-social">
+                      <li><a target="_blank" href="https://www.facebook.com/profile.php?id=%20100001662803799"><em class="fab fa-facebook-f"></em></a></li>
+                    </ul>
+                  </div>
+                  <div id="team-profile-3" class="team-profile mfp-hide">
+                    <button title="Close (Esc)" type="button" class="mfp-close">×</button>
+                    <div class="container-fluid">
+                      <div class="row no-mg">
+                        <div class="col-md-6">
+                          <div class="team-profile-photo"><img alt="team" src="./images/Natalia.jpg"></div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="team-profile-info">
+                            <h3 class="name">Nataly Nurullaeva</h3>
+                            <p class="sub-title">СМО (Сhief marketing officer)</p>
+                            <ul class="tpi-social">
+                              <li><a target="_blank" href="https://www.facebook.com/profile.php?id=%20100001662803799"><em class="fab fa-facebook-f"></em></a></li>
+                            </ul>
+                            <p>«My element is marketing communications and project management. In EcoStart I see global opportunities - the project will help to unite not indifferent people around the world around a great idea. It's just a marketer's dream!»</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div data-animate="fadeInUp" data-delay=".4" class="movTop col-md-6 col-lg-4 offset-lg-2 offset-xl-0 col-xl-3 d-inline-flex justify-content-center animated">
+                <div class="team-member">
+                  <div class="team-photo"><img alt="team" src="./images/alexander.jpg">
+                    <a href="http://eco-start.com/#team-profile-4" class="expand-trigger content-popup"></a>
+                  </div>
+                  <div class="team-info">
+                    <h5 class="team-name">Aleksandr Goldobin</h5> <span class="team-title"> CFO (Chief Financial Officer)&nbsp; </span>
+                    <ul class="team-social">
+                      <li><a target="_blank" href="https://www.linkedin.com/in/aleksandr-goldobin-2ab883162/"><em class="fab fa-linkedin-in"></em></a></li>
+                    </ul>
+                  </div>
+                  <div id="team-profile-4" class="team-profile mfp-hide">
+                    <button title="Close (Esc)" type="button" class="mfp-close">×</button>
+                    <div class="container-fluid">
+                      <div class="row no-mg">
+                        <div class="col-md-6">
+                          <div class="team-profile-photo"><img alt="team" src="./images/alexander.jpg"></div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="team-profile-info">
+                            <h3 class="name">Aleksandr Goldobin</h3>
+                            <p class="sub-title">CFO (Chief Financial Officer)&nbsp;</p>
+                            <ul class="tpi-social">
+                              <li><a target="_blank" href="https://www.linkedin.com/in/aleksandr-goldobin-2ab883162/"><em class="fab fa-linkedin-in"></em></a></li>
+                            </ul>
+                            <p>The financial director responsible for managing the financial flows of the business with vast managerial experience in a wide range of industries.
+                              <br> “My motto is think globally-act locally! That is why I proposed to bring the project Ecostart to the international level. I believe such initiatives are important for the world community. Our financial support is needed by many ecological projects!”</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div data-animate="fadeInUp" data-delay=".5" class="movTop col-md-6 col-lg-4 offset-lg-2 offset-xl-0 col-xl-3 d-inline-flex justify-content-center animated">
+                <div class="team-member">
+                  <div class="team-photo"><img src="./images/olga-g.jpg" alt="team">
+                    <a href="http://eco-start.com/#team-profile-5" class="expand-trigger content-popup"></a>
+                  </div>
+                  <div class="team-info">
+                    <h5 class="team-name">Olga Gershenzon</h5> <span class="team-title"> Head of Aerospace Monitoring </span>
+                    <ul class="team-social">
+                      <li><a target="_blank" href="https://www.linkedin.com/in/olgagershenzon/"><em class="fab fa-linkedin-in"></em></a></li>
+                    </ul>
+                  </div>
+                  <div id="team-profile-5" class="team-profile mfp-hide">
+                    <button title="Close (Esc)" type="button" class="mfp-close">×</button>
+                    <div class="container-fluid">
+                      <div class="row no-mg">
+                        <div class="col-md-6">
+                          <div class="team-profile-photo"><img src="./images/olga-g.jpg" alt="team"></div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="team-profile-info">
+                            <h3 class="name">Olga Gershenzon</h3>
+                            <p class="sub-title">Head of Aerospace Monitoring</p>
+                            <ul class="tpi-social">
+                              <li><a target="_blank" href="https://www.linkedin.com/in/olgagershenzon/"><em class="fab fa-linkedin-in"></em></a></li>
+                            </ul>
+                            <p>Co-Founder, Chief Strategy Officer at RBCSignals
+                              <br> «From the solar system, we still cannot get out for a long time. Therefore, one must learn to live on earth and better on ecologically friendly»</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div data-animate="fadeInUp" data-delay=".6" class="movTop col-md-6 col-lg-4 offset-lg-2 offset-xl-0 col-xl-3 d-inline-flex justify-content-center animated">
+                <div class="team-member">
+                  <div class="team-photo"><img src="./images/dina.jpg" alt="team">
+                    <a href="http://eco-start.com/#team-profile-6" class="expand-trigger content-popup"></a>
+                  </div>
+                  <div class="team-info">
+                    <h5 class="team-name">Dina <br> Korn</h5> <span class="team-title"> PR manager </span>
+                    <ul class="team-social">
+                      <li><a target="_blank" href="https://www.facebook.com/dina.korn"><em class="fab fa-facebook-f"></em></a></li>
+                    </ul>
+                  </div>
+                  <div id="team-profile-6" class="team-profile mfp-hide">
+                    <button title="Close (Esc)" type="button" class="mfp-close">×</button>
+                    <div class="container-fluid">
+                      <div class="row no-mg">
+                        <div class="col-md-6">
+                          <div class="team-profile-photo"><img src="./images/dina.jpg" alt="team"></div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="team-profile-info">
+                            <h3 class="name">Dina <br> Korn</h3>
+                            <p class="sub-title">PR manager</p>
+                            <ul class="tpi-social">
+                              <li><a target="_blank" href="https://www.facebook.com/dina.korn"><em class="fab fa-facebook-f"></em></a></li>
+                            </ul>
+                            <p>The Idea of this project was inspired by Champion of the Earth Afros Shah from Indian Mumbai, who in his home town cleared a beach more than 2 km from garbage weighing 5,500 tons. Such initiatives deserve our common support!</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <div class="gaps size-2x"></div>
+                <h3 data-animate="fadeInUp" data-delay=".8" class="movLeft sub-heading ucap text-left animated"> Консультанты </h3>
+                <div class="gaps size-2x"></div>
+              </div>
+            </div>
+            <div class="row">
+              <div data-animate="fadeInUp" data-delay=".8" class="movTop col-md-6 col-lg-4 offset-lg-2 offset-xl-0 col-xl-3 d-inline-flex justify-content-center animated">
+                <div class="team-member">
+                  <div class="team-photo"><img alt="team" src="./images//advisor-2.jpg">
+                    <a href="http://eco-start.com/#advisor-profile-0" class="expand-trigger content-popup"></a>
+                  </div>
+                  <div class="team-info">
+                    <h5 class="team-name">Dr Mohamed Karim</h5> <span class="team-title"> Leader of advisors &amp; CEO of Mirak AS </span>
+                    <ul class="team-social">
+                      <li><a target="_blank" href="https://www.linkedin.com/in/drkarim/"><em class="fab fa-linkedin-in"></em></a></li>
+                    </ul>
+                  </div>
+                  <div id="advisor-profile-0" class="team-profile mfp-hide">
+                    <button title="Close (Esc)" type="button" class="mfp-close">×</button>
+                    <div class="container-fluid">
+                      <div class="row no-mg">
+                        <div class="col-md-6">
+                          <div class="team-profile-photo"><img alt="team" src="./images/advisor-2.jpg"></div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="team-profile-info">
+                            <h3 class="name">Dr Mohamed Karim</h3>
+                            <p class="sub-title">Leader of advisors &amp; CEO of Mirak AS</p>
+                            <ul class="tpi-social">
+                              <li><a target="_blank" href="https://www.linkedin.com/in/drkarim/"><em class="fab fa-linkedin-in"></em></a></li>
+                            </ul>
+                            <p>When we started with distributed computing 15 years ago, we never could dream that the whole world will be where we are today. Thanks to the Blockchain technology, we can now build projects and concepts beyond all imaginations</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div data-animate="fadeInUp" data-delay=".8" class="movTop col-md-6 col-lg-4 offset-lg-2 offset-xl-0 col-xl-3 d-inline-flex justify-content-center animated">
+                <div class="team-member">
+                  <div class="team-photo"><img alt="team" src="./images/advisor-1.jpg">
+                    <a href="http://eco-start.com/#advisor-profile-1" class="expand-trigger content-popup"></a>
+                  </div>
+                  <div class="team-info">
+                    <h5 class="team-name">Vladimir  Gershenzon </h5> <span class="team-title"> Expert in Earth remote sensing systems </span>
+                    <ul class="team-social">
+                      <li><a target="_blank" href="https://www.facebook.com/profile.php?id=%20100023895310247"><em class="fab fa-facebook-f"></em></a></li>
+                    </ul>
+                  </div>
+                  <div id="advisor-profile-1" class="team-profile mfp-hide">
+                    <button title="Close (Esc)" type="button" class="mfp-close">×</button>
+                    <div class="container-fluid">
+                      <div class="row no-mg">
+                        <div class="col-md-6">
+                          <div class="team-profile-photo"><img alt="team" src="./images//advisor-1.jpg"></div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="team-profile-info">
+                            <h3 class="name">Vladimir  Gershenzon </h3>
+                            <p class="sub-title">Expert in Earth remote sensing systems</p>
+                            <ul class="tpi-social">
+                              <li><a target="_blank" href="https://www.facebook.com/profile.php?id=%20100023895310247"><em class="fab fa-facebook-f"></em></a></li>
+                            </ul>
+                            <p>Leading Research Scientist Center for Computational and Data-Intensive Science and Engineering</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div id="docs" class="section section-pad section-bg-alt">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="section-head-s6">
+                  <h6 data-animate="fadeInUp" data-delay=".1" class="movLeft heading-sm-s2 animated">Download DOCUMENTS</h6>
+                  <h2 data-animate="fadeInUp" data-delay=".2" class="movLeft section-title-s6 animated">Read Our Documents</h2>
+                  <p data-animate="fadeInUp" data-delay=".3" class="movLeft animated">Here is our full documents that help you to understand about us.</p>
+                </div>
+                <div class="gaps size-2x"></div>
+              </div>
+            </div>
+            <div class="row">
+              <div data-animate="fadeInUp" data-delay=".4" class="col-lg-3 col-md-6 res-m-bttm animated movTop">
+                <div class="document-item">
+                  <div class="document-img"><img src="./images/doc-a.png" alt="doc"></div>
+                  <h6 class="document-title">Whitepaper</h6>
+                  <ul class="document-links">
+                    <li><a href="http://eco-start.com/static/docs/whitepaper.pdf" target="_blank">ENG</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div data-animate="fadeInUp" data-delay=".5" class="col-lg-3 col-md-6 res-m-bttm animated movTop">
+                <div class="document-item">
+                  <div class="document-img"><img src="./images/doc-b.png" alt="doc"></div>
+                  <h6 class="document-title">Onepager</h6>
+                  <ul class="document-links">
+                    <li><a href="http://eco-start.com/static/docs/onepager_en.pdf" target="_blank">ENG</a></li>
+                    <li><a href="http://eco-start.com/static/docs/onepager_ru.pdf" target="_blank">RUS</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div data-animate="fadeInUp" data-delay=".6" class="col-lg-3 col-md-6 res-m-bttm animated movTop">
+                <div class="document-item">
+                  <div class="document-img"><img src="./images/doc-c.png" alt="doc"></div>
+                  <h6 class="document-title">Privacy Policy</h6>
+                  <ul class="document-links">
+                    <li><a href="http://eco-start.com/#">ENG</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div data-animate="fadeInUp" data-delay=".7" class="col-lg-3 col-md-6 animated movTop">
+                <div class="document-item">
+                  <div class="document-img"><img src="./images/doc-d.png" alt="doc"></div>
+                  <h6 class="document-title">Terms of Sales</h6>
+                  <ul class="document-links">
+                    <li><a href="http://eco-start.com/static/docs/terms.pdf" target="_blank">ENG</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div id="faq" class="section section-pad section-bg-alt">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-7">
+                <div class="section-head-s6">
+                  <h6 data-animate="fadeInUp" data-delay=".1" class="heading-sm-s2 animated movTop">Faq</h6>
+                  <h2 data-animate="fadeInUp" data-delay=".2" class="section-title-s6 animated movTop">Frequently asked questions</h2>
+                  <p data-animate="fadeInUp" data-delay=".3" class="animated movTop">Below we’ve provided a bit of ICO, ICO Token, cryptocurrencies, and few others. If you have any other questions, please get in touch using the contact form below.</p>
+                </div>
+                <div class="gaps size-1x"></div>
+              </div>
+            </div>
+            <div class="row align-items-center">
+              <div class="col-lg-8 res-m-bttm">
+                <div class="tab-custom-s3">
+                  <ul class="nav nav-tabs text-center">
+                    <li data-animate="fadeInUp" data-delay=".4" class="nav-item animated movTop"><a data-toggle="tab" href="http://eco-start.com/#tab-1" class="nav-link active">General</a></li>
+                    <li data-animate="fadeInUp" data-delay=".5" class="nav-item animated movTop"><a data-toggle="tab" href="http://eco-start.com/#tab-2" class="nav-link">Pre-ICO &amp; ICO</a></li>
+                    <li data-animate="fadeInUp" data-delay=".6" class="nav-item animated movTop"><a data-toggle="tab" href="http://eco-start.com/#tab-3" class="nav-link">Tokens</a></li>
+                  </ul>
+                  <div class="tab-content">
+                    <div id="tab-1" class="tab-pane fade show active">
+                      <div id="accordion-1" class="accordion-s2">
+                        <div data-animate="fadeInUp" data-delay=".1" class="card active animated movTop">
+                          <div class="card-header">
+                            <h5><a data-toggle="collapse" data-target="#collapse-1-1">
+													What is the EcoStart Ecosystem?<span class="plus-minus"><span class="ti ti-angle-up"></span></span></a></h5></div>
+                          <div id="collapse-1-1" data-parent="#accordion-1" class="collapse show">
+                            <div class="card-body">
+                              <p>Ecostart is an innovative solution for the global market for environmental projects. Ecostart is implemented in the form of a public distributed cryptographic platform for creating applications and software solutions on an open block system to support environmental and nature protection projects. Issue of EcoCoin crypto currency will be the first step towards our goal. It will be followed decentralized investment environmental fund (тикер IEF), fundraising application - service for creating a personal digital token and more.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div data-animate="fadeInUp" data-delay=".2" class="card animated movTop">
+                          <div class="card-header">
+                            <h5><a data-toggle="collapse" data-target="#collapse-1-2" class="collapsed">
+												  What is our mission?<span class="plus-minus"><span class="ti ti-angle-up"></span></span></a></h5></div>
+                          <div id="collapse-1-2" data-parent="#accordion-1" class="collapse">
+                            <div class="card-body">
+                              <p>
+                                Our mission is to completely democratize process of investment of environmental projects by eliminating intermediaries and placing the power and control where it belongs - entirely into the hands of investors and ECN crypto currency holders.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div data-animate="fadeInUp" data-delay=".3" class="card animated movTop">
+                          <div class="card-header">
+                            <h5><a data-toggle="collapse" data-target="#collapse-1-3" class="collapsed">
+												  How is a IEF Fund different from a traditional investment fund?<span class="plus-minus"><span class="ti ti-angle-up"></span></span></a></h5></div>
+                          <div id="collapse-1-3" data-parent="#accordion-1" class="collapse">
+                            <div class="card-body">
+                              <p>
+                                A IEF Fund invests in crypto assets only and does not have a central power of authority. There is no fund manager to make decision on behalf of investors. This is where you can feel the power of the wisdom of the crowd. All participants are given the chance to vote and to decide the future of the next investment.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div data-animate="fadeInUp" data-delay=".4" class="card animated movTop">
+                          <div class="card-header">
+                            <h5><a data-toggle="collapse" data-target="#collapse-1-4" class="collapsed">
+												  When will the EcoStart platform be launched?<span class="plus-minus"><span class="ti ti-angle-up"></span></span></a></h5></div>
+                          <div id="collapse-1-4" data-parent="#accordion-1" class="collapse">
+                            <div class="card-body">
+                              <p>EcoStart Beta will be launched in Q4 2018 The official launch of the EcoStart Platform will follow in Q2 2019</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div data-animate="fadeInUp" data-delay=".4" class="card animated movTop">
+                          <div class="card-header">
+                            <h5><a data-toggle="collapse" data-target="#collapse-1-5" class="collapsed">
+												  Do you have a prototype?<span class="plus-minus"><span class="ti ti-angle-up"></span></span></a></h5></div>
+                          <div id="collapse-1-5" data-parent="#accordion-1" class="collapse">
+                            <div class="card-body">
+                              <p>Our platform unites a number of serious tech solutions in a single system. Some parts of the technology already exist and are being employed. As of now we have aerospace monitoring application of the earth's surface.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div id="tab-2" class="tab-pane fade">
+                      <div id="accordion-2" class="accordion-s2">
+                        <div data-animate="fadeInUp" data-delay=".2" class="card animated movTop fadeInUp" style="visibility: visible; animation-delay: 0.2s;">
+                          <div class="card-header">
+                            <h5><a data-toggle="collapse" data-target="#collapse-2-2" class="collapsed">
+													What currencies are accepted for payment?<span class="plus-minus"><span class="ti ti-angle-up"></span></span></a></h5></div>
+                          <div id="collapse-2-2" data-parent="#accordion-2" class="collapse">
+                            <div class="card-body">
+                              <p>The following currencies are accepted for payment: Ethereum (тикер ETH), Bitcoin (тикер BTC) Litecoin (тикер LTC) and US Dollar (тикер USD).</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div data-animate="fadeInUp" data-delay=".3" class="card animated movTop fadeInUp" style="visibility: visible; animation-delay: 0.3s;">
+                          <div class="card-header">
+                            <h5><a data-toggle="collapse" data-target="#collapse-2-4" class="collapsed">
+												  Which countries or nationalities are eligible to purchase ECT tokens?<span class="plus-minus"><span class="ti ti-angle-up"></span></span></a></h5></div>
+                          <div id="collapse-2-4" data-parent="#accordion-2" class="collapse">
+                            <div class="card-body">
+                              <p>Citizens of any country except USA may take part in the project.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div data-animate="fadeInUp" data-delay=".4" class="card animated movTop fadeInUp" style="visibility: visible; animation-delay: 0.4s;">
+                          <div class="card-header">
+                            <h5><a data-toggle="collapse" data-target="#collapse-2-3" class="collapsed">
+												  I transferred ETH to your account, but while the transaction was being processed, ICO ended. What will happen to my ETH?<span class="plus-minus"><span class="ti ti-angle-up"></span></span></a></h5></div>
+                          <div id="collapse-2-3" data-parent="#accordion-2" class="collapse">
+                            <div class="card-body">
+                              <p>If the ETH is transferred to the project's wallet after the ICO is finished, it is returned to the sender's wallet according to the current exchange rate with no conversion. For example, after the ICO is completed, if the project wallet is funded with 1 ETH, the same amount will be returned to the sender's wallet, disregarding the ETH quote at the moment the ETH was sent. To prevent such situations, we recommend setting the appropriate transaction commission for timely processing and considering the ICO timeframe. The same process will be activated for any other cryptocurrency.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div data-animate="fadeInUp" data-delay=".4" class="card animated movTop fadeInUp" style="visibility: visible; animation-delay: 0.4s;">
+                          <div class="card-header">
+                            <h5><a data-toggle="collapse" data-target="#collapse-2-4" class="collapsed">
+												  What is the minimum target? What happens if the required amount is not raised?<span class="plus-minus"><span class="ti ti-angle-up"></span></span></a></h5></div>
+                          <div id="collapse-2-4" data-parent="#accordion-2" class="collapse">
+                            <div class="card-body">
+                              <p>Minimum target equals $1 million. If the amount is not raised, we will return all the raised funds back to the wallets of the crowdsale participants. cryptocurrency.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div id="tab-3" class="tab-pane fade">
+                      <div id="accordion-3" class="accordion-s2">
+                        <div data-animate="fadeInUp" data-delay=".1" class="card active animated movTop fadeInUp" style="visibility: visible; animation-delay: 0.1s;">
+                          <div class="card-header">
+                            <h5><a data-toggle="collapse" data-target="#collapse-3-1">
+													When will the bounty payouts take place?<span class="plus-minus"><span class="ti ti-angle-up"></span></span></a></h5></div>
+                          <div id="collapse-3-1" data-parent="#accordion-3" class="collapse show">
+                            <div class="card-body">
+                              <p>Bounty payouts will be paid to the participants within one week after the ICO.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div data-animate="fadeInUp" data-delay=".2" class="card animated movTop fadeInUp" style="visibility: visible; animation-delay: 0.2s;">
+                          <div class="card-header">
+                            <h5><a data-toggle="collapse" data-target="#collapse-3-2" class="collapsed">
+												  When will your tokens be listed on exchanges?<span class="plus-minus"><span class="ti ti-angle-up"></span></span></a></h5></div>
+                          <div id="collapse-3-2" data-parent="#accordion-3" class="collapse">
+                            <div class="card-body">
+                              <p>We plan to list ECT tokens on several major exchanges within one month after the ICO.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div data-animate="fadeInUp" data-delay=".3" class="card animated movTop fadeInUp" style="visibility: visible; animation-delay: 0.3s;">
+                          <div class="card-header">
+                            <h5><a data-toggle="collapse" data-target="#collapse-3-3" class="collapsed">
+												  Which blockchain will you use?<span class="plus-minus"><span class="ti ti-angle-up"></span></span></a></h5></div>
+                          <div id="collapse-3-3" data-parent="#accordion-3" class="collapse">
+                            <div class="card-body">
+                              <p>
+                                At the current stage, we will use Ethereum smart contracts. Additionally, we are not platform or instrument dependent (we are not tied to a particular platform or instrument in the blockchain). We will create our own blockbuster platform that will match that best meets our requirements for speed, reliability, and cost.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div data-animate="fadeInUp" data-delay=".1" class="card active animated movTop fadeInUp" style="visibility: visible; animation-delay: 0.1s;">
+                          <div class="card-header">
+                            <h5><a data-toggle="collapse" data-target="#collapse-3-4">
+												  What is the service of creating a personal digital token?<span class="plus-minus"><span class="ti ti-angle-up"></span></span></a></h5></div>
+                          <div id="collapse-3-4" data-parent="#accordion-3" class="collapse show">
+                            <div class="card-body">
+                              <p>The service for creating personal digital tokens and ICO will provide an opportunity for environmental project initiators to create their own token using the easy-to-use interface of the EcoStart platform. The initial offer of coins will allow to participate in financing the project literally to all comers. The issue of own tokens will be carried out on the basis of the EchoCoin crypto currency protocol. ECT Tokens can serve as a product token, electronic cryptovexel, share in the project and participation certificates. For each token, you can specify your own name, output volume, number of decimal places and other parameters and properties.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div data-animate="fadeInUp" data-delay=".5" class="fake-class animated movTop"><img src="./images/graph-jasmine-e.png" alt="graph"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div id="contact" class="section section-pad-md section-bg">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-3 col-md-5">
+                <div class="section-head-s6">
+                  <h6 data-animate="fadeInUp" data-delay=".1" class="heading-sm-s2 animated movTop">Contact</h6>
+                  <h2 data-animate="fadeInUp" data-delay=".2" class="section-title-s6 animated movTop">Get In Touch</h2>
+                  <p data-animate="fadeInUp" data-delay=".3" class="animated movTop">Any question? Reach out to us and we’ll get back to you shortly.</p>
+                </div>
+                <ul class="contact-info-alt">
+                  <li data-animate="fadeInUp" data-delay=".4" class="animated movTop"><em class="fa fa-phone"></em><span>+44 0123 4567</span></li>
+                  <li data-animate="fadeInUp" data-delay=".5" class="animated movTop"><em class="fa fa-envelope"></em><span>info@yourcompany.com</span></li>
+                  <li data-animate="fadeInUp" data-delay=".6" class="animated movTop"><em class="fa fa-paper-plane"></em><span>Join us on Telegram</span></li>
+                </ul>
+              </div>
+              <div class="col-lg-4 col-md-7 offset-lg-1 offset-md-0 res-m-bttm">
+                <div class="gaps size-3x d-none d-md-block"></div>
+                <div class="gaps size-2x"></div>
+                <form id="contact-form" action="http://eco-start.com/form/contact.php" method="post" class="form-message form-message-s2 text-left" novalidate="novalidate">
+                  <div class="form-results"></div>
+                  <div data-animate="fadeInUp" data-delay=".7" class="input-field animated movTop">
+                    <input name="contact-name" type="text" placeholder="Your Name" class="input-border required" aria-required="true">
+                  </div>
+                  <div data-animate="fadeInUp" data-delay=".8" class="input-field animated movTop">
+                    <input name="contact-email" type="email" placeholder="Your Email" class="input-border required email" aria-required="true">
+                  </div>
+                  <div data-animate="fadeInUp" data-delay=".9" class="input-field animated movTop">
+                    <textarea name="contact-message" placeholder="Your Message" class="txtarea input-border required" aria-required="true"></textarea>
+                  </div>
+                  <input type="text" name="form-anti-honeypot" value="" class="d-none">
+                  <div data-animate="fadeInUp" data-delay="1.0" class="input-field animated movTop">
+                    <button type="submit" class="btn">Submit</button>
+                  </div>
+                </form>
+              </div>
+              <div class="col-lg-4 align-self-center">
+                <div data-animate="fadeInUp" data-delay="1.1" class="fake-class animated movTop"><img src="./images/graph-jasmine-f.png" alt="graph"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="join" class="section subscribe-section-s2 section-bg section-dark">
+          <div class="container">
+            <div data-animate="fadeInUp" data-delay=".2" class="subscribe-box animated movTop">
+              <div class="row">
+                <div class="col-lg-6">
+                  <div class="heading-sm-s3">
+                    <h5>Don't miss out, Stay updated</h5></div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="gaps size-2x"></div>
+                  <form id="subscribe-form" action="http://eco-start.com/form/subscribe.php" method="post" class="subscription-form inline-form-s2" novalidate="novalidate">
+                    <input type="text" name="youremail" placeholder="Enter your email address" class="input-round-s2 required email" aria-required="true">
+                    <input type="text" name="form-anti-honeypot" value="" class="d-none">
+                    <button type="submit" class="btn btn-plane">Subscribe</button>
+                    <div class="subscribe-results"></div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="section footer-scetion footer-jasmine">
+          <div class="container">
+            <div class="row text-center">
+              <div class="col-md-12">
+                <ul class="social">
+                  <li data-animate="fadeInUp" data-delay=".1" class="animated movTop"><a href="http://eco-start.com/#"><em class="fab fa-facebook-f"></em></a></li>
+                  <li data-animate="fadeInUp" data-delay=".2" class="animated movTop"><a href="http://eco-start.com/#"><em class="fab fa-twitter"></em></a></li>
+                  <li data-animate="fadeInUp" data-delay=".3" class="animated movTop"><a href="http://eco-start.com/#"><em class="fab fa-youtube"></em></a></li>
+                  <li data-animate="fadeInUp" data-delay=".4" class="animated movTop"><a href="http://eco-start.com/#"><em class="fab fa-github"></em></a></li>
+                  <li data-animate="fadeInUp" data-delay=".5" class="animated movTop"><a href="http://eco-start.com/#"><em class="fab fa-bitcoin"></em></a></li>
+                  <li data-animate="fadeInUp" data-delay=".6" class="animated movTop"><a href="http://eco-start.com/#"><em class="fab fa-medium-m"></em></a></li>
+                </ul>
+                <a href="http://eco-start.com/#" class="footer-logo"><img src="./images/logo.png" alt="logo2x" srcset="/static/images/logo2x.png 2x"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+<script src="https://code.jquery.com/jquery-migrate-3.0.0.min.js"></script>
+https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js
+  <script src="./js/jquery.bundle.js"></script>
+  <script src="./js/jquery.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.5/waypoints.min.js"></script>
 
-      <script src="./js/jquery.js"></script>
-      <script src="./js/jquery.bundle.js"></script>
-      <script src="./js/script.js"></script>
-      <script type="text/javascript" src="./js/manifest.js"></script>
-      <script type="text/javascript" src="./js/vendor.js"></script>
-      <script type="text/javascript" src="./js/app.js"></script>
-   </body>
+  <script src="./js/waypoint.js"></script>
+  <script src="./js/script.js"></script>
+  <script type="text/javascript" src="./js/manifest.js"></script>
+  <script type="text/javascript" src="./js/vendor.js"></script>
+  <script type="text/javascript" src="./js/app.js"></script>
+</body>
+
 </html>

@@ -371,8 +371,10 @@ h1.color-alt-primary, h2.color-alt-primary, h3.color-alt-primary, h4.color-alt-p
 .overflow {
 	overflow: hidden;
 }
+
 .animated {
 	visibility: hidden;
+
 }
 .preload {
 	display: none;
@@ -513,11 +515,12 @@ h1.color-alt-primary, h2.color-alt-primary, h3.color-alt-primary, h4.color-alt-p
 @keyframes fadeInUp {
 	from {
 		opacity: 0;
-		transform: translate3d(0, 50px, 0);
+		transform: translate3d(0, 70px, 0);
 	}
 	to {
 		opacity: 1;
 		transform: none;
+		visibility: visible;
 	}
 }
 @keyframes fadeIn {
@@ -4936,7 +4939,8 @@ select:focus {
 }
 .fadeInUp {
 	-webkit-animation-name: fadeInUp;
-	animation-name: fadeInUp;
+	animation-name: fadeInUp20;
+	animation-duration: .6;
 }
 @-webkit-keyframes fadeInUp10 {
 	from {
@@ -11256,4 +11260,5 @@ select:focus {
 		font-size: 24px;
 	}
 }
+
 /** END */
