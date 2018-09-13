@@ -1,0 +1,95 @@
+
+
+.b-g-transporent {
+    background: transparent;
+}
+
+.view-card {
+    background: #0087ff; /* Old Browsers */
+    background: -webkit-linear-gradient(top right,#0087ff,#00ffff); /*Safari 5.1-6*/
+    background: -o-linear-gradient(top right,#0087ff,#00ffff); /*Opera 11.1-12*/
+    background: -moz-linear-gradient(top right,#0087ff,#00ffff); /*Fx 3.6-15*/
+    background: linear-gradient(top right, #0087ff, #00ffff); /*Standard*/
+    border-radius: 10px;
+    margin: 10px;
+    color: #fff;
+}
+
+.likes-card {
+    
+    background: #ff3a6d; /* Old Browsers */
+    background: -webkit-linear-gradient(top right,#ff3a6d,#ff00d7); /*Safari 5.1-6*/
+    background: -o-linear-gradient(top right,#ff3a6d,#ff00d7); /*Opera 11.1-12*/
+    background: -moz-linear-gradient(top right,#ff3a6d,#ff00d7); /*Fx 3.6-15*/
+    background: linear-gradient(top right, #ff3a6d, #ff00d7); /*Standard*/
+    border-radius: 10px;
+    margin: 10px;
+    color: #fff;
+    
+}
+.repost-card {
+    background: #ff9c01; /* Old Browsers */
+    background: -webkit-linear-gradient(top right,#ff9c01,#ffcc00); /*Safari 5.1-6*/
+    background: -o-linear-gradient(top right,#ff9c01,#ffcc00); /*Opera 11.1-12*/
+    background: -moz-linear-gradient(top right,#ff9c01,#ffcc00); /*Fx 3.6-15*/
+    background: linear-gradient(top right, #ff9c01, #ffcc00); /*Standard*/
+    border-radius: 10px;
+    margin: 10px;
+    color: #fff;
+}
+
+.balance-card {
+    background: #00c3ff; /* Old Browsers */
+    background: -webkit-linear-gradient(top right,#00c3ff,#9e00ff); /*Safari 5.1-6*/
+    background: -o-linear-gradient(top right,#00c3ff,#9e00ff); /*Opera 11.1-12*/
+    background: -moz-linear-gradient(top right,#00c3ff,#9e00ff); /*Fx 3.6-15*/
+    background: linear-gradient(top right, #00c3ff, #9e00ff); /*Standard*/
+    border-radius: 10px;
+    margin: 10px;
+    color: #fff;
+}
+
+.network-badge {
+    
+    position: absolute;
+    top:0px;
+    left: -5px;
+    background-color: #fff;
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+    text-align: center;
+    
+}
+
+.share-card {
+    min-height: 200px;
+}
+
+.share-creative {
+    min-height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 3px;
+    margin-bottom: 15px;
+}
+
+.instagram-color {
+    color: #e4405f;
+}
+
+.vk-color {
+    color: #4c75a3;
+}
+
+.facebook-color {
+    color: #3b5999;
+}
+
+.youtube-color {
+    color: #cd201f;
+}
+
+.twitter-color {
+    color :#55acee;
+}

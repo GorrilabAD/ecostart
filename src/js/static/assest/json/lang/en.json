@@ -1,0 +1,229 @@
+{
+    "menu" : {
+        "aboutus" : "About",
+        "services" : "Future",
+        "roadmap" : "Roadmap",
+        "sale" : "Sale",
+        "team" : "Team",
+        "docs" : "Documents",
+        "faq" : "FAQ",
+        "contacts" : "Contacts",
+        "join" : "Join now"
+    },
+    "header" : {
+        "h1" : "We create a crypto currency for our planet.",
+        "h2" : "TerraEcoCoin",
+        "p1" : "A new approach to financing environmental projects <br> using Blockchain technology.",
+        "p2" : "Sale begins in"
+    },
+    "about" : {
+        "h1" : "THE ESSENCE OF THE PROJECT",
+        "h2" : "We create EcoStart - it's a public distributed cryptographic platform",
+        "p1" : "which will serve to create applications and software solutions in an open Blockchain for the financing of environmental  projects, with its own TECO crypto currency, the generation of which uses the Proof-of-Importance algorithm.",
+        "p2" : "The Ecostart project is aimed at solving one of the most acute problems of all mankind - ecological, using modern information technologies for creating and operating a system of financing and implementing environmental measures."
+    },
+    "blockchain" : {
+        "h1" : "TECO BLOCKCHAIN",
+        "h2" : "Investing in life",
+        "p1" : "We are creating an ecosystem based on our own Blockchain technology, which will ensure full transparency in the collection and control of spending for environmental projects, the absence of intermediaries, dependence on public authorities and global financial groups.",
+        "p2" : "Thanks to TECO, acute environmental problems will be tackled around the world, by financing startups with token holders, as well as using its own Blockchain technology, where the commission from each transaction is sent to a fund to protect the environment."
+    },
+    "community" : {
+        "h1" : "TECO COMMUNITY",
+        "h2" : "Ecological community",
+        "p1": "The cryptographic messenger built into the ecosystem will allow to exchange messages between all participants, discuss environmental problems and form ideas on their arrangement.",
+        "p2": "Any member of the community can take part in the service for the examination of projects, where non-environmental projects are identified, a list of recommendations, a rating of trust and reputation is formed."
+    },
+    "apps": {
+        "h1": "TECO APPS",
+        "h2": "Environmental applications",
+        "p1": "On the basis of TECO Blockchain, any member of the ecosystem can create their own applications for solving environmental problems.",
+        "p2": "The logic of the applications will provide smart contracts, and integration with third-party resources an open API for developers."
+    },
+    "services": {
+    "h1": "Main features",
+    "h2": "Other features",
+    "f": [
+        {
+            "image": "/static/images/jasmine/icon-a.png",
+            "h1": "IEF",
+            "p1": "It is increased from the transaction commission in TECO Blockchain.",
+            "p2": "Decentralized investment environmental fund."
+        },
+        {
+        "image": "/static/images/jasmine/icon-b.png",
+        "h1": "Fundraising Apps",
+        "p1": "Simple fund-raising for environmental problems.",
+        "p2": "Service for the creation of personal digital tokens initiators of environmental projects."
+        },
+        {
+        "image": "/static/images/jasmine/icon-c.png",
+        "h1": "Space App",
+        "p1": "Observing the ecology from anywhere in the world.",
+        "p2": "Annex on Space Monitoring of the Earth's Surface."
+        }
+    ],
+    "s": [
+            {
+                "image": "01.",
+                "p": "NPOs and initiators of environmental projects will provide Ecostart with a set of tools for creating their own tokens. The sale of released tokens will help to collect money for the implementation of environmental projects. "
+            },
+            {
+                "image": "02.",
+                "p": "Volunteers - will be able to get information about the place and time of environmental actions."
+            },
+            {
+                "image": "03.",
+                "p": "Investors, sponsors (socially responsible business) for financing environmental projects will create a positive image and PR, and in case of investing in green commercial projects will also receive a profit."
+            },
+            {
+                "image": "04.",
+                "p": "TerraEcocoin crypto currency holders will be able to invest without intermediaries in green start-ups and create master logs for TECO transactions confirmation, receiving a stable income."
+            },
+            {
+                "image": "05.",
+                "p": "For start-ups, it becomes possible to turn to an investment environmental fund, which is focused on financing enterprises and startups that implement environmental projects."
+            }
+
+        ]
+    },
+    "team" : {
+
+        "h1" : "Our Team",
+        "items" : [
+            {
+                "image" : "/static/images/team/olga.jpg",
+                "name" : "Olga <br> Bergen",
+                "position" : "CEO and Co-founder",
+                "about" : "A corporate strategist with many years of experience in the advertising and information technology industry. In recent years, is engaged in accelerating startups.  «I have been engaged in accelerating the startup projects for several years. EcoStart is definitely a powerful project with great potential. There are many enterprising young people in the world who really need our help. Together with you we will do a very important and necessary thing!»",
+                "networks" : [
+
+                    {
+                        "icon" : "fab fa-linkedin-in",
+                        "url" : "https://www.linkedin.com/in/olga-bergen-663493163/"
+                    }
+
+                ]
+            },
+            {
+                "image" : "/static/images/team/Michael.jpg",
+                "name" : "Michael McKee",
+                "position" : "Chief Visionary Officer",
+                "about" : "Before starting out into ICO Advisory, Michael spent 13 years as Social Media Influencer and Digital Marketer for several dot com startups. After a successful career helping various clothing companies and aspiring musicians, Michael now advises ICOs and Startups on how to market their projects on social media and through SEO. Michael has been a serial ICO investor since 2016 and one of the fastest growing Blockchain Influencers with over 350,000 followers in total.",
+                "networks" : [
+
+                    {
+                        "icon" : "fab fa-linkedin-in",
+                        "url" : "https://www.linkedin.com/in/michael-mckee-74b20634/"
+                    }
+
+                ]
+            },
+            {
+                "image" : "/static/images/team/timur.jpg",
+                "name" : "Teymur Nurullaev",
+                "position" : "COO (Chief Operating Officer)",
+                "about" : "Chief Operating Officer, a successful businessman, a programmer, one of the first adepts of the blockchain “I support the project EcoStart because the Cryptocurrency will gain momentum in the event that we start creating as many projects as possible on blockchain. I manage a whole army of bots - they will help us in this project too!”",
+                "networks" : [
+
+                    {
+                        "icon" : "fab fa-facebook-f",
+                        "url" : "https://www.facebook.com/TeymurNur"
+                    }
+
+                ]
+            },
+            {
+                "image" : "/static/images/team/Natalia.jpg",
+                "name" : "Nataly Nurullaeva",
+                "position" : "СМО (Сhief marketing officer)",
+                "about" : "«My element is marketing communications and project management. In EcoStart I see global opportunities - the project will help to unite not indifferent people around the world around a great idea. It's just a marketer's dream!»",
+                "networks" : [
+
+                    {
+                        "icon" : "fab fa-facebook-f",
+                        "url" : "https://www.facebook.com/profile.php?id= 100001662803799"
+                    }
+
+                ]
+            },
+            {
+                "image" : "/static/images/team/alexander.jpg",
+                "name" : "Aleksandr Goldobin",
+                "position" : "CFO (Chief Financial Officer) ",
+                "about" : "The financial director responsible for managing the financial flows of the business with vast managerial experience in a wide range of industries. <br> “My motto is think globally-act locally! That is why I proposed to bring the project Ecostart to the international level. I believe such initiatives are important for the world community. Our financial support is needed by many ecological projects!”",
+                "networks" : [
+
+                    {
+                        "icon" : "fab fa-linkedin-in",
+                        "url" : "https://www.linkedin.com/in/aleksandr-goldobin-2ab883162/"
+                    }
+
+                ]
+            },
+            {
+                "image" : "/static/images/team/olga-g.jpg",
+                "name" : "Olga Gershenzon",
+                "position" : "Head of Aerospace Monitoring",
+                "about" : "Co-Founder, Chief Strategy Officer at RBCSignals <br> «From the solar system, we still cannot get out for a long time. Therefore, one must learn to live on earth and better on ecologically friendly»",
+                "networks" : [
+
+                    {
+                        "icon" : "fab fa-linkedin-in",
+                        "url" : "https://www.linkedin.com/in/olgagershenzon/"
+                    }
+
+                ]
+            },
+            {
+                "image" : "/static/images/team/dina.jpg",
+                "name" : "Dina <br> Korn",
+                "position" : "PR manager",
+                "about" : "The Idea of this project was inspired by Champion of the Earth Afros Shah from Indian Mumbai, who in his home town cleared a beach more than 2 km from garbage weighing 5,500 tons. Such initiatives deserve our common support!",
+                "networks" : [
+
+                    {
+                        "icon" : "fab fa-facebook-f",
+                        "url" : "https://www.facebook.com/dina.korn"
+                    }
+
+                ]
+            }
+        ]
+
+    },
+    "advisors" : {
+        "h1" : "Advisors",
+        "items" : [
+            {
+                "image" : "/static/images/team/advisor-2.jpg",
+                "name" : "Dr Mohamed Karim",
+                "position" : "Leader of advisors & CEO of Mirak AS",
+                "about" : "When we started with distributed computing 15 years ago, we never could dream that the whole world will be where we are today. Thanks to the Blockchain technology, we can now build projects and concepts beyond all imaginations",
+                "networks" : [
+
+                    {
+                        "icon" : "fab fa-linkedin-in",
+                        "url" : "https://www.linkedin.com/in/drkarim/"
+                    }
+
+                ]
+            },
+            {
+                "image" : "/static/images/team/advisor-1.jpg",
+                "name" : "Vladimir  Gershenzon ",
+                "position" : "Expert in Earth remote sensing systems",
+                "about" : "Leading Research Scientist Center for Computational and Data-Intensive Science and Engineering",
+                "networks" : [
+
+                    {
+                        "icon" : "fab fa-facebook-f",
+                        "url" : "https://www.facebook.com/profile.php?id= 100023895310247"
+                    }
+
+                ]
+            }
+
+        ]
+    }
+}
