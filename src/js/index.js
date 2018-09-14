@@ -118,15 +118,13 @@ var arrLang = {
 
   }
 };
+
 $(function(){
   var storage = localStorage;
-
+    var load = $.parseJSON(storage.getItem('lang'));
    if (storage.getItem('lang') == undefined || storage.getItem('lang') === null || storage.getItem('lang') === NaN) {
      storage.setItem('lang', 'ru');
    };
-
-   var load = $.parseJSON(storage.getItem('lang'));
-
    $('*').each(function(index, element){
      $(this).text(arrLang[load][$(this).attr('key')]);
    });
@@ -135,7 +133,7 @@ $(function(){
   $('.translate').click(function(){
     var lang = $(this).attr('id');
     storage.setItem('lang', JSON.stringify(lang));
-    var load = $.parseJSON(storage.getItem('lang'));
+
     $('*').each(function(index, element){
       $(this).text(arrLang[load][$(this).attr('key')]);
     });
