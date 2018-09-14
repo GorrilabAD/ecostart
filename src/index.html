@@ -10,8 +10,6 @@
   <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="./css/theme.css">
 
-
-  </script>
 </head>
 
 <body class="theme-light io-jasmine no-touch" data-spy="scroll" data-target="#mainnav" data-offset="80">
@@ -1347,6 +1345,11 @@
   </div>
 
   <script src="./js/jquery.js"></script>
+  <script type="text/javascript">
+  if(localStorage.getItem("lang") !== "ru" && localStorage.getItem("lang") !== "en") {
+    localStorage.setItem("lang", "en")
+  } 
+  </script>
   <script src="./js/bootstrap.js"></script>
   <script src="./js/easeng.js"></script>
   <script src="./js/jquery.countdown.js"></script>

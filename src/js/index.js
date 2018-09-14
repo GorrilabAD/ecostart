@@ -118,26 +118,21 @@ var arrLang = {
 
   }
 };
+
 $(function(){
-  var storage = localStorage;
+  $('*').each(function(index, element){
 
-   if (storage.getItem('lang') == undefined || storage.getItem('lang') === null || storage.getItem('lang') === NaN) {
-     storage.setItem('lang', 'ru');
-   };
-
-   var load = $.parseJSON(storage.getItem('lang'));
-
-   $('*').each(function(index, element){
-     $(this).text(arrLang[load][$(this).attr('key')]);
-   });
-
+    $(this).text(arrLang[localStorage.getItem("lang")][$(this).attr('key')]);
+  });
 
   $('.translate').click(function(){
     var lang = $(this).attr('id');
-    storage.setItem('lang', JSON.stringify(lang));
-    var load = $.parseJSON(storage.getItem('lang'));
+    localStorage.setItem("lang", lang)
+
+    var obj = localStorage.getItem("lang");
     $('*').each(function(index, element){
-      $(this).text(arrLang[load][$(this).attr('key')]);
+      $(this).text(arrLang[obj][$(this).attr('key')]);
     });
-  });
+
+});
 });
