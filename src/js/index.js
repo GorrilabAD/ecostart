@@ -120,25 +120,18 @@ var arrLang = {
 };
 
 $(function(){
-  var storage = localStorage;
-    var obj = jQuery.parseJSON( '{ "name": "John" }' );
-alert( obj.name === "John" );
-  
-  
-   if (storage.getItem('lang') == undefined || storage.getItem('lang') === null || storage.getItem('lang') === NaN) {
-     storage.setItem('lang', 'ru');
-   };
-   $('*').each(function(index, element){
-     $(this).text(arrLang[load][$(this).attr('key')]);
-   });
+  $('*').each(function(index, element){
 
+    $(this).text(arrLang[localStorage.getItem("lang")][$(this).attr('key')]);
+  });
 
   $('.translate').click(function(){
     var lang = $(this).attr('id');
-    storage.setItem('lang', JSON.stringify(lang));
+    localStorage.setItem("lang", lang)
 
+    var obj = localStorage.getItem("lang");
     $('*').each(function(index, element){
-      $(this).text(arrLang[load][$(this).attr('key')]);
+      $(this).text(arrLang[obj][$(this).attr('key')]);
     });
-  });
+
 });
