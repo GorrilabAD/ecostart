@@ -125,20 +125,20 @@ $(function(){
      storage.setItem('lang', 'ru');
    };
 
-   var loadLang = JSON.parse(storage.getItem('lang'));
+   var load = JSON.parse(storage.getItem('lang'));
 
    $('*').each(function(index, element){
-     $(this).text(arrLang[loadLang][$(this).attr('key')]);
+     $(this).text(arrLang[load][$(this).attr('key')]);
    });
 
 
   $('.translate').click(function(){
     var lang = $(this).attr('id');
     storage.setItem('lang', JSON.stringify(lang));
-    var loadLang = JSON.parse(storage.getItem('lang'))
+    var load = JSON.parse(storage.getItem('lang'));
 
     $('*').each(function(index, element){
-      $(this).text(arrLang[loadLang][$(this).attr('key')]);
+      $(this).text(arrLang[load][$(this).attr('key')]);
     });
   });
 });
