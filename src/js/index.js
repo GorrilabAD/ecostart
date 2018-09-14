@@ -120,10 +120,16 @@ var arrLang = {
 };
 $(function(){
   var storage = localStorage;
+
+   if (storage.getItem('lang') == undefined || storage.getItem('lang') === null || storage.getItem('lang') === NaN) {
+     storage.setItem('lang', 'ru');
+   };
    var loadLang = JSON.parse(storage.getItem('lang'));
-  $('*').each(function(index, element){
-    $(this).text(arrLang[loadLang][$(this).attr('key')]);
-  })
+   console.log(loadLang)
+
+   $('*').each(function(index, element){
+     $(this).text(arrLang[loadLang][$(this).attr('key')]);
+   })
 
 
   $('.translate').click(function(){
