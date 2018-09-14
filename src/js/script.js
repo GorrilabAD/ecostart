@@ -11,7 +11,15 @@ $(document).ready(function(){
 	// 		});
 	// 	});
 	// }
-
+	var $content_popup = $('.content-popup');
+	if ($content_popup.length > 0 ) {
+		$content_popup.magnificPopup({
+			type: 'inline',
+			preloader: true,
+			removalDelay: 400,
+			mainClass: 'mfp-fade bg-team-exp'
+		});
+	}
 	var $win = $(window), $body_m = $('body'), $navbar = $('.navbar');
 	var $scroll = $win.scrollTop();
 
@@ -31,7 +39,7 @@ $(document).ready(function(){
     $('.movTop').each(function(){
       var imagePos = $(this).offset().top;
       var topOfWindow = $(window).scrollTop();
-      if (imagePos < topOfWindow+750) {
+      if (imagePos < topOfWindow+800) {
         $(this).addClass('fadeInUp').css("visibility","visible");
       }
     });
@@ -40,7 +48,7 @@ $(document).ready(function(){
     $('.movLeft').each(function(){
       var imagePos = $(this).offset().top;
       var topOfWindow = $(window).scrollTop();
-      if (imagePos < topOfWindow+750) {
+      if (imagePos < topOfWindow+800) {
         $(this).addClass('fadeInLeft').css("visibility","visible");
       }
     });
@@ -49,7 +57,7 @@ $(document).ready(function(){
     $('.movDown').each(function(){
       var imagePos = $(this).offset().top;
       var topOfWindow = $(window).scrollTop();
-      if (imagePos < topOfWindow+750) {
+      if (imagePos < topOfWindow+800) {
         $(this).addClass('fadeInDown').css("visibility","visible");
       }
     });
@@ -58,7 +66,7 @@ $(document).ready(function(){
     $('.movRight').each(function(){
       var imagePos = $(this).offset().top;
       var topOfWindow = $(window).scrollTop();
-      if (imagePos < topOfWindow+750) {
+      if (imagePos < topOfWindow+800) {
         $(this).addClass('fadeInRight').css("visibility","visible");
       }
     });
@@ -140,6 +148,7 @@ $(document).ready(function(){
 		$('.navbar-collapse').removeClass('in');
 		$dropdown_menu.parent().children('.dropdown-menu').fadeOut("400");
 	});
+	$('.dropdown-toggle').dropdown();
 
 	// remove ani
 	var $navtoggler = $('.navbar-toggler'), $trannav =$('.is-transparent');
@@ -297,7 +306,13 @@ $(document).ready(function(){
 		$count_token.each(function() {
 			var $self = $(this), datetime = $self.attr("data-date");
 			$self.countdown(datetime).on('update.countdown', function(event) {
-				$(this).html(event.strftime('' + '<div class="col"><span class="countdown-time countdown-time-first">%D</span><span class="countdown-text">Days</span></div>' + '<div class="col"><span class="countdown-time">%H</span><span class="countdown-text">Hours</span></div>' + '<div class="col"><span class="countdown-time">%M</span><span class="countdown-text">Minutes</span></div>' + '<div class="col"><span class="countdown-time countdown-time-last">%S</span><span class="countdown-text">Seconds</span></div>'));
+				$(this).html(event.strftime(''
+				 +
+				'<div class="col"><span class="countdown-time countdown-time-first">%D</span><span class="countdown-text">Days</span></div>'
+				 +
+				 '<div class="col"><span class="countdown-time">%H</span><span class="countdown-text">Hours</span></div>'
+				 + '<div class="col"><span class="countdown-time">%M</span><span class="countdown-text">Minutes</span></div>'
+				 + '<div class="col"><span class="countdown-time countdown-time-last">%S</span><span class="countdown-text">Seconds</span></div>'));
 			});
 		});
 
@@ -307,15 +322,7 @@ $(document).ready(function(){
 	// });
 
 	//POPUP - Content
-	var $content_popup = $('.content-popup');
-	if ($content_popup.length > 0 ) {
-		$content_popup.magnificPopup({
-			type: 'inline',
-			preloader: true,
-			removalDelay: 400,
-			mainClass: 'mfp-fade bg-team-exp'
-		});
-	}
+
 
 	//POPUP - Video
 	var $video_play = $('.video-play');

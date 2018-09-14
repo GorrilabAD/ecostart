@@ -26,25 +26,33 @@
               </button>
               <div id="navbarToggle" class="collapse navbar-collapse justify-content-end">
                 <ul data-animate="fadeInDown" data-delay=".9" class="navbar-nav animated remove-animation fadeInDown" style="visibility: visible; animation-delay: 0.9s;">
-                  <li class="nav-item" style="box-sizing: unset;"><a href="#about" class="nav-link menu-link"> Информация </a></li>
-                  <li class="nav-item" style="box-sizing: unset;"><a href="#why" class="nav-link menu-link"> Возможности </a></li>
-                  <li class="nav-item" style="box-sizing: unset;"><a href="#roadmap" class="nav-link menu-link"> Карта</a></li>
-                  <li class="nav-item" style="box-sizing: unset;"><a href="#tokenSale" class="nav-link menu-link"> Продажа </a></li>
-                  <li class="nav-item" style="box-sizing: unset;"><a href="#team" class="nav-link menu-link"> Команда </a></li>
-                  <li class="nav-item" style="box-sizing: unset;"><a href="#docs" class="nav-link menu-link"> Документы </a></li>
-                  <li class="nav-item" style="box-sizing: unset;"><a href="#faq" class="nav-link menu-link"> FAQ </a></li>
-                  <li class="nav-item" style="box-sizing: unset;"><a href="#contact" class="nav-link menu-link"> Контакты </a></li>
+                  <li class="nav-item" style="box-sizing: unset;"><a  key="aboutus-m" href="#about" class="nav-link menu-link"> Информация </a></li>
+                  <li class="nav-item" style="box-sizing: unset;"><a key="services-m" href="#why" class="nav-link menu-link"> Возможности </a></li>
+                  <li class="nav-item" style="box-sizing: unset;"><a key="roadmap-m" href="#roadmap" class="nav-link menu-link"> Карта</a></li>
+                  <li class="nav-item" style="box-sizing: unset;"><a key="sale-m" href="#tokenSale" class="nav-link menu-link"> Продажа </a></li>
+                  <li class="nav-item" style="box-sizing: unset;"><a key="team-m" href="#team" class="nav-link menu-link"> Команда </a></li>
+                  <li class="nav-item" style="box-sizing: unset;"><a key="docs-m" href="#docs" class="nav-link menu-link"> Документы </a></li>
+                  <li class="nav-item" style="box-sizing: unset;"><a key="faq-m" href="#faq" class="nav-link menu-link"> FAQ </a></li>
+                  <li class="nav-item" style="box-sizing: unset;"><a key="contacts-m" href="#contact" class="nav-link menu-link"> Контакты </a></li>
                 </ul>
                 <ul data-animate="fadeInDown" data-delay="1.15" class="navbar-btns animated remove-animation fadeInDown" style="visibility: visible; animation-delay: 1.15s;">
                   <li class="nav-item lang-switch">
-                    <!----><a href="#" data-toggle="dropdown">Русский <em class="ti ti-angle-down"></em></a>
-                    <div class="dropdown-menu"><a href="javascript:void(0)" class="dropdown-item">Русский</a> <a href="javascript:void(0)" class="dropdown-item">English</a></div>
+                    <div class="dropdown">
+
+                    <a href="#" key="lan" class="dropdown-toggle"  data-toggle="dropdown">Русский
+                    </a>
+                    <div class="dropdown-menu">
+                      <a href="#" class="dropdown-item translate" id="ru">Русский</a>
+                      <a href="#"  class="dropdown-item translate" id="en">English</a>
+                    </div>
                   </li>
-                  <li class="nav-item"><a href="http://sale.eco-start.com/" class="nav-link btn btn-sm btn-outline menu-link">Присоединиться</a></li>
+                  <li class="nav-item">
+                    <a key="join-m" href="./reg/Registration.html" class="nav-link btn btn-sm btn-outline menu-link">Присоединиться</a></li>
                 </ul>
               </div>
             </nav>
           </div>
+
           <div id="header" class="banner banner-full d-flex flex-column banner-jasmine">
             <div class="background-shape"></div>
             <div class="container zi6">
@@ -52,13 +60,17 @@
                 <div class="row justify-content-center">
                   <div class="col-lg-8 text-center">
                     <div class="header-txt tab-center mobile-center">
-                      <h1 data-animate="fadeInUp" data-delay="1.35" class="animated fadeInUp" style="visibility: visible; animation-delay: 1.35s;"> Мы создаем криптовалюту для нашей планеты. <br> TerraEcoCoin </h1>
-                      <p data-animate="fadeInUp" data-delay="1.45" class="lead animated fadeInUp" style="visibility: visible; animation-delay: 1.45s;">Новый подход по финансированию экологических проектов
-                        <br> с использованием технологии Blockchain.</p>
+                      <h1 key="h1-h" data-animate="fadeInUp" data-delay="1.35" class="animated fadeInUp" style="visibility: visible; animation-delay: 1.35s;">
+                         Мы создаем криптовалюту для нашей планеты.
+                         <h1  key="h2-h" data-animate="fadeInUp" data-delay="1.35" class="animated fadeInUp" style="visibility: visible; animation-delay: 1.35s;">TerraEcoCoin</h1> </h1>
+                      <p key="p1-h" data-animate="fadeInUp" data-delay="1.45" class="lead animated fadeInUp" style="visibility: visible; animation-delay: 1.45s;">
+                        Новый подход по финансированию экологических проектов
+                        <p key="p3-h" data-animate="fadeInUp" data-delay="1.45" class="lead animated fadeInUp" style="visibility: visible; animation-delay: 1.45s;">с использованием технологии Blockchain.</p>
+                      </p>
                       <ul data-animate="fadeInUp" data-delay="1.55" class="btns no-space animated fadeInUp" style="visibility: visible; animation-delay: 1.55s;">
                         <li><a target="_blank" href="http://eco-start.com/static/docs/whitepaper.pdf" class="btn btn-icon-s2"><em class="ti ti-files"></em> White Paper</a></li>
                         <li><a target="_blank" href="http://eco-start.com/static/docs/onepager_en.pdf" class="btn btn-icon-s2"><em class="ti ti-file"></em> One Pager</a></li>
-                        <li><a href="https://www.youtube.com/watch?v=SSo_EIwHSd4" class="btn btn-icon-s2 video-play"><em class="ti ti-control-play"></em> How it works</a></li>
+                        <li><a href="https://yadi.sk/i/JS9ocIv-2X9QKQ" class="btn btn-icon-s2 video-play"><em class="ti ti-control-play"></em> About the project </a></li>
                       </ul>
                     </div>
                   </div>
@@ -77,24 +89,12 @@
                       </div>
                       <div class="row justify-content-center">
                         <div class="col-md-6">
-                          <h6 data-animate="fadeInUp" data-delay="1.75" class="animated fadeInUp" style="visibility: visible; animation-delay: 1.75s;"> Продажа начнется через</h6>
-                          <div data-animate="fadeInUp" data-delay="1.85" data-date="2018/09/14" class="token-countdown d-flex align-content-stretch animated fadeInUp" style="visibility: visible; animation-delay: 1.85s;">
-                            <div class="col">
-                              <span class="countdown-time countdown-time-first">01</span>
-                              <span class="countdown-text">Days</span>
-                            </div>
-                            <div class="col">
-                              <span class="countdown-time">09</span>
-                              <span class="countdown-text">Hours</span>
-                            </div>
-                            <div class="col">
-                              <span class="countdown-time">57</span>
-                              <span class="countdown-text">Minutes</span>
-                            </div>
-                            <div class="col">
-                              <span class="countdown-time countdown-time-last">55</span><span class="countdown-text">Seconds</span></div>
+                          <h6 key="p2-h" data-animate="fadeInUp" data-delay="1.75" class="animated fadeInUp" style="visibility: visible; animation-delay: 1.75s;"> Start pre ICO
+                            <br/>24 September</h6>
+                          <div data-animate="fadeInUp" data-delay="1.85" data-date="2018/09/24" class="token-countdown d-flex align-content-stretch animated fadeInUp" id="getting-started" style="visibility: visible; animation-delay: 1.85s;">
+
                           </div>
-                          <div data-animate="fadeInUp" data-delay="1.95" class="animated fadeInUp" style="visibility: visible; animation-delay: 1.95s;"><a href="http://sale.eco-start.com/" class="btn btn-sm"> Присоединиться </a></div>
+                          <div data-animate="fadeInUp" data-delay="1.95" class="animated fadeInUp" style="visibility: visible; animation-delay: 1.95s;"><a href="./reg/Registration.html" key="join-m" class="btn btn-sm"> Присоединиться </a></div>
                           <ul class="icon-list">
                             <li data-animate="fadeInUp" data-delay="2.0" class="animated fadeInUp" style="visibility: visible; animation-delay: 2s;"><em class="fab fa-bitcoin"></em></li>
                             <li data-animate="fadeInUp" data-delay="2.05" class="animated fadeInUp" style="visibility: visible; animation-delay: 2.05s;"><em class="fas fa-won-sign"></em></li>
@@ -110,7 +110,8 @@
             </div>
           </div>
         </header>
-        <div class="section section-pad-sm no-pb section-bg">
+
+        <!-- <div class="section section-pad-sm no-pb section-bg">
           <div class="container">
             <div class="row justify-content-center">
               <div class="col-lg-10">
@@ -193,7 +194,7 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
       <div>
         <div id="about" class="section section-pad section-bg-atob">
@@ -205,12 +206,12 @@
               </div>
               <div class="col-md-6">
                 <div class="text-block">
-                  <h6 class="heading-sm-s2 animated movRight mywaypoint " > СУТЬ ПРОЕКТА</h6>
-                  <h2 class="animated movRight" > Мы создаем EcoStart - это публичная распределённая криптографическая платформа,</h2>
-                  <p class="lead animated movRight" >
+                  <h6 key="h1-a" class="heading-sm-s2 animated movRight mywaypoint " > СУТЬ ПРОЕКТА</h6>
+                  <h2 key="h2-a" class="animated movRight" > Мы создаем EcoStart - это публичная распределённая криптографическая платформа,</h2>
+                  <p key="p1-a" class="lead animated movRight" >
                     которая послужит для создания приложений и программных решений на открытом блокчейне по финансированию экологических и природоохранных проектов, с собственной криптовалютой TECO, при генерации которой используется алгоритм Proof-of-Importance.
                   </p>
-                  <p data-animate="fadeInUp" data-delay=".5" class="animated movRight">
+                  <p key="p2-a" data-animate="fadeInUp" data-delay=".5" class="animated movRight">
                     Проект Ecostart направлен на решение одной из острых проблем всего человечества – экологической, используя современные информационные технологии для создания и функционирования системы финансирования и реализации экологических мероприятий.
                   </p>
                 </div>
@@ -224,14 +225,15 @@
           <div class="container">
             <div class="row align-items-center justify-content-between">
               <div class="col-md-6">
-                <div data-animate="fadeInUp" data-delay=".1" class="res-m-btm movLeft animated"><img src="./images/graph-jasmine-b.png" alt="graph"></div>
+                <div data-animate="fadeInUp" data-delay=".1" class="res-m-btm movLeft animated">
+                  <img src="./images/graph-jasmine-b.png" alt="graph"></div>
               </div>
               <div class="col-md-6 order-md-first order-last">
                 <div class="text-block">
-                  <h6 data-animate="fadeInUp" data-delay=".2" class="movLeft heading-sm-s2 animated"> TECO BLOCKCHAIN </h6>
-                  <h2 data-animate="fadeInUp" data-delay=".3" class="movLeft animated"> Инвестиции в жизнь</h2>
-                  <p data-animate="fadeInUp" data-delay=".4" class="movLeft animated">Мы создаем экосистему основанную на собственной Blockchain технологии, которая обеспечит полную прозрачность сбора и контроля расходовывания средств для экологических проектов, отсутствие посредников, зависимость от органов государственной власти и глобальных финансовых групп.</p>
-                  <p data-animate="fadeInUp" data-delay=".6" class=" movleft animated"> Благодаря TECO будут решаться острые экологические проблемы по всему миру, путем финансирования стартапов держателями токенов, а также с помощью собственной технологии Blockchain, где комиссия с каждой транзакции отправляется в фонд по защите огружающей среды. </p>
+                  <h6 data-animate="fadeInUp" data-delay=".2" key="h1-b" class="movLeft heading-sm-s2 animated"> TECO BLOCKCHAIN </h6>
+                  <h2 data-animate="fadeInUp" data-delay=".3"key="h2-b"  class="movLeft animated"> Инвестиции в жизнь</h2>
+                  <p data-animate="fadeInUp" data-delay=".4" key="p1-b" class="movLeft animated">Мы создаем экосистему основанную на собственной Blockchain технологии, которая обеспечит полную прозрачность сбора и контроля расходовывания средств для экологических проектов, отсутствие посредников, зависимость от органов государственной власти и глобальных финансовых групп.</p>
+                  <p data-animate="fadeInUp" data-delay=".6" key="p2-b" class=" movLeft animated"> Благодаря TECO будут решаться острые экологические проблемы по всему миру, путем финансирования стартапов держателями токенов, а также с помощью собственной технологии Blockchain, где комиссия с каждой транзакции отправляется в фонд по защите огружающей среды. </p>
                 </div>
               </div>
             </div>
@@ -246,10 +248,10 @@
               </div>
               <div class="col-md-6">
                 <div class="text-block">
-                  <h6 data-animate="fadeInUp" data-delay=".2" class="movTop heading-sm-s2 animated"> TECO COMMUNITY </h6>
-                  <h2 data-animate="fadeInUp" data-delay=".3" class="movTop animated"> Экологическое сообщество</h2>
-                  <p data-animate="fadeInUp" data-delay=".4" class="movTop animated">Встроенный в экосистему криптографический мессенджер позволит обмениваться сообщениями между всеми участниками, обсуждать экологические проблемы и формировать идеи по их устронению.</p>
-                  <p data-animate="fadeInUp" data-delay=".6" class="movTop animated"> Любой участник сообщества может принимать участие в сервисе по экспертизе проектов, где выявляются неэкологические проекты, формируется список рекомендаций, рейтинг доверия и репутации. </p>
+                  <h6 data-animate="fadeInUp" data-delay=".2" key="h1-c" class="movTop heading-sm-s2 animated"> TECO COMMUNITY </h6>
+                  <h2 data-animate="fadeInUp" data-delay=".3" key="h2-c" class="movTop animated"> Экологическое сообщество</h2>
+                  <p data-animate="fadeInUp" data-delay=".4" key="p1-c" class="movTop animated">Встроенный в экосистему криптографический мессенджер позволит обмениваться сообщениями между всеми участниками, обсуждать экологические проблемы и формировать идеи по их устронению.</p>
+                  <p data-animate="fadeInUp" data-delay=".6" key="p2-c" class="movTop animated"> Любой участник сообщества может принимать участие в сервисе по экспертизе проектов, где выявляются неэкологические проекты, формируется список рекомендаций, рейтинг доверия и репутации. </p>
                 </div>
               </div>
             </div>
@@ -264,10 +266,10 @@
               </div>
               <div class="col-md-6 order-md-first order-last">
                 <div class="text-block">
-                  <h6 data-animate="fadeInUp" data-delay=".2" class="movLeft heading-sm-s2 animated"> TECO APPS </h6>
-                  <h2 data-animate="fadeInUp" data-delay=".3" class="movLeft animated"> Экологичские приложения</h2>
-                  <p data-animate="fadeInUp" data-delay=".4" class="movLeft animated">На базе TECO Blockchain любой участник экосистемы может создавать собственные приложения для решения экологических проблем.</p>
-                  <p data-animate="fadeInUp" data-delay=".6" class="movLeft animated"> Логику работы приложений будут обеспечивать смарт контракты, а интеграцию со сторонними ресурсами открытое API для разработчиков. </p>
+                  <h6 data-animate="fadeInUp" data-delay=".2" key="h1-ap" class="movLeft heading-sm-s2 animated"> TECO APPS </h6>
+                  <h2 data-animate="fadeInUp" data-delay=".3" key="h2-ap" class="movLeft animated"> Экологичские приложения</h2>
+                  <p data-animate="fadeInUp" data-delay=".4" key="p1-ap" class="movLeft animated">На базе TECO Blockchain любой участник экосистемы может создавать собственные приложения для решения экологических проблем.</p>
+                  <p data-animate="fadeInUp" data-delay=".6" key="p2-ap" class="movLeft animated"> Логику работы приложений будут обеспечивать смарт контракты, а интеграцию со сторонними ресурсами открытое API для разработчиков. </p>
                 </div>
               </div>
             </div>
@@ -280,7 +282,8 @@
             <div class="row text-center">
               <div class="col-md-12">
                 <div class="gaps size-2x"></div>
-                <h3 data-animate="fadeInUp" data-delay=".8" class="movTop sub-heading ucap text-left animated"> Основные возможности</h3>
+                <h3 data-animate="fadeInUp" data-delay=".8" key="h1-s" class="movTop sub-heading ucap text-left animated">
+                   Основные возможности</h3>
                 <div class="gaps size-2x"></div>
               </div>
             </div>
@@ -288,22 +291,22 @@
               <div class="col-md-4 res-m-bttm ">
                 <div data-animate="fadeInUp" data-delay=".0" class="features-box-s3 animated movTop">
                   <div class="features-icon-s3"><img class="movTop" alt="icon" src="./images/icon-a.png"></div>
-                  <h5 class="features-title-s3"> IEF</h5> <span  class="features-subtitle-s3">Увиличивается с комиссии транзакций в TECO Blockchain.</span>
-                  <p>Децентрализованный инвестиционный экологический фонд .</p>
+                  <h5 class="features-title-s3"> IEF</h5> <span  key="p1-if" class="features-subtitle-s3">Увиличивается с комиссии транзакций в TECO Blockchain.</span>
+                  <p key="p2-if">Децентрализованный инвестиционный экологический фонд .</p>
                 </div>
               </div>
               <div class="col-md-4 res-m-bttm ">
                 <div data-animate="fadeInUp" data-delay=".1" class="features-box-s3 animated movTop">
                   <div class="features-icon-s3"><img class="movTop" src="./images/icon-b.png" alt="icon"></div>
-                  <h5 class="features-title-s3"> Fundraising Apps</h5> <span class="features-subtitle-s3">Простой сбор средств на экологические проблемы.</span>
-                  <p>Cервис по созданию именных цифровых токенов инициаторами экологических проектов .</p>
+                  <h5 class="features-title-s3"> Fundraising Apps</h5> <span key="p1-fun" class="features-subtitle-s3">Простой сбор средств на экологические проблемы.</span>
+                  <p key="p2-fun">Cервис по созданию именных цифровых токенов инициаторами экологических проектов .</p>
                 </div>
               </div>
               <div class="col-md-4 res-m-bttm ">
                 <div data-animate="fadeInUp" data-delay=".2" class="features-box-s3 animated movTop">
                   <div class="features-icon-s3"><img class="movTop" src="./images/icon-c.png" alt="icon"></div>
-                  <h5 class="features-title-s3"> Space App</h5> <span class="features-subtitle-s3">Наблюдение за экологией из любой точки земного шара.</span>
-                  <p>Приложение по космическому мониторингу поверхности земли.</p>
+                  <h5 class="features-title-s3"> Space App</h5> <span  key="p1-sp" class="features-subtitle-s3">Наблюдение за экологией из любой точки земного шара.</span>
+                  <p key="p2-sp" >Приложение по космическому мониторингу поверхности земли.</p>
                 </div>
               </div>
             </div>
@@ -318,7 +321,7 @@
             <div class="row text-center">
               <div class="col-md-12">
                 <div class="gaps size-2x"></div>
-                <h3 data-animate="fadeInUp" data-delay=".8" class="sub-heading ucap text-left animated movTop"> Другие возможности</h3>
+                <h3 data-animate="fadeInUp" data-delay=".8" key="h2-s" class="sub-heading ucap text-left animated movTop"> Другие возможности</h3>
                 <div class="gaps size-2x"></div>
               </div>
             </div>
@@ -328,7 +331,7 @@
                   <div class="benefits-icon text-center">
                     <h1> 01.</h1></div>
                   <div class="benefits-txt">
-                    <p>НКО и инициаторам экологических проектов Ecostart предоставит набор инструментов для создания собственных токенов . Продажа выпущенных токенов позволит собирать деньги на реализацию экологических проектов.</p>
+                    <p key="p-01">НКО и инициаторам экологических проектов Ecostart предоставит набор инструментов для создания собственных токенов . Продажа выпущенных токенов позволит собирать деньги на реализацию экологических проектов.</p>
                   </div>
                 </div>
               </div>
@@ -337,7 +340,7 @@
                   <div class="benefits-icon text-center">
                     <h1> 02.</h1></div>
                   <div class="benefits-txt">
-                    <p>Волонтеры – смогут получить информацию о месте и времени проведения экологических акций.</p>
+                    <p key="p-02">Волонтеры – смогут получить информацию о месте и времени проведения экологических акций.</p>
                   </div>
                 </div>
               </div>
@@ -346,7 +349,7 @@
                   <div class="benefits-icon text-center">
                     <h1> 03.</h1></div>
                   <div class="benefits-txt">
-                    <p>Инвесторы, спонсоры (социально-ответственный бизнес) за финансирование экологических проектов создадут себе положительный имидж и PR, а в случае вложений в «зелёные»коммерческие проекты получат ещё и прибыль.</p>
+                    <p key="p-03">Инвесторы, спонсоры (социально-ответственный бизнес) за финансирование экологических проектов создадут себе положительный имидж и PR, а в случае вложений в «зелёные»коммерческие проекты получат ещё и прибыль.</p>
                   </div>
                 </div>
               </div>
@@ -355,7 +358,7 @@
                   <div class="benefits-icon text-center">
                     <h1> 04.</h1></div>
                   <div class="benefits-txt">
-                    <p>Владельцы криптовалюты TerraEcocoin, получат возможность инвестировать без посредников в «зелёные» стартапы и создавать мастерноды для подтверждения транзакций TECO, получая стабильный доход.</p>
+                    <p key="p-04">Владельцы криптовалюты TerraEcocoin, получат возможность инвестировать без посредников в «зелёные» стартапы и создавать мастерноды для подтверждения транзакций TECO, получая стабильный доход.</p>
                   </div>
                 </div>
               </div>
@@ -364,7 +367,7 @@
                   <div class="benefits-icon text-center">
                     <h1> 05.</h1></div>
                   <div class="benefits-txt">
-                    <p>Для стартапов появляется возможность обратиться в инвестиционный экологический фонд, который ориентирован на финансирование предприятий и стартапов, реализующих экологические проекты.</p>
+                    <p key="p-05">Для стартапов появляется возможность обратиться в инвестиционный экологический фонд, который ориентирован на финансирование предприятий и стартапов, реализующих экологические проекты.</p>
                   </div>
                 </div>
               </div>
@@ -500,15 +503,15 @@
                     <div data-animate="fadeInUp" data-delay=".4" class="token-stage animated movTop">
                       <div class="token-stage-title token-stage-pre">PRE SALE</div>
                       <div class="token-stage-date">
-                        <h6>25 August 2018</h6> <span>1 Month</span></div>
-                      <div class="token-stage-info"><span class="token-stage-bonus">45% Bonus</span></div>
+                        <h6 key="p1-psl">Август</h6> <span key="p2-psl">1 Месяц</span></div>
+                      <div class="token-stage-info"><span key="p3-psl" class="token-stage-bonus">По договорённости</span></div>
                     </div>
                   </div>
                   <div class="col-sm-4">
                     <div data-animate="fadeInUp" data-delay=".5" class="token-stage animated movTop">
                       <div class="token-stage-title">PRE ICO</div>
                       <div class="token-stage-date">
-                        <h6>24 September 2018</h6> <span>15 Days</span></div>
+                        <h6 key="p1-pri">Сентябрь</h6> <span key="p2-pri">15 Дней</span></div>
                       <div class="token-stage-info"><span class="token-stage-bonus">30% Bonus</span> <span class="token-stage-cap">Soft Cap</span> <span class="token-stage-amount">500 000 USD</span></div>
                     </div>
                   </div>
@@ -516,8 +519,13 @@
                     <div data-animate="fadeInUp" data-delay=".6" class="token-stage animated movTop">
                       <div class="token-stage-title">ICO</div>
                       <div class="token-stage-date">
-                        <h6>15 October 2018</h6> <span>30 Days</span></div>
-                      <div class="token-stage-info"><span class="token-stage-bonus">15% Bonus</span> <span class="token-stage-cap">Soft Cap</span> <span class="token-stage-amount">1 500 000 USD</span></div>
+                        <h6 key="p3-pri">Октябрь</h6> <span key="p2-pri">30 Дней</span></div>
+                      <div class="token-stage-info"><span class="token-stage-bonus">15% Bonus</span>
+                        <span class="token-stage-cap">Soft Cap</span>
+                        <span class="token-stage-amount">1 500 000 USD</span>
+                        <span class="token-stage-cap">Hard Cap</span>
+                        <span class="token-stage-amount">11 850 000  USD</span>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -526,18 +534,18 @@
                   <div class="token-action-title">Join Our
                     <br> Pre-Sale List</div>
                   <div class="token-action-date">Pre-Sale Start at <span>03 July 2018</span></div>
-                  <div class="token-action-btn"><a href="http://sale.eco-start.com/" class="btn btn-lg">Signup &amp; Join</a></div>
+                  <div class="token-action-btn"><a href="./reg/Registration.html" class="btn btn-lg">Signup &amp; Join</a></div>
                 </div>
               </div>
               <div class="col-lg-5">
                 <ul data-animate="fadeInUp" data-delay=".8" class="token-details-list animated movRight">
-                  <li><span class="token-details-title">Token Symbol</span> <span class="token-details-info">TECO</span></li>
-                  <li><span class="token-details-title">Token Sale Start</span> <span class="token-details-info">25 August 2018</span></li>
-                  <li><span class="token-details-title">Token Sale End</span> <span class="token-details-info">15 November 2018</span></li>
-                  <li><span class="token-details-title">Tokens for sale</span> <span class="token-details-info">200,000,000</span></li>
-                  <li><span class="token-details-title">Token Price</span> <span class="token-details-info">$0.1 USD</span></li>
-                  <li><span class="token-details-title">Specifications</span> <span class="token-details-info">TECO token</span></li>
-                  <li><span class="token-details-title">Max circulating supply</span> <span class="token-details-info">130,000,000</span></li>
+                  <li><span key="p1-toc" class="token-details-title">Token Symbol</span> <span class="token-details-info">TECO</span></li>
+                  <li><span key="p2-toc" class="token-details-title">pre sale start 25 августа</span> <span class="token-details-info">25 August 2018</span></li>
+                  <li><span key="p3-toc" class="token-details-title">pre ICO start 24 сентября</span> <span class="token-details-info">15 November 2018</span></li>
+                  <li><span key="p4-toc" class="token-details-title">ICO start 15 oктября</span> <span class="token-details-info">200,000,000</span></li>
+                  <li><span key="p-toc" class="token-details-title">Token Price</span> <span class="token-details-info">$0.1 USD</span></li>
+                  <li><span key="p-toc" class="token-details-title">Specifications</span> <span class="token-details-info">TECO token</span></li>
+                  <li><span key="p-toc" class="token-details-title">Max circulating supply</span> <span class="token-details-info">130 000 000</span></li>
                 </ul>
               </div>
             </div>
@@ -599,7 +607,7 @@
             <div class="row">
               <div class="col-md-12">
                 <div class="gaps size-2x"></div>
-                <h3 data-animate="fadeInUp" data-delay=".8" class="sub-heading ucap text-left animated movTop"> Наша команда</h3>
+                <h3 key="h1-t" data-animate="fadeInUp" data-delay=".8" class="sub-heading ucap text-left animated movTop"> Наша команда</h3>
                 <div class="gaps size-2x"></div>
               </div>
             </div>
@@ -849,7 +857,7 @@
             <div class="row">
               <div class="col-md-12">
                 <div class="gaps size-2x"></div>
-                <h3 data-animate="fadeInUp" data-delay=".8" class="movLeft sub-heading ucap text-left animated"> Консультанты </h3>
+                <h3 key="h1-ad" data-animate="fadeInUp" data-delay=".8" class="movLeft sub-heading ucap text-left animated"> Консультанты </h3>
                 <div class="gaps size-2x"></div>
               </div>
             </div>
@@ -1009,7 +1017,18 @@
 													What is the EcoStart Ecosystem?<span class="plus-minus"><span class="ti ti-angle-up"></span></span></a></h5></div>
                           <div id="collapse-1-1" data-parent="#accordion-1" class="collapse show">
                             <div class="card-body">
-                              <p>Ecostart is an innovative solution for the global market for environmental projects. Ecostart is implemented in the form of a public distributed cryptographic platform for creating applications and software solutions on an open block system to support environmental and nature protection projects. Issue of EcoCoin crypto currency will be the first step towards our goal. It will be followed decentralized investment environmental fund (тикер IEF), fundraising application - service for creating a personal digital token and more.
+                              <p>Ecostart is an innovative solution
+                                for the global market for environmental
+                                projects. Ecostart is implemented in the
+                                form of a public distributed cryptographic
+                                platform for creating applications and
+                                software solutions on an open block system
+                                to support environmental and nature protection
+                                projects. Issue of EcoCoin crypto currency will
+                                be the first step towards our goal. It will be
+                                followed decentralized investment environmental
+                                fund (тикер IEF), fundraising application -
+                                service for creating a personal digital token and more.
                               </p>
                             </div>
                           </div>
@@ -1021,7 +1040,11 @@
                           <div id="collapse-1-2" data-parent="#accordion-1" class="collapse">
                             <div class="card-body">
                               <p>
-                                Our mission is to completely democratize process of investment of environmental projects by eliminating intermediaries and placing the power and control where it belongs - entirely into the hands of investors and ECN crypto currency holders.
+                                Our mission is to completely democratize process
+                                of investment of environmental projects by eliminating
+                                intermediaries and placing the power and control where
+                                it belongs - entirely into the hands of investors and
+                                ECN crypto currency holders.
                               </p>
                             </div>
                           </div>
@@ -1029,11 +1052,29 @@
                         <div data-animate="fadeInUp" data-delay=".3" class="card animated movTop">
                           <div class="card-header">
                             <h5><a data-toggle="collapse" data-target="#collapse-1-3" class="collapsed">
-												  How is a IEF Fund different from a traditional investment fund?<span class="plus-minus"><span class="ti ti-angle-up"></span></span></a></h5></div>
+												  How is a IEF Fund different from a
+                          traditional investment fund?
+                          <span class="plus-minus">
+                            <span class="ti ti-angle-up">
+
+                            </span>
+                          </span>
+                        </a>
+                      </h5>
+                    </div>
                           <div id="collapse-1-3" data-parent="#accordion-1" class="collapse">
                             <div class="card-body">
                               <p>
-                                A IEF Fund invests in crypto assets only and does not have a central power of authority. There is no fund manager to make decision on behalf of investors. This is where you can feel the power of the wisdom of the crowd. All participants are given the chance to vote and to decide the future of the next investment.
+                                A IEF Fund invests in crypto
+                                assets only and does not have
+                                a central power of authority.
+                                There is no fund manager to make
+                                decision on behalf of investors.
+                                This is where you can feel the
+                                power of the wisdom of the crowd.
+                                All participants are given the chance
+                                to vote and to decide the future of the
+                                next investment.
                               </p>
                             </div>
                           </div>
@@ -1044,7 +1085,9 @@
 												  When will the EcoStart platform be launched?<span class="plus-minus"><span class="ti ti-angle-up"></span></span></a></h5></div>
                           <div id="collapse-1-4" data-parent="#accordion-1" class="collapse">
                             <div class="card-body">
-                              <p>EcoStart Beta will be launched in Q4 2018 The official launch of the EcoStart Platform will follow in Q2 2019</p>
+                              <p>EcoStart Beta will be launched in Q4 2018
+                                The official launch of the EcoStart Platform
+                                will follow in Q2 2019</p>
                             </div>
                           </div>
                         </div>
@@ -1054,7 +1097,14 @@
 												  Do you have a prototype?<span class="plus-minus"><span class="ti ti-angle-up"></span></span></a></h5></div>
                           <div id="collapse-1-5" data-parent="#accordion-1" class="collapse">
                             <div class="card-body">
-                              <p>Our platform unites a number of serious tech solutions in a single system. Some parts of the technology already exist and are being employed. As of now we have aerospace monitoring application of the earth's surface.</p>
+                              <p>Our platform unites a number
+                                of serious tech solutions in a
+                                single system. Some parts of the
+                                technology already exist and are being
+                                employed. As of now we have aerospace
+                                monitoring application of the earth's
+                                surface.
+                              </p>
                             </div>
                           </div>
                         </div>
@@ -1069,17 +1119,21 @@
 													What currencies are accepted for payment?<span class="plus-minus"><span class="ti ti-angle-up"></span></span></a></h5></div>
                           <div id="collapse-2-2" data-parent="#accordion-2" class="collapse">
                             <div class="card-body">
-                              <p>The following currencies are accepted for payment: Ethereum (тикер ETH), Bitcoin (тикер BTC) Litecoin (тикер LTC) and US Dollar (тикер USD).</p>
+                              <p>The following currencies are accepted for
+                                payment: Ethereum (тикер ETH), Bitcoin (тикер BTC)
+                                Litecoin (тикер LTC) and US Dollar (тикер USD).</p>
                             </div>
                           </div>
                         </div>
                         <div data-animate="fadeInUp" data-delay=".3" class="card animated movTop fadeInUp" style="visibility: visible; animation-delay: 0.3s;">
                           <div class="card-header">
                             <h5><a data-toggle="collapse" data-target="#collapse-2-4" class="collapsed">
-												  Which countries or nationalities are eligible to purchase ECT tokens?<span class="plus-minus"><span class="ti ti-angle-up"></span></span></a></h5></div>
+												  Which countries or nationalities are eligible to
+                          purchase ECT tokens?<span class="plus-minus"><span class="ti ti-angle-up"></span></span></a></h5></div>
                           <div id="collapse-2-4" data-parent="#accordion-2" class="collapse">
                             <div class="card-body">
-                              <p>Citizens of any country except USA may take part in the project.</p>
+                              <p>Citizens of any country except USA
+                                may take part in the project.</p>
                             </div>
                           </div>
                         </div>
@@ -1087,10 +1141,23 @@
                           <div class="card-header">
                             <h5><a data-toggle="collapse" data-target="#collapse-2-3" class="collapsed">
 												  I transferred ETH to your a
-                          ccount, but while the transaction was being processed, ICO ended. What will happen to my ETH?<span class="plus-minus"><span class="ti ti-angle-up"></span></span></a></h5></div>
+                          ccount, but while the transaction was being processed,
+                          ICO ended. What will happen to my ETH?<span class="plus-minus"><span class="ti ti-angle-up"></span></span></a></h5></div>
                           <div id="collapse-2-3" data-parent="#accordion-2" class="collapse">
                             <div class="card-body">
-                              <p>If the ETH is transferred to the project's wallet after the ICO is finished, it is returned to the sender's wallet according to the current exchange rate with no conversion. For example, after the ICO is completed, if the project wallet is funded with 1 ETH, the same amount will be returned to the sender's wallet, disregarding the ETH quote at the moment the ETH was sent. To prevent such situations, we recommend setting the appropriate transaction commission for timely processing and considering the ICO timeframe. The same process will be activated for any other cryptocurrency.
+                              <p>If the ETH is transferred to the project's
+                                wallet after the ICO is finished, it is returned
+                                to the sender's wallet according to the current
+                                exchange rate with no conversion. For example,
+                                after the ICO is completed, if the project wallet
+                                is funded with 1 ETH, the same amount will be returned
+                                to the sender's wallet, disregarding the ETH quote at
+                                the moment the ETH was sent. To prevent such situations,
+                                we recommend setting the appropriate transaction
+                                commission for timely processing and considering
+                                the ICO timeframe.
+                                The same process will be activated for any other
+                                cryptocurrency.
                               </p>
                             </div>
                           </div>
@@ -1098,10 +1165,14 @@
                         <div data-animate="fadeInUp" data-delay=".4" class="card animated movTop fadeInUp" style="visibility: visible; animation-delay: 0.4s;">
                           <div class="card-header">
                             <h5><a data-toggle="collapse" data-target="#collapse-2-4" class="collapsed">
-												  What is the minimum target? What happens if the required amount is not raised?<span class="plus-minus"><span class="ti ti-angle-up"></span></span></a></h5></div>
+												  What is the minimum target? What happens if the
+                          required amount is not raised?<span class="plus-minus"><span class="ti ti-angle-up"></span></span></a></h5></div>
                           <div id="collapse-2-4" data-parent="#accordion-2" class="collapse">
                             <div class="card-body">
-                              <p>Minimum target equals $1 million. If the amount is not raised, we will return all the raised funds back to the wallets of the crowdsale participants. cryptocurrency.
+                              <p>Minimum target equals $1 million. If the
+                                amount is not raised, we will return all
+                                the raised funds back to the wallets of
+                                the crowdsale participants. cryptocurrency.
                               </p>
                             </div>
                           </div>
@@ -1116,7 +1187,9 @@
 													When will the bounty payouts take place?<span class="plus-minus"><span class="ti ti-angle-up"></span></span></a></h5></div>
                           <div id="collapse-3-1" data-parent="#accordion-3" class="collapse show">
                             <div class="card-body">
-                              <p>Bounty payouts will be paid to the participants within one week after the ICO.</p>
+                              <p>Bounty payouts will be paid to
+                                the participants within one week
+                                after the ICO.</p>
                             </div>
                           </div>
                         </div>
@@ -1126,7 +1199,8 @@
 												  When will your tokens be listed on exchanges?<span class="plus-minus"><span class="ti ti-angle-up"></span></span></a></h5></div>
                           <div id="collapse-3-2" data-parent="#accordion-3" class="collapse">
                             <div class="card-body">
-                              <p>We plan to list ECT tokens on several major exchanges within one month after the ICO.</p>
+                              <p>We plan to list ECT tokens on several
+                                major exchanges within one month after the ICO.</p>
                             </div>
                           </div>
                         </div>
@@ -1137,7 +1211,14 @@
                           <div id="collapse-3-3" data-parent="#accordion-3" class="collapse">
                             <div class="card-body">
                               <p>
-                                At the current stage, we will use Ethereum smart contracts. Additionally, we are not platform or instrument dependent (we are not tied to a particular platform or instrument in the blockchain). We will create our own blockbuster platform that will match that best meets our requirements for speed, reliability, and cost.
+                                At the current stage, we will use Ethereum
+                                smart contracts. Additionally, we are not
+                                platform or instrument dependent (we are not
+                                tied to a particular platform or instrument
+                                in the blockchain). We will create our own
+                                blockbuster platform that will match that best
+                                meets our requirements for speed, reliability,
+                                and cost.
                               </p>
                             </div>
                           </div>
@@ -1148,7 +1229,21 @@
 												  What is the service of creating a personal digital token?<span class="plus-minus"><span class="ti ti-angle-up"></span></span></a></h5></div>
                           <div id="collapse-3-4" data-parent="#accordion-3" class="collapse show">
                             <div class="card-body">
-                              <p>The service for creating personal digital tokens and ICO will provide an opportunity for environmental project initiators to create their own token using the easy-to-use interface of the EcoStart platform. The initial offer of coins will allow to participate in financing the project literally to all comers. The issue of own tokens will be carried out on the basis of the EchoCoin crypto currency protocol. ECT Tokens can serve as a product token, electronic cryptovexel, share in the project and participation certificates. For each token, you can specify your own name, output volume, number of decimal places and other parameters and properties.
+                              <p>The service for creating personal digital
+                                tokens and ICO will provide an opportunity
+                                for environmental project initiators to create
+                                their own token using the easy-to-use interface
+                                of the EcoStart platform. The initial offer of
+                                coins will allow to participate in financing the
+                                project literally to all comers. The issue of
+                                own tokens will be carried out on the basis of
+                                the EchoCoin crypto currency protocol.
+                                ECT Tokens can serve as a product token, electronic
+                                cryptovexel, share in the project and
+                                participation certificates. For each token,
+                                you can specify your own name, output volume,
+                                 number of decimal places and other parameters
+                                 and properties.
                               </p>
                             </div>
                           </div>
@@ -1176,9 +1271,9 @@
                   <p data-animate="fadeInUp" data-delay=".3" class="animated movTop">Any question? Reach out to us and we’ll get back to you shortly.</p>
                 </div>
                 <ul class="contact-info-alt">
-                  <li data-animate="fadeInUp" data-delay=".4" class="animated movTop"><em class="fa fa-phone"></em><span>+44 0123 4567</span></li>
-                  <li data-animate="fadeInUp" data-delay=".5" class="animated movTop"><em class="fa fa-envelope"></em><span>info@yourcompany.com</span></li>
-                  <li data-animate="fadeInUp" data-delay=".6" class="animated movTop"><em class="fa fa-paper-plane"></em><span>Join us on Telegram</span></li>
+                  <li data-animate="fadeInUp" data-delay=".4" class="animated movTop"><em class="fa fa-phone"></em><span>+ 372 880 4911</span></li>
+                  <li data-animate="fadeInUp" data-delay=".5" class="animated movTop"><em class="fa fa-envelope"></em><span> Еmail: ecostart2018@gmail.com</span></li>
+                  <li data-animate="fadeInUp" data-delay=".6" class="animated movTop"><em class="fa fa-paper-plane"></em><span>eco-start.com</span></li>
                 </ul>
               </div>
               <div class="col-lg-4 col-md-7 offset-lg-1 offset-md-0 res-m-bttm">
@@ -1235,14 +1330,14 @@
             <div class="row text-center">
               <div class="col-md-12">
                 <ul class="social">
-                  <li data-animate="fadeInUp" data-delay=".1" class="animated movTop"><a href="http://eco-start.com/#"><em class="fab fa-facebook-f"></em></a></li>
-                  <li data-animate="fadeInUp" data-delay=".2" class="animated movTop"><a href="http://eco-start.com/#"><em class="fab fa-twitter"></em></a></li>
-                  <li data-animate="fadeInUp" data-delay=".3" class="animated movTop"><a href="http://eco-start.com/#"><em class="fab fa-youtube"></em></a></li>
-                  <li data-animate="fadeInUp" data-delay=".4" class="animated movTop"><a href="http://eco-start.com/#"><em class="fab fa-github"></em></a></li>
-                  <li data-animate="fadeInUp" data-delay=".5" class="animated movTop"><a href="http://eco-start.com/#"><em class="fab fa-bitcoin"></em></a></li>
-                  <li data-animate="fadeInUp" data-delay=".6" class="animated movTop"><a href="http://eco-start.com/#"><em class="fab fa-medium-m"></em></a></li>
+                  <li data-animate="fadeInUp" data-delay=".1" class="animated movTop"><a href="#"><em class="fab fa-facebook-f"></em></a></li>
+                  <li data-animate="fadeInUp" data-delay=".2" class="animated movTop"><a href="#"><em class="fab fa-twitter"></em></a></li>
+                  <li data-animate="fadeInUp" data-delay=".3" class="animated movTop"><a href="#"><em class="fab fa-youtube"></em></a></li>
+                  <li data-animate="fadeInUp" data-delay=".4" class="animated movTop"><a href="#"><em class="fab fa-github"></em></a></li>
+                  <li data-animate="fadeInUp" data-delay=".5" class="animated movTop"><a href="#"><em class="fab fa-bitcoin"></em></a></li>
+                  <li data-animate="fadeInUp" data-delay=".6" class="animated movTop"><a href="#"><em class="fab fa-medium-m"></em></a></li>
                 </ul>
-                <a href="http://eco-start.com/#" class="footer-logo"><img src="./images/logo.png" alt="logo2x" srcset="/static/images/logo2x.png 2x"></a>
+                <a href="#" class="footer-logo"><img src="./images/logo.png" alt="logo2x" srcset="/static/images/logo2x.png 2x"></a>
               </div>
             </div>
           </div>
@@ -1252,9 +1347,12 @@
   </div>
 
   <script src="./js/jquery.js"></script>
-  <script src="./js/easeng.js"></script>
-  <script src="./js/script.js"></script>
   <script src="./js/bootstrap.js"></script>
+  <script src="./js/easeng.js"></script>
+  <script src="./js/jquery.countdown.js"></script>
+  <script src="./js/magnificPopup.js"></script>
+  <script src="./js/script.js"></script>
+  <script src="./js/index.js"></script>
   <script src="./js/jquery.bundle.js"></script>
 
   <script type="text/javascript" src="./js/manifest.js"></script>

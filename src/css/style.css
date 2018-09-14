@@ -81,14 +81,14 @@ body {
 	background: #10122d;
 }
 body.theme-light, body.io-dark-light .section-light, body.io-dark-light .section-light-alt {
-	color: #28384c;
+	color: #000;
 	background: #fff;
 }
 body.io-azure {
-	background: #0d42b2;
+	background: #000;
 }
 body.io-azure .section-pro, body.io-azure .section-pro-alt {
-	color: #313c56;
+	color: #000;
 }
 html, body {
 	overflow-x: hidden;
@@ -102,13 +102,13 @@ h1:last-child, h2:last-child, h3:last-child, h4:last-child, h5:last-child, h6:la
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	line-height: 1.33;
 	font-weight: 600;
-	color: #373e45;
+	color: #000;
 }
 h1.color-secondary, h2.color-secondary, h3.color-secondary, h4.color-secondary, h5.color-secondary, h6.color-secondary, .h1.color-secondary, .h2.color-secondary, .h3.color-secondary, .h4.color-secondary, .h5.color-secondary, .h6.color-secondary {
-	color: #7a0fff;
+	color: #111;
 }
 h1.color-primary, h2.color-primary, h3.color-primary, h4.color-primary, h5.color-primary, h6.color-primary, .h1.color-primary, .h2.color-primary, .h3.color-primary, .h4.color-primary, .h5.color-primary, .h6.color-primary {
-	color: #46bdf4;
+	color: #000;
 }
 h1+.image:not([class*="mt-"]), h2+.image:not([class*="mt-"]), h3+.image:not([class*="mt-"]), h4+.image:not([class*="mt-"]), h5+.image:not([class*="mt-"]), h6+.image:not([class*="mt-"]), .h1+.image:not([class*="mt-"]), .h2+.image:not([class*="mt-"]), .h3+.image:not([class*="mt-"]), .h4+.image:not([class*="mt-"]), .h5+.image:not([class*="mt-"]), .h6+.image:not([class*="mt-"]) {
 	margin-top: 20px;
@@ -116,7 +116,7 @@ h1+.image:not([class*="mt-"]), h2+.image:not([class*="mt-"]), h3+.image:not([cla
 .theme-light h1, .theme-light h2, .theme-light h3, .theme-light h4, .theme-light h5, .theme-light h6, .theme-light .h1, .theme-light .h2, .theme-light .h3, .theme-light .h4, .theme-light .h5, .theme-light .h6, .io-dark-light .section-light h1, .io-dark-light .section-light h2, .io-dark-light .section-light h3, .io-dark-light .section-light h4, .io-dark-light .section-light h5, .io-dark-light .section-light h6, .io-dark-light .section-light .h1, .io-dark-light .section-light .h2, .io-dark-light .section-light .h3, .io-dark-light .section-light .h4, .io-dark-light .section-light .h5, .io-dark-light .section-light .h6, .io-dark-light .section-light-alt h1, .io-dark-light .section-light-alt h2, .io-dark-light .section-light-alt h3, .io-dark-light .section-light-alt h4, .io-dark-light .section-light-alt h5, .io-dark-light .section-light-alt h6, .io-dark-light .section-light-alt .h1, .io-dark-light .section-light-alt .h2, .io-dark-light .section-light-alt .h3, .io-dark-light .section-light-alt .h4, .io-dark-light .section-light-alt .h5, .io-dark-light .section-light-alt .h6 {
 	line-height: 1.33;
 	font-weight: 500;
-	color: #28384c;
+	color: #000;
 }
 .theme-light h1.color-secondary, .theme-light h2.color-secondary, .theme-light h3.color-secondary, .theme-light h4.color-secondary, .theme-light h5.color-secondary, .theme-light h6.color-secondary, .theme-light .h1.color-secondary, .theme-light .h2.color-secondary, .theme-light .h3.color-secondary, .theme-light .h4.color-secondary, .theme-light .h5.color-secondary, .theme-light .h6.color-secondary, .io-dark-light .section-light h1.color-secondary, .io-dark-light .section-light h2.color-secondary, .io-dark-light .section-light h3.color-secondary, .io-dark-light .section-light h4.color-secondary, .io-dark-light .section-light h5.color-secondary, .io-dark-light .section-light h6.color-secondary, .io-dark-light .section-light .h1.color-secondary, .io-dark-light .section-light .h2.color-secondary, .io-dark-light .section-light .h3.color-secondary, .io-dark-light .section-light .h4.color-secondary, .io-dark-light .section-light .h5.color-secondary, .io-dark-light .section-light .h6.color-secondary, .io-dark-light .section-light-alt h1.color-secondary, .io-dark-light .section-light-alt h2.color-secondary, .io-dark-light .section-light-alt h3.color-secondary, .io-dark-light .section-light-alt h4.color-secondary, .io-dark-light .section-light-alt h5.color-secondary, .io-dark-light .section-light-alt h6.color-secondary, .io-dark-light .section-light-alt .h1.color-secondary, .io-dark-light .section-light-alt .h2.color-secondary, .io-dark-light .section-light-alt .h3.color-secondary, .io-dark-light .section-light-alt .h4.color-secondary, .io-dark-light .section-light-alt .h5.color-secondary, .io-dark-light .section-light-alt .h6.color-secondary {
 	color: #7a0fff;
@@ -1402,11 +1402,11 @@ hr:last-child, .hr:last-child {
 	margin-bottom: 30px;
 }
 .light .sub-heading {
-	color: #8284a5;
+	color: #111;
 }
 .sub-heading {
 	text-align: center;
-	color: #8284a5;
+	color: #111;
 }
 .io-azure .sub-heading {
 	color: #fff;
@@ -3242,10 +3242,10 @@ select:focus {
 /* @v1.1.0 e */
 
 .theme-light .text-block p:not(.lead), .io-dark-light .section-light .text-block p:not(.lead), .io-dark-light .section-light-alt .text-block p:not(.lead) {
-	color: #8284a5;
+	color: #111;
 }
 .theme-light .text-block ul:not(.btns) li, .io-dark-light .section-light .text-block ul:not(.btns) li, .io-dark-light .section-light-alt .text-block ul:not(.btns) li {
-	color: #8284a5;
+	color: #111;
 }
 /* @v1.1.0 s */
 
@@ -3262,7 +3262,7 @@ select:focus {
 	color: #a2b4d2;
 }
 .theme-light .features-box p, .io-dark-light .section-light .features-box p, .io-dark-light .section-light-alt .features-box p {
-	color: #8284a5;
+	color: #111;
 }
 .io-azure .features-box p {
 	color: #7ab9ff;
@@ -3320,7 +3320,7 @@ select:focus {
 	margin-bottom: 2px;
 }
 .event-info p {
-	color: #8284a5;
+	color: #111;
 }
 .io-azure .event-info p {
 	color: #7ab9ff;
@@ -3406,7 +3406,7 @@ select:focus {
 	margin: 0 5px;
 }
 .countdown-box .icon-list li .fa {
-	color: #8284a5;
+	color: #111;
 	font-size: 18px;
 }
 .countdown-box.countdown-transparent {
@@ -4404,13 +4404,13 @@ select:focus {
 	transform: rotate(180deg);
 }
 .theme-light .accordion .card .card-header a {
-	color: #8284a5;
+	color: #111;
 }
 .theme-light .accordion .card .card-header a.collapsed {
-	color: #8284a5;
+	color: #111;
 }
 .theme-light .accordion .card .card-body {
-	color: #8284a5;
+	color: #111;
 }
 .theme-light .section-bg .accordion .card {
 	background-color: rgba(255, 255, 255, 0.5);
@@ -4433,13 +4433,13 @@ select:focus {
 	border-bottom: none;
 }
 .io-dark-light .section-light .accordion .card .card-header a, .io-dark-light .section-light-alt .accordion .card .card-header a {
-	color: #8284a5;
+	color: #111;
 }
 .io-dark-light .section-light .accordion .card .card-header a.collapsed, .io-dark-light .section-light-alt .accordion .card .card-header a.collapsed {
-	color: #8284a5;
+	color: #111;
 }
 .io-dark-light .section-light .accordion .card .card-body, .io-dark-light .section-light-alt .accordion .card .card-body {
-	color: #8284a5;
+	color: #111;
 }
 .io-dark-light .section-light.section-bg .accordion .card, .io-dark-light .section-light-alt.section-bg .accordion .card {
 	background-color: rgba(255, 255, 255, 0.5);
@@ -4597,7 +4597,7 @@ select:focus {
 	width: 100%;
 	top: 18px;
 	left: 0;
-	color: #8284a5;
+	color: #111;
 	z-index: 1;
 	transition: all .5s ease;
 }
@@ -4654,7 +4654,7 @@ select:focus {
 	color: #313c56;
 }
 .theme-light .form-message .input-field label.input-title, .io-dark-light .section-light .form-message .input-field label.input-title, .io-dark-light .section-light-alt .form-message .input-field label.input-title {
-	color: #8284a5;
+	color: #111;
 }
 .theme-light .form-message .input-field .input-line, .io-dark-light .section-light .form-message .input-field .input-line, .io-dark-light .section-light-alt .form-message .input-field .input-line {
 	color: #3c3c3c;
@@ -4764,7 +4764,7 @@ select:focus {
 }
 .copyright-text span {
 	display: block;
-	color: #8284a5;
+	color: #111;
 }
 .io-azure .copyright-text {
 	color: #7ab9ff;
@@ -5642,7 +5642,7 @@ select:focus {
 	background: #0e102f;
 }
 .blog-texts p {
-	color: #8284a5;
+	color: #111;
 }
 .blog-meta {
 	margin: 0 -10px;
@@ -5718,7 +5718,7 @@ select:focus {
 	color: #46bdf4;
 }
 .blog-content p {
-	color: #8284a5;
+	color: #111;
 }
 .blog-content .blog-meta {
 	padding: 20px 0 15px;
@@ -5776,7 +5776,7 @@ select:focus {
 	color: #28384c;
 }
 .io-azure .section-pro .blog-content p {
-	color: #8284a5;
+	color: #111;
 }
 .io-azure .section-pro .blog-title a {
 	color: #28384c;
@@ -8514,10 +8514,10 @@ select:focus {
 	color: #223b55;
 }
 .io-jasmine p {
-	color: #4c5a77;
+	color: #000;
 }
 .io-jasmine p.lead {
-	color: #6a7894;
+	color: #111;
 }
 .io-jasmine .section-dark h1, .io-jasmine .section-dark h2, .io-jasmine .section-dark h3, .io-jasmine .section-dark h4, .io-jasmine .section-dark h5, .io-jasmine .section-dark h6 {
 	color: #fff;
@@ -8550,7 +8550,7 @@ select:focus {
 	color: #223b55;
 }
 .io-jasmine .document-title {
-	color: #4c5a77;
+	color: #000;
 }
 .io-jasmine .btn {
 	border-radius: 6px;
@@ -8617,7 +8617,7 @@ select:focus {
 	box-shadow: 0px 7px 23px 0px rgba(0, 0, 0, 0.04);
 }
 .io-jasmine .team-circle-des h5 {
-	color: #4c5a77;
+	color: #000;
 }
 .io-jasmine .team-circle-des span {
 	color: #405cff;
@@ -9064,7 +9064,7 @@ select:focus {
 }
 .rating-info span {
 	font-size: .5em;
-	color: #6a7894;
+	color: #111;
 	font-weight: 400;
 }
 .rating-title {
@@ -9121,7 +9121,7 @@ select:focus {
 	margin-bottom: 11px;
 }
 .features-subtitle-s3 {
-	color: #9fa9b3;
+	color: #333;
 	display: block;
 	position: relative;
 	padding-bottom: 23px;
@@ -9273,7 +9273,7 @@ select:focus {
 }
 .token-stage-cap {
 	display: block;
-	color: #6a7894;
+	color: #111;
 }
 .token-stage-amount {
 	color: #223b55;
@@ -9477,7 +9477,7 @@ select:focus {
 .document-title {
 	font-size: 1em;
 	margin-bottom: 14px;
-	color: #4c5a77;
+	color: #000;
 }
 .document-links {
 	margin: 0 -2px;
@@ -9518,7 +9518,7 @@ select:focus {
 	text-transform: uppercase;
 	font-size: .81em;
 	font-weight: 700;
-	color: #6a7894;
+	color: #111;
 	letter-spacing: .1em;
 	display: block;
 	padding-bottom: 26px;
@@ -9564,7 +9564,7 @@ select:focus {
 .timeline-info li {
 	position: relative;
 	padding: 8px 0;
-	color: #707d98;
+	color: #555;
 	line-height: 26px;
 }
 .timeline-info li:after {
@@ -9745,7 +9745,7 @@ select:focus {
 	padding: 10px 18px;
 	background: rgba(34, 59, 85, 0.07);
 	border-radius: 6px;
-	color: #4c5a77;
+	color: #000;
 }
 .tab-custom-s3 .nav-tabs .nav-link.active {
 	color: #405cff;
@@ -9778,7 +9778,7 @@ select:focus {
 }
 .accordion-s2 .card-header a.collapsed {
 	padding: 25px 30px;
-	color: #4c5a77;
+	color: #000;
 }
 .accordion-s2 .card-header a:hover {
 	color: #405cff;
@@ -10770,7 +10770,7 @@ select:focus {
 .form-footer {
 	padding: 0 30px;
 	font-size: .8em;
-	color: #8284a5;
+	color: #111;
 }
 .theme-dark .form-footer {
 	color: #fff;
@@ -10783,7 +10783,7 @@ select:focus {
 	margin: 0 7px;
 }
 .form-footer-links li a {
-	color: #8284a5;
+	color: #111;
 }
 .form-footer-links li a:hover {
 	color: #2b63fe;
@@ -10962,7 +10962,7 @@ select:focus {
 	position: relative;
 	z-index: 3;
 	padding: 65px 90px 65px 60px;
-	color: #8284a5;
+	color: #111;
 	min-height: 572px;
 }
 .user-pro-form span {
@@ -11135,7 +11135,7 @@ select:focus {
 }
 .error-content p {
 	margin-bottom: 28px;
-	color: #8284a5;
+	color: #111;
 }
 .error-graphics-one, .error-graphics-two {
 	position: absolute;
