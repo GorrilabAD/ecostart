@@ -125,7 +125,7 @@ $(function(){
      storage.setItem('lang', 'ru');
    };
 
-   var load = JSON.parse(storage.getItem('lang'));
+   var load = $.parseJSON(storage.getItem('lang'));
 
    $('*').each(function(index, element){
      $(this).text(arrLang[load][$(this).attr('key')]);
@@ -135,8 +135,7 @@ $(function(){
   $('.translate').click(function(){
     var lang = $(this).attr('id');
     storage.setItem('lang', JSON.stringify(lang));
-    var load = JSON.parse(storage.getItem('lang'));
-
+    var load = $.parseJSON(storage.getItem('lang'));
     $('*').each(function(index, element){
       $(this).text(arrLang[load][$(this).attr('key')]);
     });
