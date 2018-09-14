@@ -121,7 +121,10 @@ var arrLang = {
 
 $(function(){
   var storage = localStorage;
-    var load = $.parseJSON(storage.getItem('lang'));
+    var obj = jQuery.parseJSON( '{ "name": "John" }' );
+alert( obj.name === "John" );
+  
+  
    if (storage.getItem('lang') == undefined || storage.getItem('lang') === null || storage.getItem('lang') === NaN) {
      storage.setItem('lang', 'ru');
    };
