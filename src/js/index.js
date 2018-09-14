@@ -126,10 +126,10 @@ $(function(){
    };
 
    var loadLang = JSON.parse(storage.getItem('lang'));
-   
+
    $('*').each(function(index, element){
      $(this).text(arrLang[loadLang][$(this).attr('key')]);
-   })
+   });
 
 
   $('.translate').click(function(){
@@ -139,6 +139,6 @@ $(function(){
 
     $('*').each(function(index, element){
       $(this).text(arrLang[loadLang][$(this).attr('key')]);
-    })
-  })
+    });
+  });
 });
