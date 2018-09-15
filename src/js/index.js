@@ -33,7 +33,7 @@ var arrLang = {
           "p2-ap": "The logic of the applications will provide smart contracts, and integration with third-party resources an open API for developers.",
           "h1-s": "Main features",
           "h2-s": "Other features",
-          "p1-if": "It is increased from the transaction commission in TECO Blockchain.",
+          "p1-if": "Part of the commission from TECO transactions is sent to the environmental fund",
           "p2-if": "Decentralized investment environmental fund.",
           "p1-fun": "Simple fund-raising for environmental problems.",
           "p2-fun": "Service for the creation of personal digital tokens initiators of environmental projects.",
@@ -92,7 +92,7 @@ var arrLang = {
         "p2-ap" : "Логику работы приложений будут обеспечивать смарт контракты, а интеграцию со сторонними ресурсами открытое API для разработчиков.",
         "h1-s" : "Основные возможности",
         "h2-s" : "Другие возможности",
-        "p1-if" : "Увиличивается с комиссии транзакций в TECO Blockchain.",
+        "p1-if" : "Часть комиссии от транзакций ТЕСО направляется в экологический фонд",
         "p2-if" : "Децентрализованный инвестиционный экологический фонд .",
         "p1-fun" : "Простой сбор средств на экологические проблемы.",
         "p2-fun" : "Cервис по созданию именных цифровых токенов инициаторами экологических проектов .",
@@ -124,15 +124,24 @@ $(function(){
 
     $(this).text(arrLang[localStorage.getItem("lang")][$(this).attr('key')]);
   });
+  $('.video-play').attr('href');
+
 
   $('.translate').click(function(){
     var lang = $(this).attr('id');
     localStorage.setItem("lang", lang)
-
     var obj = localStorage.getItem("lang");
     $('*').each(function(index, element){
       $(this).text(arrLang[obj][$(this).attr('key')]);
     });
+    if(localStorage.getItem("lang") === "ru"){
+      $('.video-play').attr('href', "https://www.youtube.com/watch?v=OQrmHI3v4A8");
+    } else if (localStorage.getItem("lang") === "en"){
+      $('.video-play').attr('href', "https://www.youtube.com/watch?v=-sDQ3iudkq4")
+    } else {
+      $('.video-play').attr('href', "https://www.youtube.com/watch?v=OQrmHI3v4A8");
+    }
+});
 
-});
-});
+
+  });
