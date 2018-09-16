@@ -1786,4 +1786,10 @@ a:hover, a:focus, a:active {
 	color: #fff;
 	background: #405cff;
 }
+.input-border {
+  transition: all .6s ease;
+}
+.input-border:focus {
+  border: solid 2px #405cff;
+}
 /*! END */

@@ -68,6 +68,9 @@ var arrLang = {
           "h6_ben": "Efficiency 24/7",
           "h7_ben": "Absence of intermediaries",
           "h8_ben": "Transparency",
+          "p1-vid" : "Greeting spech",
+          "p2-vid" : "About the project",
+          "p3-vid" : "Bounty Project",
 
 
 
@@ -140,6 +143,9 @@ var arrLang = {
         "h6_ben" : "Оперативность 24/7",
         "h7_ben" : "Отсутствие посредников",
         "h8_ben" : "Прозрачность",
+        "p1-vid" : "Приветственная речь",
+        "p2-vid" : "О проекте",
+        "p3-vid" : "Баунти проект",
 
 
   }
@@ -151,6 +157,8 @@ $(function(){
     $(this).text(arrLang[localStorage.getItem("lang")][$(this).attr('key')]);
   });
   $('.video-play').attr('href');
+  $('.about-play').attr('href');
+  $('.bounty-play').attr('href');
 
 
   $('.translate').click(function(){
@@ -162,10 +170,13 @@ $(function(){
     });
     if(localStorage.getItem("lang") === "ru"){
       $('.video-play').attr('href', "https://www.youtube.com/watch?v=OQrmHI3v4A8");
+      $('.bounty-play').attr('href', "./docs/pdf/bounty_ru.pdf");
     } else if (localStorage.getItem("lang") === "en"){
-      $('.video-play').attr('href', "https://www.youtube.com/watch?v=-sDQ3iudkq4")
+      $('.video-play').attr('href', "https://www.youtube.com/watch?v=-sDQ3iudkq4");
+      $('.bounty-play').attr('href', "./docs/pdf/bounty_en.pdf")
     } else {
       $('.video-play').attr('href', "https://www.youtube.com/watch?v=OQrmHI3v4A8");
+      $('.bounty-play').attr('href', "./docs/pdf/bounty_ru.pdf");
     }
 });
 
